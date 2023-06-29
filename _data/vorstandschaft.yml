@@ -1,0 +1,16 @@
+erwachsene:
+  - funktion: 1. Vorstand
+    name: Bastian Luff
+    kontakt: "Schlierbach Str. 48<br>
+      73479 Ellwangen<br>
+      E-Mail: bastian_luff@web.de<br>
+      Tel.: 07965802670"
+  - funktion: 2. Vorstand
+    name: Michael Alban
+  - funktion: Sportleiter
+    name: Christian Hammerl
+  - funktion: Kassier
+    name: Harald Sturm
+  - funktion: Jugendleiter
+    name: Kevin Schreier
+jugendliche:

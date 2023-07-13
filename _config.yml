@@ -39,7 +39,9 @@ improve_content: ''
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
 #urlimg: 'https://sg-burgoberbach.de/images/'TODO
-urlimg: 'images/'
+#urlimg: 'https://timgoeppel.github.io/sg-burgoberbach.de/images/'
+urlimg: 'https://timgoeppel.github.io/sg-burgoberbach.de/images/'
+
 
 
 # Logo size is 600x80 pixels

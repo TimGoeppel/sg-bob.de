@@ -6,6 +6,7 @@
 #
 layout: frontpage
 header:
+  title: ""
   image_fullwidth: header.jpg
 #widget1:
 #  title: "Blog & Portfolio"

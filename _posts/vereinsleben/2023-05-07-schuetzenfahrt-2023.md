@@ -10,7 +10,9 @@ tags:
     - schützenfahrt
 author: "Bastian Luff"
 ---
-<img src="{{ site.url }}{{ site.baseurl }}/{{ site.urlimg }}schuetzenfahrt_2023.jpg" alt="Flyer">
+<img src="{{ site.urlimg }}schuetzenfahrt_2023.jpg" alt="Flyer">
+
+<img src="{{ site.urlimg }}schuetzenfahrt_2023_teilnehmer.jpeg" alt="Die Teilnehmer der Schützenfahrt 2023">
 
 ## Andere Termine
 {: .t60 }

@@ -66,10 +66,15 @@
   url: "/sportschiessen/"
   side: left
   dropdown:
-  - title: "Jugend"
-    url: "/jugend/"
   - title: "Rundenwettkämpfe"
     url: "/rwk/"
+
+- title: "Jugend"
+  url: "/jugend/"
+  side: left
+  dropdown:
+  - title: "Schützenzwerge"
+    url: "/jugend/schuetzenzwerge/"
 
 - title: "Über uns"
   url: "/info/"

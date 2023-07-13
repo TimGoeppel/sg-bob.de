@@ -3,8 +3,8 @@ layout: page
 title: "Rundenwettkämpfe"
 subheadline: "Wettkämpfe im Schützengau Ansbach"
 permalink: "/rwk/"
-#header:
-#    image_fullwidth: "header_drop.jpg"
+header:
+  image_fullwidth: "rundenwettkaempfe.jpeg"
 ---
 Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_blank"}
 

@@ -38,9 +38,9 @@ improve_content: ''
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-#urlimg: 'https://sg-burgoberbach.de/images/'TODO
+#urlimg: 'https://sg-burgoberbach.de/images/'
+urlimg: 'http://localhost:4000/images/'
 #urlimg: 'https://timgoeppel.github.io/sg-burgoberbach.de/images/'
-urlimg: 'https://timgoeppel.github.io/sg-burgoberbach.de/images/'
 
 
 
@@ -80,6 +80,8 @@ exclude:
     - README.md
     - INSTALL.md
     - start.bat
+    - images/thumbnail.py
+    - _data/termine.py
 
 
 # The language setting is used in /includes/header.html for html-settings

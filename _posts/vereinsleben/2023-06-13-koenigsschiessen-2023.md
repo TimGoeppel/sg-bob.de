@@ -15,7 +15,7 @@ author: Bastian Luff
 ---
 Am 15., 22. und 29. Juni findet wieder unser alljährliches Königsschießen statt. Die Königsabholung erfolgt am 15.07.2023.
 
-<img src="{{ site.url }}{{ site.baseurl }}/{{ site.urlimg }}koenigsschiessen_2023.jpg" alt="Schießtage, Einsatz und Disziplinen">
+<img src="{{ site.urlimg }}koenigsschiessen_2023.jpg" alt="Schießtage, Einsatz und Disziplinen">
 
 ## Weitere Artikel zum Königsschießen
 {: .t60 }

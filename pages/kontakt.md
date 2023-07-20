@@ -2,8 +2,6 @@
 layout: page
 title: "Kontakt"
 meta_title: "Kontaktieren Sie uns"
-#subheadline: "Wufoo-powered contact forms"
-#teaser: "Get in touch with me? Use the contact form."
 permalink: "/kontakt/"
 ---
 ## Schützenhaus

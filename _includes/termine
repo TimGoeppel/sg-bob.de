@@ -1,0 +1,14 @@
+{% capture _ %}{% assign termine = "" | split: "," %}
+{% assign _yearNow = "now" | date: "%Y" %}
+{% assign _monthNow = "now" | date: "%m" %}
+{% assign _dayNow = "now" | date: "%d" %}
+{% for _termin in site.data.termine %}
+	{% assign _year = _termin.zeit | date: "%Y" %}
+	{% assign _month = _termin.zeit | date: "%m" %}
+	{% assign _day = _termin.zeit | date: "%d" %}
+	{% assign _uhrzeit = _termin.zeit | date: "%H:%M" %}
+	{% if _year > _yearNow %}{% assign bool1 = true %}{% endif %}
+	{% if _year == _yearNow and _month > _monthNow %}{% assign bool2 = true %}{% endif %}
+	{% if _year == _yearNow and _month == _monthNow and _day >= _dayNow %}{% assign bool3 = true %}{% endif %}
+	{% if bool1 or bool2 or bool3 %}{% increment i %}{% assign termine = termine | push: _termin %}{% endif %}
+{% endfor %}{% endcapture %}

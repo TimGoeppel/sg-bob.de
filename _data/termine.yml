@@ -1,0 +1,124 @@
+- name: König Niederoberbach
+  zeit: 20.05.2023 18:30
+- name: König Neuses
+  zeit: 13.06.2023 17:30
+- name: Königsschießen Burgoberbach
+  zeit: 15.06.2023 18:30
+- name: Königsschießen Burgoberbach
+  zeit: 22.06.2023 18:30
+- name: Königsschießen Burgoberbach
+  zeit: 29.06.2023 18:30
+- name: Schützenfahrt
+  zeit: 08.07.2023 08:00
+- name: König Burgoberbach
+  zeit: 15.07.2023 18:00
+- name: Training
+  wiederholt: true
+  zeit: 20.07.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 27.07.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 03.08.2023 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 05.08.2023 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 10.08.2023 18:30
+- name: Ferienprogramm
+  zeit: 17.08.2023 18:00
+- name: Training
+  wiederholt: true
+  zeit: 17.08.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 24.08.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 31.08.2023 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 02.09.2023 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 07.09.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 14.09.2023 18:30
+- name: Bürgerschießen
+  zeit: 21.09.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 21.09.2023 18:30
+- name: Bürgerschießen
+  zeit: 23.09.2023 18:30
+- name: Bürgerschießen
+  zeit: 28.09.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 28.09.2023 18:30
+- name: Bürgerschießen
+  zeit: 05.10.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 05.10.2023 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 07.10.2023 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 12.10.2023 18:30
+- name: Bürgerkönig / Kirchweih
+  zeit: 13.10.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 19.10.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 26.10.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 02.11.2023 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 04.11.2023 10:00
+  zeitbis: '11:30'
+- name: Gau Ehrenabend
+  zeit: 04.11.2023 17:00
+- name: Training
+  wiederholt: true
+  zeit: 09.11.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 16.11.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 23.11.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 30.11.2023 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 02.12.2023 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 07.12.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 14.12.2023 18:30
+- name: Königsessen / Weihnachtsfeier
+  zeit: 16.12.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 21.12.2023 18:30
+- name: Training
+  wiederholt: true
+  zeit: 28.12.2023 18:30
+- name: Jahresabschluss
+  zeit: 31.12.2023 18:00

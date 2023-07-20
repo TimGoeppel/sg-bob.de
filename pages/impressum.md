@@ -1,14 +1,11 @@
 ---
 layout: page
 title: "Impressum"
-#subheadline: "Wer sind wir?"
 permalink: "/impressum/"
-#header:
-#    image_fullwidth: "header_drop.jpg"
 ---
 ## Angaben gemäß § 5 TMG:
-Schützengesellschaft Edelweiß Burgoberbach e.V.
-Weiherschneidbacher Str. 1
+Schützengesellschaft Edelweiß Burgoberbach e.V.  
+Weiherschneidbacher Str. 1  
 91595 Burgoberbach
 
 ## Vertreten durch:

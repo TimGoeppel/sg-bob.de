@@ -1,0 +1,3 @@
+{%- comment -%}
+Termin mit  %include termin termin=… customname=string/false pre=… post=… % für „(pre)*customname*/*Name des Termins* (customname=false) am *Datum des Termins* um *Zeit des Termins*/von *Anfang* bis *Ende*(post)”
+{%- endcomment -%}{%- if include.termin -%}{% if include.pre %}{{ include.pre }} {% endif %}{% if include.customname %}{{ include.customname }}{% else %}{{ include.termin.name }}{% endif %} am {{ include.termin.zeit | date: "%d.%m.%Y" }}{% assign uhrzeit = include.termin.zeit | date: "%H:%M" %}{% unless uhrzeit == "00:00" %}{% if include.termin.zeitbis %} von {{ uhrzeit }} bis {{ termin.zeitbis }}{% else %} um {{ uhrzeit }}{% endif %} Uhr{% endunless %}{% if include.post %}{{ include.post }}{% endif %}{%- endif -%}

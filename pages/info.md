@@ -3,8 +3,6 @@ layout: page
 title: "Über uns"
 subheadline: "Wer sind wir?"
 permalink: "/info/"
-#header:
-#    image_fullwidth: "header_drop.jpg"
 ---
 <img style="float: right;" src="{{ site.url }}{{ site.baseurl }}/assets/img/logo-640x640.jpg" width="160px" alt="Unser Logo">
 ## Vorstandschaft

@@ -42,6 +42,22 @@ gallery:
   - image_url: umzug_3.jpeg
   - image_url: umzug_5.jpeg
   - image_url: volleyball.jpeg
+  - image_url: ausflug_geiselwind.jpg
+    caption: "Schützenfahrt nach Geiselwind"
+  - image_url: buergermeister.jpeg
+    caption: "erster Schützenmeister Bastian Luff (links) mit Bürgermeister Gerhard Rammler"
+  - image_url: buergermeister2.jpeg
+    caption: "Ehemaliger erster Schützenmeister Fritz Lothert (Mitte) mit Landtagsabgeordnetem Andreas Schalk (links) und dem Bürgermeister von Burgoberbach Gerhard Rammler (rechts)"
+  - image_url: ehrung.jpg
+    caption: "Ehrungen"
+  - image_url: koenige_2022.jpg
+    caption: "Königsproklamation 2022<br>\
+	von links nach rechts: 2. Ritter Christian Hammerl, Schützenkönigin Martha Heller, Jugendschützenkönig Jonas Thiele, 1. Ritter Heinz Hammerl"
+  - image_url: koenigsessen.jpg
+  - image_url: schiessbetrieb.jpg
+    caption: "Unser Schießstand mit Schießbetrieb"
+  - image_url: schuetzenhaus_mitglieder.jpeg
+  - image_url: umzug_6.jpg
 
 homepage: true
 ---

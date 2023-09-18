@@ -32,9 +32,6 @@
   zeit: 17.08.2023 18:00
 - name: Training
   wiederholt: true
-  zeit: 17.08.2023 18:30
-- name: Training
-  wiederholt: true
   zeit: 24.08.2023 18:30
 - name: Training
   wiederholt: true
@@ -51,20 +48,11 @@
   zeit: 14.09.2023 18:30
 - name: Bürgerschießen
   zeit: 21.09.2023 18:30
-- name: Training
-  wiederholt: true
-  zeit: 21.09.2023 18:30
 - name: Bürgerschießen
   zeit: 23.09.2023 18:30
 - name: Bürgerschießen
   zeit: 28.09.2023 18:30
-- name: Training
-  wiederholt: true
-  zeit: 28.09.2023 18:30
 - name: Bürgerschießen
-  zeit: 05.10.2023 18:30
-- name: Training
-  wiederholt: true
   zeit: 05.10.2023 18:30
 - name: Schützenzwerge
   wiederholt: true

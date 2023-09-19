@@ -9,6 +9,8 @@ image:
 ---
 Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_blank"}
 
+[Terminplan 2024](../assets/files/terminplaene_luftgewehr_2024.pdf){:target="_blank"}
+
 ## 1. Mannschaft
 
 ## 2. Mannschaft

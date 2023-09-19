@@ -60,7 +60,8 @@
       <div id="subfooter">
         <nav class="row">
           <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            {{ site.credits }}
+            {% comment %}{{ site.credits }}{% endcomment %}
+			Letzte Aktualisierung am {{ "now" | date: "%d.%m.%Y" }} um {{ "now" | date: "%H:%M" }} Uhr.
           </section>
 
           <section id="subfooter-right" class="small-12 medium-6 columns">

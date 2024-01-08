@@ -25,7 +25,7 @@ author: Schützengesellschaft Edelweiß Burgoberbach e.V.
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://timgoeppel.github.io/sg-burgoberbach.de'
+url: 'https://sg-bob.de'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
@@ -38,9 +38,8 @@ improve_content: ''
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-#urlimg: 'https://sg-burgoberbach.de/images/'
 #urlimg: 'http://localhost:4000/images/'
-urlimg: 'https://timgoeppel.github.io/sg-burgoberbach.de/images/'
+urlimg: 'https://sg-bob.de/images/'
 
 timezone: Europe/Berlin
 

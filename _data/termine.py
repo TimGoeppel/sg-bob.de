@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 termine = None
 now = datetime.now()
 # Latest date to add reoccuring events
-max_date = datetime(2023, 12, 31, 23, 59)
+max_date = datetime(2024, 12, 31, 23, 59)
 
 # Training
 difft = 3 - now.weekday()

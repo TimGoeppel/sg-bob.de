@@ -147,6 +147,8 @@
   wiederholt: true
   zeit: 02.03.2024 10:00
   zeitbis: '11:30'
+- name: Jahreshauptversammlung
+  zeit: 02.03.2024 19:00
 - name: Training
   wiederholt: true
   zeit: 07.03.2024 18:30
@@ -198,18 +200,19 @@
   wiederholt: true
   zeit: 01.06.2024 10:00
   zeitbis: '11:30'
-- name: Training
-  wiederholt: true
+- name: Königsschießen
   zeit: 06.06.2024 18:30
-- name: Training
-  wiederholt: true
+- name: Königsschießen
   zeit: 13.06.2024 18:30
-- name: Training
-  wiederholt: true
+- name: Königsschießen
   zeit: 20.06.2024 18:30
+- name: Königsproklamation
+  zeit: 22.06.2024 18:30
 - name: Training
   wiederholt: true
   zeit: 27.06.2024 18:30
+- name: Schützenfahrt
+  zeit: 29.06.2024
 - name: Training
   wiederholt: true
   zeit: 04.07.2024 18:30
@@ -261,19 +264,16 @@
 - name: Training
   wiederholt: true
   zeit: 26.09.2024 18:30
-- name: Training
-  wiederholt: true
-  zeit: 03.10.2024 18:30
+- name: Kirchweihschießen
+  zeit: 03.10.2024 18:00
 - name: Schützenzwerge
   wiederholt: true
   zeit: 05.10.2024 10:00
   zeitbis: '11:30'
-- name: Training
-  wiederholt: true
-  zeit: 10.10.2024 18:30
-- name: Training
-  wiederholt: true
-  zeit: 17.10.2024 18:30
+- name: Kirchweihschießen
+  zeit: 10.10.2024 18:00
+- name: Bürgerkönigsproklamation
+  zeit: 17.10.2024 18:00
 - name: Training
   wiederholt: true
   zeit: 24.10.2024 18:30
@@ -306,9 +306,10 @@
 - name: Training
   wiederholt: true
   zeit: 12.12.2024 18:30
+- name: Königsessen u. Adventsfeier
+  zeit: 14.12.2024 18:30
 - name: Training
   wiederholt: true
   zeit: 19.12.2024 18:30
-- name: Training
-  wiederholt: true
-  zeit: 26.12.2024 18:30
+- name: Jahresabschluss
+  zeit: 31.12.2024 19:00

@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Terminplan 2023"
+title:  "Pizzaverkauf"
 breadcrumb: true
 categories:
     - vereinsleben

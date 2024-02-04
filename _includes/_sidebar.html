@@ -1,7 +1,7 @@
 {% include termine %}{% if termine.first %}<aside>
 	<div class="">
 		<h3>Kommende Termine</h3>
-		<br>
+		<p><a href="{{ site.url }}{{ site.baseurl }}/assets/files/termine.pdf" target="_blank">Aktueller Terminplan</a></p>
 		<p><a id="show" href="#" onclick="event.preventDefault();Array.prototype.forEach.call(document.getElementsByClassName('hiddenrow'), elem => elem.hidden = false); document.getElementById('show').hidden = true; document.getElementById('hide').hidden = false;">Mehr anzeigen</a>
 		<a id="hide" href="#" hidden onclick="event.preventDefault();Array.prototype.forEach.call(document.getElementsByClassName('hiddenrow'), elem => elem.hidden = true);  document.getElementById('hide').hidden = true; document.getElementById('show').hidden = false;">Ausblenden</a></p>
 		<table>

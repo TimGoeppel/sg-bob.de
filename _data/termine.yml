@@ -134,6 +134,8 @@
 - name: Training
   wiederholt: true
   zeit: 08.02.2024 18:30
+- name: Filmvorführung Turnhalle 25 Jahre SG BOB
+  zeit: 10.03.2024
 - name: Training
   wiederholt: true
   zeit: 15.02.2024 18:30
@@ -207,7 +209,7 @@
 - name: Königsschießen
   zeit: 20.06.2024 18:30
 - name: Königsproklamation
-  zeit: 22.06.2024 18:30
+  zeit: 22.06.2024 18:00
 - name: Training
   wiederholt: true
   zeit: 27.06.2024 18:30
@@ -258,22 +260,24 @@
 - name: Training
   wiederholt: true
   zeit: 12.09.2024 18:30
+- name: Gau Schützenfest
+  zeit: 15.09.2024
 - name: Training
   wiederholt: true
   zeit: 19.09.2024 18:30
 - name: Training
   wiederholt: true
   zeit: 26.09.2024 18:30
-- name: Kirchweihschießen
-  zeit: 03.10.2024 18:00
+- name: Bürgerschießen
+  zeit: 03.10.2024 18:30
 - name: Schützenzwerge
   wiederholt: true
   zeit: 05.10.2024 10:00
   zeitbis: '11:30'
-- name: Kirchweihschießen
-  zeit: 10.10.2024 18:00
-- name: Bürgerkönigsproklamation
-  zeit: 17.10.2024 18:00
+- name: Bürgerschießen
+  zeit: 10.10.2024 18:30
+- name: Bürgerkönig / Kirchweih
+  zeit: 17.10.2024 18:30
 - name: Training
   wiederholt: true
   zeit: 24.10.2024 18:30
@@ -312,4 +316,4 @@
   wiederholt: true
   zeit: 19.12.2024 18:30
 - name: Jahresabschluss
-  zeit: 31.12.2024 19:00
+  zeit: 31.12.2024 18:00

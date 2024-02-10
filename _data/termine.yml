@@ -134,8 +134,6 @@
 - name: Training
   wiederholt: true
   zeit: 08.02.2024 18:30
-- name: Filmvorführung Turnhalle 25 Jahre SG BOB
-  zeit: 10.03.2024
 - name: Training
   wiederholt: true
   zeit: 15.02.2024 18:30
@@ -154,6 +152,8 @@
 - name: Training
   wiederholt: true
   zeit: 07.03.2024 18:30
+- name: Filmvorführung Turnhalle 25 Jahre SG BOB
+  zeit: 10.03.2024
 - name: Training
   wiederholt: true
   zeit: 14.03.2024 18:30

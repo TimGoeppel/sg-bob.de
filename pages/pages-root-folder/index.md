@@ -57,7 +57,6 @@ gallery:
   - image_url: schiessbetrieb.jpg
     caption: "Unser Schießstand mit Schießbetrieb"
   - image_url: schuetzenhaus_mitglieder.jpeg
-  - image_url: umzug_6.jpg
 
 homepage: true
 ---

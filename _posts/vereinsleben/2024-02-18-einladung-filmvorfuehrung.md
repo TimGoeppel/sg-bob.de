@@ -1,16 +1,14 @@
 ---
 layout: page
-title:  "Strategietag"
-teaser: "Die Vorstandschaft lädt zum ersten Strategietag ein."
+title:  "Filmvorführung"
 breadcrumb: true
 categories:
     - vereinsleben
-tags:
-    - strategietag
 author: Bastian Luff
 ---
-## Filmvorführung 25 Jahre<br>SG Edelweiß Burgoberbach e.V.<br>10.03.2024 18:00 Uhr Turnhalle BOB
-Liebe Schützenfreunde,  
+### Filmvorführung 25 Jahre<br>SG Edelweiß Burgoberbach e.V.<br>10.03.2024 18:00 Uhr Turnhalle BOB
+Liebe Schützenfreunde,
+
 Am 10.03.2024 führen wir zusammen mit der Gemeinde Burgoberbach den Film
 **25-jähriges Jubiläum der Schützengesellschaft Edelweiß Burgoberbach** in
 der *Turnhalle Burgoberbach* vor. Beginn der Vorführung ist *18:00 Uhr*.

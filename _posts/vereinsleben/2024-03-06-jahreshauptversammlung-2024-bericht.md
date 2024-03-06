@@ -9,8 +9,8 @@ tags:
 author: Michael Alban
 image:
     title: jahreshauptversammlung_2024.jpeg
-    homepage: jahreshauptversammlung_2024_thumb.jpeg
-    thumb: jahreshauptversammlung_2024_thumb.jpeg
+    homepage: jahreshauptversammlung_2024-thumb.jpeg
+    thumb: jahreshauptversammlung_2024-thumb.jpeg
 ---
 Das zurückliegende Jahr war ein arbeitsreiches, das zahlreiche Innovationen in das Vereinsleben der Schützengesellschaft (SG) Edelweiß Burgoberbach brachte. Zahlreiche weitere neue Ideen sollen in den kommenden Monaten noch umgesetzt werde, betonte der 1. Vorstand Bastian Luff jetzt bei der Jahreshauptversammlung.
 

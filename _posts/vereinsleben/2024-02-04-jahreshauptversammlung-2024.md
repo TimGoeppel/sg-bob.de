@@ -38,4 +38,4 @@ Bastian Luff
 1\. Schützenmeister
 
 ## Weitere Artikel
-[Bericht zur Jahreshauptversammlung 2024](2024-03-06-Jahreshauptversammlung-2024-bericht.html)
+[Bericht zur Jahreshauptversammlung 2024](/jahreshauptversammlung-2024-bericht/)

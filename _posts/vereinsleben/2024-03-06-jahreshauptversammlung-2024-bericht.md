@@ -9,10 +9,6 @@ tags:
 author: Michael Alban
 image:
     title: jahreshauptversammlung_2024.jpeg
-    caption: "Aufnahme der Jahreshauptversammlung 2024"
-    caption_url: http://unsplash.com
-image:
-    title: jahreshauptversammlung_2024.jpeg
 	homepage: jahreshauptversammlung_2024_thumb.jpeg
 	thumb: jahreshauptversammlung_2024_thumb.jpeg
 ---

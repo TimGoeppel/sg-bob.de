@@ -5,6 +5,15 @@ breadcrumb: true
 categories:
     - vereinsleben
 author: Bastian Luff
+gallery:
+  - image_url: filmvorfuehrung_0.jpeg
+  - image_url: filmvorfuehrung_1.jpeg
+  - image_url: filmvorfuehrung_2.jpeg
+  - image_url: filmvorfuehrung_3.jpeg
+  - image_url: filmvorfuehrung_4.jpeg
+  - image_url: filmvorfuehrung_5.jpeg
+  - image_url: filmvorfuehrung_6.jpeg
+  - image_url: filmvorfuehrung_7.jpeg
 ---
 ### Filmvorführung 25 Jahre<br>SG Edelweiß Burgoberbach e.V.<br>10.03.2024 18:00 Uhr Turnhalle BOB
 Liebe Schützenfreunde,
@@ -32,3 +41,6 @@ Bastian Luff
 ## Anhang
 - <a href="{{ site.url }}{{ site.baseurl }}/assets/files/einladung_zum_filmabend.pdf" download>Offizielle Einladung der Gemeinde Burgoberbach</a>
 - <a href="{{ site.url }}{{ site.baseurl }}/assets/files/einladung_filmvorfuehrung_sg_bob.pdf" download>Ursprüngliche .pdf-Datei herunterladen</a>
+
+## Impressionen
+{% include gallery %}

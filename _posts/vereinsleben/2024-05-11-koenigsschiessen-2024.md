@@ -19,7 +19,7 @@ Das **Königsschießen** ist für **alle Vereinsmitglieder** zugänglich und fin
 - Donnerstag 13.06.2024 18:30 -- 21:00 Uhr
 - Donnerstag 20.06.2024 18:30 -- 21:00 Uhr
 
-Wir bieten für die Erwachsenen eine Königsscheibe, für die Jugend eine Jugendkönigsscheibe und zusätzlich noch den Adlerschuss, die Meisterscheibe und einen Überraschungspokal an.
+Wir bieten für die Erwachsenen eine Königsscheibe, für die Jugend eine Jugendkönigsscheibe und zusätzlich noch für alle den Adlerschuss, die Meisterscheibe und einen Überraschungspokal an.
 
 Im Anschluss findet die **Königsabholung** am **22.06.2024** um **18:30 Uhr** am **Schützenhaus Burgoberbach** statt.
 

@@ -204,12 +204,15 @@
   zeitbis: '11:30'
 - name: Königsschießen
   zeit: 06.06.2024 18:30
+  zeitbis: 21:00
 - name: Königsschießen
   zeit: 13.06.2024 18:30
+  zeitbis: 21:00
 - name: Königsschießen
   zeit: 20.06.2024 18:30
-- name: Königsproklamation
-  zeit: 22.06.2024 18:00
+  zeitbis: 21:00
+- name: Königsproklamation und -abholung
+  zeit: 22.06.2024 18:30
 - name: Training
   wiederholt: true
   zeit: 27.06.2024 18:30

@@ -57,6 +57,16 @@ gallery:
   - image_url: schiessbetrieb.jpg
     caption: "Unser Schießstand mit Schießbetrieb"
   - image_url: schuetzenhaus_mitglieder.jpeg
+  - image_url: koenig_2024_1.jpeg
+    caption: "Königsproklamation 2024: links Jugendkönigin Alina Dörr, rechts Schützenkönig Jakob Huber"
+  - image_url: koenig_2024_5.jpeg
+    caption: "Königsproklamation 2024"
+  - image_url: koenig_2024_6.jpeg
+    caption: "Königsproklamation 2024"
+  - image_url: koenig_2024_8.jpeg
+    caption: "Königsabholung 2024"
+  - image_url: koenig_2024_9.jpeg
+    caption: "Königsabholung 2024"
 
 homepage: true
 ---

@@ -10,8 +10,8 @@ Weiherschneidbacher Str. 1
 
 eingetragen im Vereinsregister Ansbach: VR 113
 
-{% assign vorstand1 = site.data.vorstandschaft.erwachsene | find: "funktion", "1. Vorstand" %}
-{% unless vorstand1 %}{% assign vorstand1 = site.data.vorstandschaft.erwachsene[0] %}{% endunless %}
+{% assign vorstand1 = site.data.vorstandschaft.erwachsene | where: "funktion", "1. Vorstand" | first %}
+{% unless vorstand1 %}<!-- Failed to retrieve "1. Vorstand" -->{% assign vorstand1 = site.data.vorstandschaft.erwachsene[0] %}{% endunless %}
 
 ## Vertreten durch:
 {{ vorstand1.name }}

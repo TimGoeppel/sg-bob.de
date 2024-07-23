@@ -3,16 +3,21 @@ layout: page
 title: "Impressum"
 permalink: "/impressum/"
 ---
-## Angaben gemäß § 5 TMG:
+## Angaben gemäß § 5 DDG:
 Schützengesellschaft Edelweiß Burgoberbach e.V.  
 Weiherschneidbacher Str. 1  
 91595 Burgoberbach
 
+eingetragen im Vereinsregister Ansbach: VR 113
+
+{% assign vorstand1 = site.data.vorstandschaft.erwachsene | find: "funktion", "1. Vorstand" %}
+{% unless vorstand1 %}{% assign vorstand1 = site.data.vorstandschaft.erwachsene[0] %}{% endunless %}
+
 ## Vertreten durch:
-Bastian Luff
+{{ vorstand1.name }}
 
 ### Kontakt:
-bastian_luff@web.de
+{{ vorstand1.kontakt }}
 
 ### Streitschlichtung
 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.

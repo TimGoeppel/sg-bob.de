@@ -12,6 +12,13 @@ Ehemaliger Eff Stall, 1. Stock
 
 {% include location %}
 
+## Verein
+Schützengesellschaft Edelweiß Burgoberbach e.V.  
+Weiherschneidbacher Str. 1  
+91595 Burgoberbach
+
+eingetragen im Vereinsregister Ansbach: VR 113
+
 ## Vorstandschaft
 
 {% include vorstandschaft.md vorstandschaft=site.data.vorstandschaft.erwachsene %}

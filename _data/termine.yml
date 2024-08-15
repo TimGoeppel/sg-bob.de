@@ -244,9 +244,8 @@
 - name: Training
   wiederholt: true
   zeit: 08.08.2024 18:30
-- name: Training
-  wiederholt: true
-  zeit: 15.08.2024 18:30
+- name: Ferienprogramm
+  zeit: 15.08.2024 18:00
 - name: Training
   wiederholt: true
   zeit: 22.08.2024 18:30

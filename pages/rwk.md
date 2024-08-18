@@ -7,7 +7,7 @@ header: no
 image:
   title: "rundenwettkaempfe.jpeg"
 ---
-Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_blank"}_
+Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_blank"}.
 {% for disziplin in site.data.rwk_data.disziplinen %}
 
 ## {{ disziplin.disziplin }}

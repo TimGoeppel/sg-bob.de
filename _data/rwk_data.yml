@@ -1,0 +1,844 @@
+disziplinen:
+- disziplin: Luftgewehr
+  disziplin_id: '2528'
+  disziplin_kurz: LG
+  eingeteilte_gruppen_id: '6169'
+  gau_nr: '102000'
+  id: '533719'
+  mannschaften:
+  - gruppe: A-Klasse
+    gruppen_id: '5056'
+    gruppen_nr: 5
+    info:
+      avg: 1369.7
+      durchgaenge:
+      - avg: 1367.0
+        datum_iso: '2023-09-15 20:00:00'
+        gast_mannschafts_nr: 4
+        gast_name: SV Weißenkirchberg
+        gast_ringe: 1405
+        heim_id: '532243'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        heim_ringe: 1367
+        platzierung: 4
+        punkte: 0:2
+        punkte_akkumulativ: 0:2
+        runde: Vorrunde
+        sieg: -1
+        wettkampftag: 1
+      - avg: 1359.5
+        datum_iso: '2023-09-29 20:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        gast_ringe: 1352
+        heim_id: '532247'
+        heim_mannschafts_nr: 2
+        heim_name: SV Vorderbreitenthann
+        heim_ringe: 1389
+        platzierung: 5
+        punkte: 0:2
+        punkte_akkumulativ: 0:4
+        runde: Vorrunde
+        sieg: -1
+        wettkampftag: 2
+      - avg: 1366.0
+        datum_iso: '2023-10-13 20:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SV Aichau-Oberahorn
+        gast_ringe: 1379
+        heim_id: '532253'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        heim_ringe: 1379
+        platzierung: 6
+        punkte: '1:1'
+        punkte_akkumulativ: '1:5'
+        runde: Vorrunde
+        sieg: 0
+        wettkampftag: 3
+      - avg: 1370.75
+        datum_iso: '2023-10-27 20:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        gast_ringe: 1385
+        heim_id: '532261'
+        heim_mannschafts_nr: 2
+        heim_name: SSV Egenhausen
+        heim_ringe: 1371
+        platzierung: 5
+        punkte: '2:0'
+        punkte_akkumulativ: '3:5'
+        runde: Vorrunde
+        sieg: 1
+        wettkampftag: 4
+      - avg: 1370.8
+        datum_iso: '2023-11-10 20:00:00'
+        gast_mannschafts_nr: 4
+        gast_name: SV Virnsberg
+        gast_ringe: 1372
+        heim_id: '532263'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        heim_ringe: 1371
+        platzierung: 5
+        punkte: 0:2
+        punkte_akkumulativ: '3:7'
+        runde: Vorrunde
+        sieg: -1
+        wettkampftag: 5
+      - avg: 1370.33
+        datum_iso: '2023-11-24 20:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        gast_ringe: 1368
+        heim_id: '532244'
+        heim_mannschafts_nr: 4
+        heim_name: SV Weißenkirchberg
+        heim_ringe: 1443
+        punkte: 0:2
+        punkte_akkumulativ: '3:9'
+        runde: Rückrunde
+        sieg: -1
+        wettkampftag: 1
+      - avg: 1368.86
+        datum_iso: '2024-01-26 20:00:00'
+        gast_mannschafts_nr: 2
+        gast_name: SV Vorderbreitenthann
+        gast_ringe: 1358
+        heim_id: '532248'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        heim_ringe: 1360
+        punkte: '2:0'
+        punkte_akkumulativ: '5:9'
+        runde: Rückrunde
+        sieg: 1
+        wettkampftag: 2
+      - avg: 1370.12
+        datum_iso: '2024-02-09 20:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        gast_ringe: 1379
+        heim_id: '532254'
+        heim_mannschafts_nr: 1
+        heim_name: SV Aichau-Oberahorn
+        heim_ringe: 1332
+        punkte: '2:0'
+        punkte_akkumulativ: '7:9'
+        runde: Rückrunde
+        sieg: 1
+        wettkampftag: 3
+      - avg: 1365.67
+        datum_iso: '2024-02-23 20:00:00'
+        gast_mannschafts_nr: 2
+        gast_name: SSV Egenhausen
+        gast_ringe: 1424
+        heim_id: '532262'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        heim_ringe: 1330
+        punkte: 0:2
+        punkte_akkumulativ: '7:11'
+        runde: Rückrunde
+        sieg: -1
+        wettkampftag: 4
+      - avg: 1369.7
+        datum_iso: '2024-03-08 20:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        gast_ringe: 1406
+        heim_id: '532264'
+        heim_mannschafts_nr: 4
+        heim_name: SV Virnsberg
+        heim_ringe: 1356
+        punkte: '2:0'
+        punkte_akkumulativ: '9:11'
+        runde: Rückrunde
+        sieg: 1
+        wettkampftag: 5
+      max: 1406.0
+      min: 1330.0
+      platzierung: 4
+      tabelle:
+      - anzahl_geschossen: 10
+        gruppe: A-Klasse
+        gruppen_id: '5056'
+        gruppen_nr: 5
+        klasse: OK
+        klassen_id: '2486'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 4
+        name: SV Weißenkirchberg
+        platzierung: 1
+        punkte_gewonnen: 18
+        punkte_verloren: 2
+        ringe: 14199
+        vereinsnummer: '102053'
+      - anzahl_geschossen: 10
+        gruppe: A-Klasse
+        gruppen_id: '5056'
+        gruppen_nr: 5
+        klasse: OK
+        klassen_id: '2486'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 4
+        name: SV Virnsberg
+        platzierung: 2
+        punkte_gewonnen: 10
+        punkte_verloren: 10
+        ringe: 13813
+        vereinsnummer: '102048'
+      - anzahl_geschossen: 10
+        gruppe: A-Klasse
+        gruppen_id: '5056'
+        gruppen_nr: 5
+        klasse: OK
+        klassen_id: '2486'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SV Vorderbreitenthann
+        platzierung: 3
+        punkte_gewonnen: 10
+        punkte_verloren: 10
+        ringe: 12565
+        vereinsnummer: '102049'
+      - anzahl_geschossen: 10
+        gruppe: A-Klasse
+        gruppen_id: '5056'
+        gruppen_nr: 5
+        klasse: OK
+        klassen_id: '2486'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 1
+        name: SG Burgoberbach
+        platzierung: 4
+        punkte_gewonnen: 9
+        punkte_verloren: 11
+        ringe: 13697
+        vereinsnummer: '102013'
+      - anzahl_geschossen: 10
+        gruppe: A-Klasse
+        gruppen_id: '5056'
+        gruppen_nr: 5
+        klasse: OK
+        klassen_id: '2486'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SSV Egenhausen
+        platzierung: 5
+        punkte_gewonnen: 8
+        punkte_verloren: 12
+        ringe: 13871
+        vereinsnummer: '102015'
+      - anzahl_geschossen: 10
+        gruppe: A-Klasse
+        gruppen_id: '5056'
+        gruppen_nr: 5
+        klasse: OK
+        klassen_id: '2486'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 1
+        name: SV Aichau-Oberahorn
+        platzierung: 6
+        punkte_gewonnen: 5
+        punkte_verloren: 15
+        ringe: 13778
+        vereinsnummer: '102001'
+    klasse: OK
+    klassen_id: '2486'
+    klassen_name: Offene Klasse
+    mannschafts_nr: 1
+    platzierung: 4
+    schuetzen:
+    - anzahl_ersatz: 0
+      anzahl_stamm: 10
+      avg: 341.0
+      avg_ersatz: 0.0
+      avg_stamm: 341.0
+      gruppe: A-Klasse
+      id: '16750'
+      mannschafts_nr: 1
+      max: 351
+      min: 330
+      nachname: Hammerl
+      vorname: Christian
+    - anzahl_ersatz: 0
+      anzahl_stamm: 5
+      avg: 338.0
+      avg_ersatz: 0.0
+      avg_stamm: 338.0
+      gruppe: A-Klasse
+      id: '16749'
+      mannschafts_nr: 1
+      max: 351
+      min: 324
+      nachname: Heller
+      vorname: Alexandra
+    - anzahl_ersatz: 0
+      anzahl_stamm: 10
+      avg: 357.8
+      avg_ersatz: 0.0
+      avg_stamm: 357.8
+      gruppe: A-Klasse
+      id: '16759'
+      mannschafts_nr: 1
+      max: 369
+      min: 346
+      nachname: Luff
+      vorname: Bastian
+    - anzahl_ersatz: 0
+      anzahl_stamm: 10
+      avg: 335.3
+      avg_ersatz: 0.0
+      avg_stamm: 335.3
+      gruppe: A-Klasse
+      id: '328122'
+      mannschafts_nr: 1
+      max: 349
+      min: 313
+      nachname: Schreier
+      vorname: Kevin
+    vereinsnummer: '102013'
+  - gruppe: B-Klasse
+    gruppen_id: '5057'
+    gruppen_nr: 4
+    info:
+      avg: 1341.0
+      durchgaenge:
+      - avg: 1336.0
+        datum_iso: '2023-09-15 20:00:00'
+        gast_mannschafts_nr: 2
+        gast_name: SG Burgoberbach
+        gast_ringe: 1336
+        heim_id: '532135'
+        heim_mannschafts_nr: 1
+        heim_name: SV Gebsattel
+        heim_ringe: 1253
+        platzierung: 2
+        punkte: '2:0'
+        punkte_akkumulativ: '2:0'
+        runde: Vorrunde
+        sieg: 1
+        wettkampftag: 1
+      - avg: 1310.5
+        datum_iso: '2023-09-29 20:00:00'
+        gast_mannschafts_nr: 2
+        gast_name: SG Dietenhofen
+        gast_ringe: 1285
+        heim_id: '532141'
+        heim_mannschafts_nr: 2
+        heim_name: SG Burgoberbach
+        heim_ringe: 1300
+        platzierung: 5
+        punkte: 0:2
+        punkte_akkumulativ: '2:2'
+        runde: Vorrunde
+        sieg: -1
+        wettkampftag: 2
+      - avg: 1324.0
+        datum_iso: '2023-10-13 20:00:00'
+        gast_mannschafts_nr: 2
+        gast_name: SG Burgoberbach
+        gast_ringe: 1299
+        heim_id: '532147'
+        heim_mannschafts_nr: 3
+        heim_name: SV Leibelbach-Heuberg
+        heim_ringe: 1351
+        platzierung: 3
+        punkte: '2:0'
+        punkte_akkumulativ: '4:2'
+        runde: Vorrunde
+        sieg: 1
+        wettkampftag: 3
+      - avg: 1331.5
+        datum_iso: '2023-10-27 20:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SV Neunstetten
+        gast_ringe: 1354
+        heim_id: '532153'
+        heim_mannschafts_nr: 2
+        heim_name: SG Burgoberbach
+        heim_ringe: 1292
+        platzierung: 3
+        punkte: '2:0'
+        punkte_akkumulativ: '6:2'
+        runde: Vorrunde
+        sieg: 1
+        wettkampftag: 4
+      - avg: 1329.2
+        datum_iso: '2023-11-10 20:00:00'
+        gast_mannschafts_nr: 2
+        gast_name: SG Burgoberbach
+        gast_ringe: 1286
+        heim_id: '532159'
+        heim_mannschafts_nr: 2
+        heim_name: SV Insingen
+        heim_ringe: 1320
+        punkte: '2:0'
+        punkte_akkumulativ: '8:2'
+        runde: Vorrunde
+        sieg: 1
+        wettkampftag: 5
+      - avg: 1333.67
+        datum_iso: '2023-11-24 20:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SV Gebsattel
+        gast_ringe: 1356
+        heim_id: '532136'
+        heim_mannschafts_nr: 2
+        heim_name: SG Burgoberbach
+        heim_ringe: 1322
+        punkte: '2:0'
+        punkte_akkumulativ: '10:2'
+        runde: Rückrunde
+        sieg: 1
+        wettkampftag: 1
+      - avg: 1333.57
+        datum_iso: '2024-01-26 20:00:00'
+        gast_mannschafts_nr: 2
+        gast_name: SG Burgoberbach
+        gast_ringe: 1368
+        heim_id: '532142'
+        heim_mannschafts_nr: 2
+        heim_name: SG Dietenhofen
+        heim_ringe: 1333
+        punkte: 0:2
+        punkte_akkumulativ: '10:4'
+        runde: Rückrunde
+        sieg: -1
+        wettkampftag: 2
+      - avg: 1339.88
+        datum_iso: '2024-02-09 20:00:00'
+        gast_mannschafts_nr: 3
+        gast_name: SV Leibelbach-Heuberg
+        gast_ringe: 1384
+        heim_id: '532148'
+        heim_mannschafts_nr: 2
+        heim_name: SG Burgoberbach
+        heim_ringe: 1274
+        punkte: '2:0'
+        punkte_akkumulativ: '12:4'
+        runde: Rückrunde
+        sieg: 1
+        wettkampftag: 3
+      - avg: 1341.0
+        datum_iso: '2024-02-23 20:00:00'
+        gast_mannschafts_nr: 2
+        gast_name: SG Burgoberbach
+        gast_ringe: 1272
+        heim_id: '532154'
+        heim_mannschafts_nr: 1
+        heim_name: SV Neunstetten
+        heim_ringe: 1350
+        punkte: '2:0'
+        punkte_akkumulativ: '14:4'
+        runde: Rückrunde
+        sieg: 1
+        wettkampftag: 4
+      - datum_iso: '2024-03-08 20:00:00'
+        gast_mannschafts_nr: 2
+        gast_name: SV Insingen
+        heim_id: '532160'
+        heim_mannschafts_nr: 2
+        heim_name: SG Burgoberbach
+        runde: Rückrunde
+        wettkampftag: 5
+      max: 1384.0
+      min: 1285.0
+      platzierung: 2
+      tabelle:
+      - anzahl_geschossen: 10
+        gruppe: B-Klasse
+        gruppen_id: '5057'
+        gruppen_nr: 4
+        klasse: OK
+        klassen_id: '2486'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 3
+        name: SV Leibelbach-Heuberg
+        platzierung: 1
+        punkte_gewonnen: 18
+        punkte_verloren: 2
+        ringe: 13393
+        vereinsnummer: '102027'
+      - anzahl_geschossen: 10
+        gruppe: B-Klasse
+        gruppen_id: '5057'
+        gruppen_nr: 4
+        klasse: OK
+        klassen_id: '2486'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SG Burgoberbach
+        platzierung: 2
+        punkte_gewonnen: 14
+        punkte_verloren: 6
+        ringe: 12069
+        vereinsnummer: '102013'
+      - anzahl_geschossen: 10
+        gruppe: B-Klasse
+        gruppen_id: '5057'
+        gruppen_nr: 4
+        klasse: OK
+        klassen_id: '2486'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SG Dietenhofen
+        platzierung: 3
+        punkte_gewonnen: 10
+        punkte_verloren: 10
+        ringe: 13214
+        vereinsnummer: '102066'
+      - anzahl_geschossen: 10
+        gruppe: B-Klasse
+        gruppen_id: '5057'
+        gruppen_nr: 4
+        klasse: OK
+        klassen_id: '2486'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 1
+        name: SV Neunstetten
+        platzierung: 4
+        punkte_gewonnen: 8
+        punkte_verloren: 12
+        ringe: 12934
+        vereinsnummer: '102033'
+      - anzahl_geschossen: 10
+        gruppe: B-Klasse
+        gruppen_id: '5057'
+        gruppen_nr: 4
+        klasse: OK
+        klassen_id: '2486'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 1
+        name: SV Gebsattel
+        platzierung: 5
+        punkte_gewonnen: 8
+        punkte_verloren: 12
+        ringe: 12834
+        vereinsnummer: '102019'
+      - anzahl_geschossen: 10
+        gruppe: B-Klasse
+        gruppen_id: '5057'
+        gruppen_nr: 4
+        klasse: OK
+        klassen_id: '2486'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SV Insingen
+        platzierung: 6
+        punkte_gewonnen: 2
+        punkte_verloren: 18
+        ringe: 12663
+        vereinsnummer: '102024'
+    klasse: OK
+    klassen_id: '2486'
+    klassen_name: Offene Klasse
+    mannschafts_nr: 2
+    platzierung: 2
+    schuetzen:
+    - anzahl_ersatz: 0
+      anzahl_stamm: 9
+      avg: 326.67
+      avg_ersatz: 0.0
+      avg_stamm: 326.67
+      gruppe: B-Klasse
+      id: '16772'
+      mannschafts_nr: 2
+      max: 349
+      min: 301
+      nachname: Alban
+      vorname: Michael
+    - anzahl_ersatz: 0
+      anzahl_stamm: 9
+      avg: 357.33
+      avg_ersatz: 0.0
+      avg_stamm: 357.33
+      gruppe: B-Klasse
+      id: '314646'
+      mannschafts_nr: 2
+      max: 367
+      min: 347
+      nachname: Huber
+      vorname: Jakob
+    - anzahl_ersatz: 0
+      anzahl_stamm: 8
+      avg: 321.63
+      avg_ersatz: 0.0
+      avg_stamm: 321.63
+      gruppe: B-Klasse
+      id: '314645'
+      mannschafts_nr: 2
+      max: 343
+      min: 301
+      nachname: Scheicher
+      vorname: Jakob
+    - anzahl_ersatz: 1
+      anzahl_stamm: 1
+      avg: 280.5
+      avg_ersatz: 282.0
+      avg_stamm: 279.0
+      gruppe: B-Klasse
+      id: '16765'
+      mannschafts_nr: 2
+      max: 282
+      min: 279
+      nachname: Sturm
+      vorname: Harald
+    vereinsnummer: '102013'
+  - gruppe: J
+    gruppen_id: '5062'
+    gruppen_nr: 2
+    info:
+      avg: 971.0
+      durchgaenge:
+      - avg: 1022.0
+        datum_iso: '2023-09-22 19:00:00'
+        gast_mannschafts_nr: 2
+        gast_name: SV Petersaurach
+        gast_ringe: 974
+        heim_id: '533701'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        heim_ringe: 1022
+        platzierung: 1
+        punkte: '2:0'
+        punkte_akkumulativ: '2:0'
+        runde: Vorrunde
+        sieg: 1
+        wettkampftag: 1
+      - avg: 997.5
+        datum_iso: '2023-10-06 19:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SV Weißenkirchberg
+        gast_ringe: 973
+        heim_id: '533707'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        heim_ringe: 1055
+        platzierung: 5
+        punkte: 0:2
+        punkte_akkumulativ: '2:2'
+        runde: Vorrunde
+        sieg: -1
+        wettkampftag: 2
+      - avg: 993.0
+        datum_iso: '2023-10-20 19:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        gast_ringe: 1024
+        heim_id: '533713'
+        heim_mannschafts_nr: 1
+        heim_name: SV Petersaurach
+        heim_ringe: 984
+        platzierung: 6
+        punkte: 0:2
+        punkte_akkumulativ: '2:4'
+        runde: Vorrunde
+        sieg: -1
+        wettkampftag: 3
+      - avg: 991.0
+        datum_iso: '2023-11-03 19:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SV Leibelbach-Heuberg
+        gast_ringe: 985
+        heim_id: '533719'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        heim_ringe: 972
+        platzierung: 5
+        punkte: '2:0'
+        punkte_akkumulativ: '4:4'
+        runde: Vorrunde
+        sieg: 1
+        wettkampftag: 4
+      - avg: 971.0
+        datum_iso: '2023-11-17 19:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        gast_ringe: 891
+        heim_id: '533725'
+        heim_mannschafts_nr: 1
+        heim_name: SSV Lohr
+        heim_ringe: 1041
+        punkte: 0:2
+        punkte_akkumulativ: '4:6'
+        runde: Vorrunde
+        sieg: -1
+        wettkampftag: 5
+      - datum_iso: '2023-12-01 19:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        heim_id: '533702'
+        heim_mannschafts_nr: 2
+        heim_name: SV Petersaurach
+        runde: Rückrunde
+        wettkampftag: 1
+      - datum_iso: '2024-02-02 19:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        heim_id: '533708'
+        heim_mannschafts_nr: 1
+        heim_name: SV Weißenkirchberg
+        runde: Rückrunde
+        wettkampftag: 2
+      - datum_iso: '2024-02-16 19:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SV Petersaurach
+        heim_id: '533714'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        runde: Rückrunde
+        wettkampftag: 3
+      - datum_iso: '2024-03-01 19:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        heim_id: '533720'
+        heim_mannschafts_nr: 1
+        heim_name: SV Leibelbach-Heuberg
+        runde: Rückrunde
+        wettkampftag: 4
+      - datum_iso: '2024-03-15 19:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SSV Lohr
+        heim_id: '533726'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        runde: Rückrunde
+        wettkampftag: 5
+      max: 1022.0
+      min: 891.0
+      platzierung: 6
+      tabelle:
+      - anzahl_geschossen: 10
+        gruppe: J
+        gruppen_id: '5062'
+        gruppen_nr: 2
+        klasse: Jug
+        klassen_id: '2489'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SV Petersaurach
+        platzierung: 1
+        punkte_gewonnen: 18
+        punkte_verloren: 2
+        ringe: 10664
+        vereinsnummer: '102037'
+      - anzahl_geschossen: 10
+        gruppe: J
+        gruppen_id: '5062'
+        gruppen_nr: 2
+        klasse: Jug
+        klassen_id: '2489'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 2
+        name: SV Petersaurach
+        platzierung: 2
+        punkte_gewonnen: 12
+        punkte_verloren: 8
+        ringe: 10139
+        vereinsnummer: '102037'
+      - anzahl_geschossen: 10
+        gruppe: J
+        gruppen_id: '5062'
+        gruppen_nr: 2
+        klasse: Jug
+        klassen_id: '2489'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SV Leibelbach-Heuberg
+        platzierung: 3
+        punkte_gewonnen: 10
+        punkte_verloren: 10
+        ringe: 10140
+        vereinsnummer: '102027'
+      - anzahl_geschossen: 10
+        gruppe: J
+        gruppen_id: '5062'
+        gruppen_nr: 2
+        klasse: Jug
+        klassen_id: '2489'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SSV Lohr
+        platzierung: 4
+        punkte_gewonnen: 10
+        punkte_verloren: 10
+        ringe: 9799
+        vereinsnummer: '102030'
+      - anzahl_geschossen: 10
+        gruppe: J
+        gruppen_id: '5062'
+        gruppen_nr: 2
+        klasse: Jug
+        klassen_id: '2489'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SV Weißenkirchberg
+        platzierung: 5
+        punkte_gewonnen: 6
+        punkte_verloren: 14
+        ringe: 9271
+        vereinsnummer: '102053'
+      - anzahl_geschossen: 10
+        gruppe: J
+        gruppen_id: '5062'
+        gruppen_nr: 2
+        klasse: Jug
+        klassen_id: '2489'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SG Burgoberbach
+        platzierung: 6
+        punkte_gewonnen: 4
+        punkte_verloren: 16
+        ringe: 4855
+        vereinsnummer: '102013'
+    klasse: Jug
+    klassen_id: '2489'
+    klassen_name: Jugendklasse
+    mannschafts_nr: 1
+    platzierung: 6
+    schuetzen:
+    - anzahl_ersatz: 4
+      anzahl_stamm: 5
+      avg: 337.44
+      avg_ersatz: 346.0
+      avg_stamm: 330.6
+      gruppe: J
+      id: '375127'
+      mannschafts_nr: 1
+      max: 354
+      min: 314
+      nachname: Fetzer
+      vorname: Angelina
+    - anzahl_ersatz: 9
+      anzahl_stamm: 5
+      avg: 339.64
+      avg_ersatz: 340.11
+      avg_stamm: 338.8
+      gruppe: J
+      id: '375125'
+      mannschafts_nr: 1
+      max: 348
+      min: 327
+      nachname: Göppel
+      vorname: Tim
+    - anzahl_ersatz: 0
+      anzahl_stamm: 4
+      avg: 320.0
+      avg_ersatz: 0.0
+      avg_stamm: 320.0
+      gruppe: J
+      id: '375123'
+      mannschafts_nr: 1
+      max: 328
+      min: 313
+      nachname: Thiele
+      vorname: Jonas
+    vereinsnummer: '102013'
+  rwk_id: '1820'
+  sportjahr: 2024
+gau_nr: '102000'
+vereinsnummer: '102013'

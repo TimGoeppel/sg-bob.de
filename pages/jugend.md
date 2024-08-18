@@ -6,6 +6,13 @@ permalink: "/jugend/"
 header: no
 image:
   title: "jugend.jpg"
+gallery:
+  - image_url: jugend.jpg
+    caption: "Ferienprogramm 2023"
+  - image_url: ferienprogramm_2024_1.jpeg
+    caption: "Ferienprogramm 2024"
+  - image_url: ferienprogramm_2024_2.jpeg
+    caption: "Ferienprogramm 2024"
 ---
 <img style="float: right;" src="{{ site.urlimg }}kjr.png" width="240px" alt="Teil des Kreisjugendrings Ansbach">
 ## Angebot
@@ -24,14 +31,17 @@ image:
 
 Jeden ersten Samstag im Monat findet für alle 6- bis 12-Jährigen von 10:00 bis 11:30 Uhr unser kostenfreies Programm „Schützenzwerge” unter der Anleitung von Jugendleiter Kevin Schreier und anderen Helfern statt.
 
-Neben dem Schießen mit dem Lasergewehr werden auch viele weitere Disziplinen wie Bogenschießen, Blasrohrschießen und Kegeln angeboten.{% include termine %}{% assign termin = termine | where: "name", "Schützenzwerge" | first %}{% include termin termin=termin customname="Nächster Termin" pre="
+Neben dem Schießen mit dem Lasergewehr werden auch viele weitere Disziplinen wie Bogenschießen, Blasrohrschießen und Kegeln angeboten.{% assign termin = termine | where: "name", "Schützenzwerge" | first %}{% include termin termin=termin customname="Nächster Termin" pre="
 
 " post="." %}
 
 ## Ferienprogramm
-Jedes Jahr findet in den Sommerferien unser Ferienprogramm statt.{% include termine %}{% assign termin = termine | where: "name", "Ferienprogramm" | first %}{% include termin termin=termin customname="Nächstes Ferienprogramm" pre="
+Jedes Jahr findet in den Sommerferien unser Ferienprogramm statt.{% assign termin = termine | where: "name", "Ferienprogramm" | first %}{% include termin termin=termin customname="Nächstes Ferienprogramm" pre="
 
 " post="." %}
+
+Impressionen aus den letzten Jahren:
+{% include gallery %}
 
 ## Jugendleiter{% assign jugendleiter = site.data.vorstandschaft.erwachsene | where: "funktion", "Jugendleiter" | first %}  
 <img style="float: right;" src="{{ site.urlimg }}jugendleiter.jpg" width="240px" alt="Der momentane Jugendleiter {{ jugendleiter.name }}">

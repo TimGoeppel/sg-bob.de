@@ -137,8 +137,8 @@ def get_mannschaftsinfo(mannschaft, erzeuge_tabelle = True, erzeuge_durchgaenge 
     if erzeuge_durchgaenge:
         durchgaenge = info.get('durchgang', [])
         termine = fetch('get_termine', params).get('termine', [])
-        for i in range(len(termine)):
-            termin = termine[i]
+        i = 0
+        for termin in termine:
             durchgang_new = {
                     'heim_id': termin['heim'],
                     'runde': termin['v_r'],
@@ -151,16 +151,18 @@ def get_mannschaftsinfo(mannschaft, erzeuge_tabelle = True, erzeuge_durchgaenge 
             }
             if i < len(durchgaenge):
                 durchgang = durchgaenge[i]
-                durchgang_new['heim_ringe'] = to_int(durchgang.get('heim_punkte'))
-                durchgang_new['gast_ringe'] = to_int(durchgang.get('gast_punkte'))
-                win_lose = durchgang.get('win_lose')
-                if win_lose:
-                    durchgang_new['sieg'] = 1 if win_lose == 'win' else (0 if win_lose == 'undecided' else -1)
-                if 'platzierung' in durchgang:
-                    durchgang_new['platzierung'] = durchgang.get('platzierung')
-                durchgang_new['punkte'] = durchgang.get('punkte')
-                durchgang_new['punkte_akkumulativ'] = durchgang.get('act_win')
-                durchgang_new['avg'] = to_float(durchgang.get('avg'))
+                if durchgang.get('datum') == termin.get('datum') and (termin.get('name_heim_verein') + ' ' + termin.get('heim_verein_ma_nr')) == durchgang.get('heim_name') and (termin.get('name_gast_verein') + ' ' + termin.get('gast_verein_ma_nr')) == durchgang.get('gast_name'):
+                    durchgang_new['heim_ringe'] = to_int(durchgang.get('heim_punkte'))
+                    durchgang_new['gast_ringe'] = to_int(durchgang.get('gast_punkte'))
+                    win_lose = durchgang.get('win_lose')
+                    if win_lose:
+                        durchgang_new['sieg'] = 1 if win_lose == 'win' else (0 if win_lose == 'undecided' else -1)
+                    if 'platzierung' in durchgang:
+                        durchgang_new['platzierung'] = durchgang.get('platzierung')
+                    durchgang_new['punkte'] = durchgang.get('punkte')
+                    durchgang_new['punkte_akkumulativ'] = durchgang.get('act_win')
+                    durchgang_new['avg'] = to_float(durchgang.get('avg'))
+                    i += 1
                         
             durchgaenge_new.append(durchgang_new)
     mannschafts_info = {

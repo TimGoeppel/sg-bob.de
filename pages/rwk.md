@@ -9,13 +9,13 @@ image:
 ---
 <style>
 .durchgang_win {
-    border-left: 5px solid darkgreen
+    border-left: 5px solid darkgreen;
 }
 .durchgang_tie {
-    border-left: 5px solid blue
+    border-left: 5px solid blue;
 }
 .durchgang_def {
-    border-left: 5px solid firebrick
+    border-left: 5px solid firebrick;
 }
 </style>
 

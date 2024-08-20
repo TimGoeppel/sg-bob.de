@@ -22,7 +22,7 @@ image:
 Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_blank"}.
 {% for disziplin in site.data.rwk_data.disziplinen %}
 
-## {{ disziplin.disziplin }}
+## {{ disziplin.disziplin }} {{ disziplin.sportjahr }}
 {% for mannschaft in disziplin.mannschaften %}
 
 <details>

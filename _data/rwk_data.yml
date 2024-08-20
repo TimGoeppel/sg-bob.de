@@ -321,128 +321,128 @@ disziplinen:
         runde: Vorrunde
         sieg: 1
         wettkampftag: 1
-      - avg: 1310.5
-        datum_iso: '2023-09-29 20:00:00'
+      - datum_iso: '2023-09-29 20:00:00'
         gast_mannschafts_nr: 2
         gast_name: SG Dietenhofen
-        gast_ringe: 1285
         heim_id: '532141'
         heim_mannschafts_nr: 2
         heim_name: SG Burgoberbach
+        runde: Vorrunde
+        wettkampftag: 2
+      - avg: 1310.5
+        datum_iso: '2023-10-13 20:00:00'
+        gast_mannschafts_nr: 2
+        gast_name: SG Burgoberbach
+        gast_ringe: 1285
+        heim_id: '532147'
+        heim_mannschafts_nr: 3
+        heim_name: SV Leibelbach-Heuberg
         heim_ringe: 1300
         platzierung: 5
         punkte: 0:2
         punkte_akkumulativ: '2:2'
         runde: Vorrunde
         sieg: -1
-        wettkampftag: 2
+        wettkampftag: 3
       - avg: 1324.0
-        datum_iso: '2023-10-13 20:00:00'
-        gast_mannschafts_nr: 2
-        gast_name: SG Burgoberbach
+        datum_iso: '2023-10-27 20:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SV Neunstetten
         gast_ringe: 1299
-        heim_id: '532147'
-        heim_mannschafts_nr: 3
-        heim_name: SV Leibelbach-Heuberg
+        heim_id: '532153'
+        heim_mannschafts_nr: 2
+        heim_name: SG Burgoberbach
         heim_ringe: 1351
         platzierung: 3
         punkte: '2:0'
         punkte_akkumulativ: '4:2'
         runde: Vorrunde
         sieg: 1
-        wettkampftag: 3
+        wettkampftag: 4
       - avg: 1331.5
-        datum_iso: '2023-10-27 20:00:00'
-        gast_mannschafts_nr: 1
-        gast_name: SV Neunstetten
+        datum_iso: '2023-11-10 20:00:00'
+        gast_mannschafts_nr: 2
+        gast_name: SG Burgoberbach
         gast_ringe: 1354
-        heim_id: '532153'
+        heim_id: '532159'
         heim_mannschafts_nr: 2
-        heim_name: SG Burgoberbach
+        heim_name: SV Insingen
         heim_ringe: 1292
         platzierung: 3
         punkte: '2:0'
         punkte_akkumulativ: '6:2'
         runde: Vorrunde
         sieg: 1
-        wettkampftag: 4
-      - avg: 1329.2
-        datum_iso: '2023-11-10 20:00:00'
-        gast_mannschafts_nr: 2
-        gast_name: SG Burgoberbach
-        gast_ringe: 1286
-        heim_id: '532159'
-        heim_mannschafts_nr: 2
-        heim_name: SV Insingen
-        heim_ringe: 1320
-        punkte: '2:0'
-        punkte_akkumulativ: '8:2'
-        runde: Vorrunde
-        sieg: 1
         wettkampftag: 5
-      - avg: 1333.67
+      - avg: 1329.2
         datum_iso: '2023-11-24 20:00:00'
         gast_mannschafts_nr: 1
         gast_name: SV Gebsattel
-        gast_ringe: 1356
+        gast_ringe: 1286
         heim_id: '532136'
         heim_mannschafts_nr: 2
         heim_name: SG Burgoberbach
+        heim_ringe: 1320
+        punkte: '2:0'
+        punkte_akkumulativ: '8:2'
+        runde: Rückrunde
+        sieg: 1
+        wettkampftag: 1
+      - avg: 1333.67
+        datum_iso: '2024-01-26 20:00:00'
+        gast_mannschafts_nr: 2
+        gast_name: SG Burgoberbach
+        gast_ringe: 1356
+        heim_id: '532142'
+        heim_mannschafts_nr: 2
+        heim_name: SG Dietenhofen
         heim_ringe: 1322
         punkte: '2:0'
         punkte_akkumulativ: '10:2'
         runde: Rückrunde
         sieg: 1
-        wettkampftag: 1
+        wettkampftag: 2
       - avg: 1333.57
-        datum_iso: '2024-01-26 20:00:00'
-        gast_mannschafts_nr: 2
-        gast_name: SG Burgoberbach
+        datum_iso: '2024-02-09 20:00:00'
+        gast_mannschafts_nr: 3
+        gast_name: SV Leibelbach-Heuberg
         gast_ringe: 1368
-        heim_id: '532142'
+        heim_id: '532148'
         heim_mannschafts_nr: 2
-        heim_name: SG Dietenhofen
+        heim_name: SG Burgoberbach
         heim_ringe: 1333
         punkte: 0:2
         punkte_akkumulativ: '10:4'
         runde: Rückrunde
         sieg: -1
-        wettkampftag: 2
+        wettkampftag: 3
       - avg: 1339.88
-        datum_iso: '2024-02-09 20:00:00'
-        gast_mannschafts_nr: 3
-        gast_name: SV Leibelbach-Heuberg
+        datum_iso: '2024-02-23 20:00:00'
+        gast_mannschafts_nr: 2
+        gast_name: SG Burgoberbach
         gast_ringe: 1384
-        heim_id: '532148'
-        heim_mannschafts_nr: 2
-        heim_name: SG Burgoberbach
+        heim_id: '532154'
+        heim_mannschafts_nr: 1
+        heim_name: SV Neunstetten
         heim_ringe: 1274
         punkte: '2:0'
         punkte_akkumulativ: '12:4'
         runde: Rückrunde
         sieg: 1
-        wettkampftag: 3
+        wettkampftag: 4
       - avg: 1341.0
-        datum_iso: '2024-02-23 20:00:00'
+        datum_iso: '2024-03-08 20:00:00'
         gast_mannschafts_nr: 2
-        gast_name: SG Burgoberbach
+        gast_name: SV Insingen
         gast_ringe: 1272
-        heim_id: '532154'
-        heim_mannschafts_nr: 1
-        heim_name: SV Neunstetten
+        heim_id: '532160'
+        heim_mannschafts_nr: 2
+        heim_name: SG Burgoberbach
         heim_ringe: 1350
         punkte: '2:0'
         punkte_akkumulativ: '14:4'
         runde: Rückrunde
         sieg: 1
-        wettkampftag: 4
-      - datum_iso: '2024-03-08 20:00:00'
-        gast_mannschafts_nr: 2
-        gast_name: SV Insingen
-        heim_id: '532160'
-        heim_mannschafts_nr: 2
-        heim_name: SG Burgoberbach
-        runde: Rückrunde
         wettkampftag: 5
       max: 1384.0
       min: 1285.0
@@ -608,72 +608,72 @@ disziplinen:
         runde: Vorrunde
         sieg: 1
         wettkampftag: 1
-      - avg: 997.5
-        datum_iso: '2023-10-06 19:00:00'
+      - datum_iso: '2023-10-06 19:00:00'
         gast_mannschafts_nr: 1
         gast_name: SV Weißenkirchberg
-        gast_ringe: 973
         heim_id: '533707'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
+        runde: Vorrunde
+        wettkampftag: 2
+      - avg: 997.5
+        datum_iso: '2023-10-20 19:00:00'
+        gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        gast_ringe: 973
+        heim_id: '533713'
+        heim_mannschafts_nr: 1
+        heim_name: SV Petersaurach
         heim_ringe: 1055
         platzierung: 5
         punkte: 0:2
         punkte_akkumulativ: '2:2'
         runde: Vorrunde
         sieg: -1
-        wettkampftag: 2
+        wettkampftag: 3
       - avg: 993.0
-        datum_iso: '2023-10-20 19:00:00'
+        datum_iso: '2023-11-03 19:00:00'
         gast_mannschafts_nr: 1
-        gast_name: SG Burgoberbach
+        gast_name: SV Leibelbach-Heuberg
         gast_ringe: 1024
-        heim_id: '533713'
+        heim_id: '533719'
         heim_mannschafts_nr: 1
-        heim_name: SV Petersaurach
+        heim_name: SG Burgoberbach
         heim_ringe: 984
         platzierung: 6
         punkte: 0:2
         punkte_akkumulativ: '2:4'
         runde: Vorrunde
         sieg: -1
-        wettkampftag: 3
+        wettkampftag: 4
       - avg: 991.0
-        datum_iso: '2023-11-03 19:00:00'
+        datum_iso: '2023-11-17 19:00:00'
         gast_mannschafts_nr: 1
-        gast_name: SV Leibelbach-Heuberg
+        gast_name: SG Burgoberbach
         gast_ringe: 985
-        heim_id: '533719'
+        heim_id: '533725'
         heim_mannschafts_nr: 1
-        heim_name: SG Burgoberbach
+        heim_name: SSV Lohr
         heim_ringe: 972
         platzierung: 5
         punkte: '2:0'
         punkte_akkumulativ: '4:4'
         runde: Vorrunde
         sieg: 1
-        wettkampftag: 4
+        wettkampftag: 5
       - avg: 971.0
-        datum_iso: '2023-11-17 19:00:00'
+        datum_iso: '2023-12-01 19:00:00'
         gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
         gast_ringe: 891
-        heim_id: '533725'
-        heim_mannschafts_nr: 1
-        heim_name: SSV Lohr
-        heim_ringe: 1041
-        punkte: 0:2
-        punkte_akkumulativ: '4:6'
-        runde: Vorrunde
-        sieg: -1
-        wettkampftag: 5
-      - datum_iso: '2023-12-01 19:00:00'
-        gast_mannschafts_nr: 1
-        gast_name: SG Burgoberbach
         heim_id: '533702'
         heim_mannschafts_nr: 2
         heim_name: SV Petersaurach
+        heim_ringe: 1041
+        punkte: 0:2
+        punkte_akkumulativ: '4:6'
         runde: Rückrunde
+        sieg: -1
         wettkampftag: 1
       - datum_iso: '2024-02-02 19:00:00'
         gast_mannschafts_nr: 1

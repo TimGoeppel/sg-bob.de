@@ -7,6 +7,18 @@ header: no
 image:
   title: "rundenwettkaempfe.jpeg"
 ---
+<style>
+.durchgang_win {
+    border-left: 5px solid darkgreen
+}
+.durchgang_tie {
+    border-left: 5px solid blue
+}
+.durchgang_def {
+    border-left: 5px solid firebrick
+}
+</style>
+
 Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_blank"}.
 {% for disziplin in site.data.rwk_data.disziplinen %}
 
@@ -18,7 +30,7 @@ Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_b
   Schützen:
   <ul>
   {% for schuetze in mannschaft.schuetzen %}
-  <li><a onclick="alert('Ergebnisse:\nMaximum: {{ schuetze.max }}\nMinimum: {{ schuetze.min }}{% assign anzahl = schuetze.anzahl_stamm | plus: schuetze.anzahl_ersatz %}{% if schuetze.anzahl_stamm != 0 and schuetze.anzahl_ersatz != 0 %}\nDurchschnitt: {{ schuetze.avg }} ({{ anzahl }}){% endif %}{% if schuetze.anzahl_stamm != 0 %}\nDurchschnitt (Stamm): {{ schuetze.avg_stamm }} ({{ schuetze.anzahl_stamm }}){% endif %}{% if schuetze.anzahl_ersatz != 0 %}\nDurchschnitt (Ersatz): {{ schuetze.avg_ersatz }} ({{ schuetze.anzahl_ersatz }}){% endif %}')">{{ schuetze.vorname }} {{ schuetze.nachname }}</a></li>
+  <li><a onclick="alert('Ergebnisse von {{ schuetze.vorname }} {{ schuetze.nachname }}:\nMaximum: {{ schuetze.max }}\nMinimum: {{ schuetze.min }}{% assign anzahl = schuetze.anzahl_stamm | plus: schuetze.anzahl_ersatz %}{% if schuetze.anzahl_stamm != 0 and schuetze.anzahl_ersatz != 0 %}\nDurchschnitt: {{ schuetze.avg }} ({{ anzahl }}){% endif %}{% if schuetze.anzahl_stamm != 0 %}\nDurchschnitt (Stamm): {{ schuetze.avg_stamm }} ({{ schuetze.anzahl_stamm }}){% endif %}{% if schuetze.anzahl_ersatz != 0 %}\nDurchschnitt (Ersatz): {{ schuetze.avg_ersatz }} ({{ schuetze.anzahl_ersatz }}){% endif %}')">{{ schuetze.vorname }} {{ schuetze.nachname }}</a></li>
   {% endfor %}
   </ul>
   {% assign info = mannschaft.info %}
@@ -32,7 +44,7 @@ Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_b
   <tr><th>Durchgänge</th></tr>
   <tr><th>Runde</th><th>Datum</th><th>Heimmannschaft</th><th>Gastmannschaft</th><th>Ergebnis</th><th>Punkte</th></tr>
   {% for durchgang in info.durchgaenge %}
-  <tr><td>{{ durchgang.wettkampftag }}. {{ durchgang.runde }}</td><td>{{ durchgang.datum_iso | date: "%d.%m.%Y %H:%M" }}</td><td>{{ durchgang.heim_name }} {{ durchgang.heim_mannschafts_nr }}</td><td>{{ durchgang.gast_name }} {{ durchgang.gast_mannschafts_nr }}</td><td>{% if durchgang.heim_ringe and durchgang.gast_ringe %}{{ durchgang.heim_ringe }} : {{ durchgang.gast_ringe }}{% endif %}</td><td>{{ durchgang.punkte }}</td></tr>
+  <tr{% if durchgang.sieg %} class="durchgang_{% if durchgang.sieg == 1 %}win{% elsif durchgang.sieg == 0%}tie{% else %}def{% endif %}"{% endif %}><td>{{ durchgang.wettkampftag }}. {{ durchgang.runde }}</td><td>{{ durchgang.datum_iso | date: "%d.%m.%Y %H:%M" }}</td><td>{{ durchgang.heim_name }} {{ durchgang.heim_mannschafts_nr }}</td><td>{{ durchgang.gast_name }} {{ durchgang.gast_mannschafts_nr }}</td><td>{% if durchgang.heim_ringe and durchgang.gast_ringe %}{{ durchgang.heim_ringe }} : {{ durchgang.gast_ringe }}{% endif %}</td><td>{{ durchgang.punkte }}</td></tr>
   {% endfor %}
   </table>
 </details>

@@ -151,7 +151,7 @@ def get_mannschaftsinfo(mannschaft, erzeuge_tabelle = True, erzeuge_durchgaenge 
             }
             if i < len(durchgaenge):
                 durchgang = durchgaenge[i]
-                if durchgang.get('datum') == termin.get('datum') and (termin.get('name_heim_verein') + ' ' + termin.get('heim_verein_ma_nr')) == durchgang.get('heim_name') and (termin.get('name_gast_verein') + ' ' + termin.get('gast_verein_ma_nr')) == durchgang.get('gast_name'):
+                if durchgang.get('wettkampftag') == (termin.get('wettkampftag') + ' ' + termin.get('v_r')) and (termin.get('name_heim_verein') + ' ' + termin.get('heim_verein_ma_nr')) == durchgang.get('heim_name') and (termin.get('name_gast_verein') + ' ' + termin.get('gast_verein_ma_nr')) == durchgang.get('gast_name'):
                     durchgang_new['heim_ringe'] = to_int(durchgang.get('heim_punkte'))
                     durchgang_new['gast_ringe'] = to_int(durchgang.get('gast_punkte'))
                     win_lose = durchgang.get('win_lose')
@@ -203,7 +203,6 @@ def get_schuetzen(verein, disziplin, erzeuge_durchgaenge = False):
             schuetze['anzahl_ersatz'] = to_int(detail.get('anzahlErsatz'))
             if erzeuge_durchgaenge:
                 schuetze['durchgaenge'] = detail.get('durchgang')
-    print(schuetzen)
     return schuetzen
 
 def get_schuetzen_mannschaft(schuetzen, mannschaft):

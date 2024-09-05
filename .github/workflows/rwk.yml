@@ -3,7 +3,7 @@ name: Update RWK
 on:
   workflow_dispatch: {}
 jobs:
-  getdataandrefreshmap:
+  updaterwk:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository content
@@ -15,6 +15,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install requests
+          pip install PyYAML
       - name: Update RWK
         run: |
           python _data/rwk.py

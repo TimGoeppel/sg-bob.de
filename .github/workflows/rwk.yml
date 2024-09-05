@@ -18,11 +18,12 @@ jobs:
         run: |
           pip install requests
           pip install PyYAML
-      - name: Update RWK
+      - name: Fetch RWK data
         run: |
           python _data/rwk.py
+      - name: Commit changes
+        run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add _data/rwk_data.yml _data/rwk_data.json
-          git commit -m "Update RWK"
-          if [ $? == 0 ]; then git push; else echo "Already up-to-date"; fi
+          git diff-index --quiet HEAD -- || git commit -m "Update RWK"; git push;

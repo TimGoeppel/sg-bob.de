@@ -227,8 +227,9 @@ def get_overview(gau_nr, vereinsnummer):
             return data
     return None
 
-file = open('rwk_data.yml', 'w')
-file2 = open('rwk_data.json', 'w')
+path = os.path.dirname(__file__)
+file = open(path + '/' + 'rwk_data.yml', 'w')
+file2 = open(path + '/' + 'rwk_data.json', 'w')
 data = get_overview('102000', '102013')
 if data:
     yaml.dump(data, file, allow_unicode=True)

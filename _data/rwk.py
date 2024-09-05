@@ -1,4 +1,4 @@
-import requests, yaml, json, os
+import requests, yaml, json, os, sys
 
 def fetch(path, query = {}):
     if not query:
@@ -9,10 +9,11 @@ def fetch(path, query = {}):
 
     try:
         req = requests.get('https://www.rwk-shooting.de/drucken/webservices/' + path + '.php', params = query)
-        if req.status_code - 200 < 100:
+        if req.ok:
             return req.json()
     except Exception as e:
-        print('Exception during execution of "fetch": ' + e)
+        print('Exception during execution of "fetch":')
+        print(e)
 
     return {}
 
@@ -107,7 +108,7 @@ def get_mannschaftsinfo(mannschaft, erzeuge_tabelle = True, erzeuge_durchgaenge 
             'disziplin_id': mannschaft.get('disziplin', {}).get('disziplin_id'),
             'rwk_id': mannschaft.get('disziplin', {}).get('rwk_id')
     }
-    info = next(iter(fetch('get_mannschaftsinfo', params).get('mannschaftsinfo', [])), [])
+    info = next(iter(fetch('get_mannschaftsinfo', params).get('mannschaftsinfo', [])), {})
     tabelle_new = []
     if erzeuge_tabelle:
         tabelle = info.get('tabelle', [])
@@ -208,12 +209,19 @@ def get_schuetzen(verein, disziplin, erzeuge_durchgaenge = False):
 def get_schuetzen_mannschaft(schuetzen, mannschaft):
     return [schuetze for schuetze in schuetzen if (isinstance(schuetze, dict) and schuetze.get('mannschafts_nr') == mannschaft.get('mannschafts_nr') and schuetze.get('gruppe') == mannschaft.get('gruppe'))]
 
-def get_overview(gau_nr, vereinsnummer):
+# If 'years' is empty, use the current year, and if 'years' is equal to 'None', show all years.
+def get_overview(gau_nr, vereinsnummer, years, include_ersatz = False):
     data = {
             'gau_nr': gau_nr,
             'vereinsnummer': vereinsnummer
     }
-    data['disziplinen'] = get_disziplinen(data)
+    if years == None:
+        data['disziplinen'] = get_disziplinen(data, only_current_year = False)
+    else:
+        if len(years) == 0:
+            data['disziplinen'] = get_disziplinen(data, only_current_year = True)
+        else:
+            data['disziplinen'] = [disziplin for disziplin in get_disziplinen(data, only_current_year = False) if disziplin.get('sportjahr', None) in years]
     if data['disziplinen']:
         for disziplin in data['disziplinen']:
             schuetzen = get_schuetzen(data, disziplin)
@@ -224,13 +232,29 @@ def get_overview(gau_nr, vereinsnummer):
                 del mannschaft['disziplin']
                 for tabellen_mannschaft in mannschaft['info'].get('tabelle', []):
                     del tabellen_mannschaft['disziplin']
-            return data
+            if include_ersatz:
+                ersatz_mannschaft = {
+                    'vereinsnummer': vereinsnummer,
+                    'gruppe': 'Ersatz',
+                    'disziplin': disziplin
+                }
+                ersatz_mannschaft['schuetzen'] = get_schuetzen_mannschaft(schuetzen, ersatz_mannschaft)
+                del ersatz_mannschaft['disziplin']
+                if len(ersatz_mannschaft.get('schuetzen', [])) != 0:
+                    disziplin['mannschaften'].append(ersatz_mannschaft)
+                
+        return data
     return None
 
+args = sys.argv[1:]
+if 'all' in args:
+    args = None
+elif len(args) != 0:
+    args = [to_int(arg) for arg in args if to_int(arg)]
 path = os.path.dirname(__file__)
 file = open(path + '/' + 'rwk_data.yml', 'w')
 file2 = open(path + '/' + 'rwk_data.json', 'w')
-data = get_overview('102000', '102013')
+data = get_overview('102000', '102013', args, include_ersatz = True)
 if data:
     yaml.dump(data, file, allow_unicode=True)
     json.dump(data, file2, ensure_ascii=False)

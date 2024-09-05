@@ -26,7 +26,7 @@ Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_b
 {% for mannschaft in disziplin.mannschaften %}
 
 <details>
-  <summary><b><center>{{ mannschaft.mannschafts_nr }}. Mannschaft ({{ mannschaft.klassen_name }})</center></b></summary>
+  <summary><b><center>{% if mannschaft.mannschafts_nr and mannschaft.klassen_name %}{{ mannschaft.mannschafts_nr }}. Mannschaft ({{ mannschaft.klassen_name }}){% else %}{{ mannschaft.gruppe }}{% endif %}</center></b></summary>
   Schützen:
   <ul>
   {% for schuetze in mannschaft.schuetzen %}
@@ -34,12 +34,12 @@ Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_b
   {% endfor %}
   </ul>
   {% assign info = mannschaft.info %}
+  {% if mannschaft.info %}
   <table>
   <tr><th>Tabelle {{ mannschaft.gruppe }} {{ mannschaft.gruppen_nr }}</th></tr>
   <tr><th>Platz</th><th>Mannschaft</th><th>Ringe</th><th>Punkte</th></tr>
   {% for m in info.tabelle %}{% capture bs %}{% if mannschaft.vereinsnummer == m.vereinsnummer and mannschaft.mannschafts_nr == m.mannschafts_nr %}<b>{% else %}{% endif %}{% endcapture %}{% capture be %}{% if mannschaft.vereinsnummer == m.vereinsnummer and mannschaft.mannschafts_nr == m.mannschafts_nr %}</b>{% else %}{% endif %}{% endcapture %}<tr><td>{{ bs }}{{ m.platzierung }}{{ be }}</td><td>{{ bs }}{{ m.name }} {{ m.mannschafts_nr }}{{ be }}</td><td>{{ bs }}{{ m.ringe }} (&#8960; {% assign g = m.anzahl_geschossen | times: 1.0 %}{{ m.ringe | divided_by: g | round }}){{ be }}</td><td>{{ bs }}{{ m.punkte_gewonnen }}:{{ m.punkte_verloren }}{{ be }}</td></tr>{% endfor %}
   </table>
-
   <table>
   <tr><th>Durchgänge</th></tr>
   <tr><th>Runde</th><th>Datum</th><th>Heimmannschaft</th><th>Gastmannschaft</th><th>Ergebnis</th><th>Punkte</th></tr>
@@ -47,6 +47,7 @@ Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_b
   <tr{% if durchgang.sieg %} class="durchgang_{% if durchgang.sieg == 1 %}win{% elsif durchgang.sieg == 0%}tie{% else %}def{% endif %}"{% endif %}><td>{{ durchgang.wettkampftag }}. {{ durchgang.runde }}</td><td>{{ durchgang.datum_iso | date: "%d.%m.%Y %H:%M" }}</td><td>{{ durchgang.heim_name }} {{ durchgang.heim_mannschafts_nr }}</td><td>{{ durchgang.gast_name }} {{ durchgang.gast_mannschafts_nr }}</td><td>{% if durchgang.heim_ringe and durchgang.gast_ringe %}{{ durchgang.heim_ringe }} : {{ durchgang.gast_ringe }}{% endif %}</td><td>{{ durchgang.punkte }}</td></tr>
   {% endfor %}
   </table>
+{% endif %}
 </details>
 {% endfor %}
 {% endfor %}

@@ -1,7 +1,12 @@
 name: Update RWK
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      years:
+        description: 'Years to fetch (empty for the most recent year and "all" for all years)'
+        required: false
+        type: string
 permissions:
   contents: write
 jobs:
@@ -20,7 +25,7 @@ jobs:
           pip install PyYAML
       - name: Fetch RWK data
         run: |
-          python _data/rwk.py
+          python _data/rwk.py ${{ inputs.years }}
       - name: Commit changes
         run: |
           git config user.name github-actions

@@ -1,0 +1,25 @@
+name: Update RWK
+
+on:
+  workflow_dispatch: {}
+jobs:
+  getdataandrefreshmap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v3
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12
+      - name: Install dependencies
+        run: |
+          pip install requests
+      - name: Update RWK
+        run: |
+          python _data/rwk.py
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add _data/rwk_data.yml _data/rwk_data.json
+          git commit -m "Update RWK"
+          git push

@@ -1,4 +1,4 @@
-import requests, yaml, json
+import requests, yaml, json, os
 
 def fetch(path, query = {}):
     if not query:

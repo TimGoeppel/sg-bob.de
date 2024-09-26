@@ -374,9 +374,23 @@ disziplinen:
         klasse: OK
         klassen_id: '2666'
         klassen_name: Offene Klasse
+        mannschafts_nr: 1
+        name: SV Bürglein
+        platzierung: 3
+        punkte_gewonnen: 2
+        punkte_verloren: 0
+        ringe: 1326
+        vereinsnummer: '102012'
+      - anzahl_geschossen: 1
+        gruppe: B-Klasse
+        gruppen_id: '5434'
+        gruppen_nr: 5
+        klasse: OK
+        klassen_id: '2666'
+        klassen_name: Offene Klasse
         mannschafts_nr: 2
         name: SV H.T.Steinbach
-        platzierung: 3
+        platzierung: 4
         punkte_gewonnen: 0
         punkte_verloren: 2
         ringe: 1310
@@ -390,11 +404,25 @@ disziplinen:
         klassen_name: Offene Klasse
         mannschafts_nr: 4
         name: SV Rauenzell
-        platzierung: 4
+        platzierung: 5
         punkte_gewonnen: 0
         punkte_verloren: 2
         ringe: 1290
         vereinsnummer: '102038'
+      - anzahl_geschossen: 1
+        gruppe: B-Klasse
+        gruppen_id: '5434'
+        gruppen_nr: 5
+        klasse: OK
+        klassen_id: '2666'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 1
+        name: SV Neunstetten
+        platzierung: 6
+        punkte_gewonnen: 0
+        punkte_verloren: 2
+        ringe: 1257
+        vereinsnummer: '102033'
     klasse: OK
     klassen_id: '2666'
     klassen_name: Offene Klasse

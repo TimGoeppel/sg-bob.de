@@ -323,7 +323,7 @@ disziplinen:
         heim_mannschafts_nr: 2
         heim_name: SG Burgoberbach
         heim_ringe: 1306
-        platzierung: 4
+        platzierung: 3
         punkte: '2:0'
         punkte_akkumulativ: '4:4'
         runde: Vorrunde
@@ -379,7 +379,7 @@ disziplinen:
         wettkampftag: 5
       max: 1334.0
       min: 1301.0
-      platzierung: 4
+      platzierung: 3
       tabelle:
       - anzahl_geschossen: 4
         gruppe: B-Klasse
@@ -395,7 +395,7 @@ disziplinen:
         punkte_verloren: 2
         ringe: 5301
         vereinsnummer: '102056'
-      - anzahl_geschossen: 3
+      - anzahl_geschossen: 4
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 5
@@ -405,24 +405,10 @@ disziplinen:
         mannschafts_nr: 1
         name: SV Bürglein
         platzierung: 2
-        punkte_gewonnen: 4
+        punkte_gewonnen: 6
         punkte_verloren: 2
-        ringe: 3980
+        ringe: 5299
         vereinsnummer: '102012'
-      - anzahl_geschossen: 3
-        gruppe: B-Klasse
-        gruppen_id: '5434'
-        gruppen_nr: 5
-        klasse: OK
-        klassen_id: '2666'
-        klassen_name: Offene Klasse
-        mannschafts_nr: 2
-        name: SV H.T.Steinbach
-        platzierung: 3
-        punkte_gewonnen: 4
-        punkte_verloren: 2
-        ringe: 3936
-        vereinsnummer: '102045'
       - anzahl_geschossen: 4
         gruppe: B-Klasse
         gruppen_id: '5434'
@@ -432,12 +418,26 @@ disziplinen:
         klassen_name: Offene Klasse
         mannschafts_nr: 2
         name: SG Burgoberbach
-        platzierung: 4
+        platzierung: 3
         punkte_gewonnen: 4
         punkte_verloren: 4
         ringe: 5268
         vereinsnummer: '102013'
-      - anzahl_geschossen: 3
+      - anzahl_geschossen: 4
+        gruppe: B-Klasse
+        gruppen_id: '5434'
+        gruppen_nr: 5
+        klasse: OK
+        klassen_id: '2666'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SV H.T.Steinbach
+        platzierung: 4
+        punkte_gewonnen: 4
+        punkte_verloren: 4
+        ringe: 5246
+        vereinsnummer: '102045'
+      - anzahl_geschossen: 4
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 5
@@ -447,11 +447,11 @@ disziplinen:
         mannschafts_nr: 4
         name: SV Rauenzell
         platzierung: 5
-        punkte_gewonnen: 2
-        punkte_verloren: 4
-        ringe: 3905
+        punkte_gewonnen: 3
+        punkte_verloren: 5
+        ringe: 5204
         vereinsnummer: '102038'
-      - anzahl_geschossen: 3
+      - anzahl_geschossen: 4
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 5
@@ -461,15 +461,15 @@ disziplinen:
         mannschafts_nr: 1
         name: SV Neunstetten
         platzierung: 6
-        punkte_gewonnen: 0
-        punkte_verloren: 6
-        ringe: 3868
+        punkte_gewonnen: 1
+        punkte_verloren: 7
+        ringe: 5167
         vereinsnummer: '102033'
     klasse: OK
     klassen_id: '2666'
     klassen_name: Offene Klasse
     mannschafts_nr: 2
-    platzierung: 4
+    platzierung: 3
     schuetzen:
     - anzahl_ersatz: 0
       anzahl_stamm: 4

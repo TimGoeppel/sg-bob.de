@@ -10,7 +10,7 @@ disziplinen:
     gruppen_id: '5434'
     gruppen_nr: 1
     info:
-      avg: 1371.5
+      avg: 1380.0
       durchgaenge:
       - avg: 1406.0
         datum_iso: '2024-09-13 20:00:00'
@@ -72,13 +72,20 @@ disziplinen:
         runde: Vorrunde
         sieg: -1
         wettkampftag: 4
-      - datum_iso: '2024-11-08 20:00:00'
+      - avg: 1380.0
+        datum_iso: '2024-11-08 20:00:00'
         gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
+        gast_ringe: 1414
         heim_id: '556582'
         heim_mannschafts_nr: 3
         heim_name: SG Elbersroth
+        heim_ringe: 1353
+        platzierung: 4
+        punkte: '2:0'
+        punkte_akkumulativ: '4:6'
         runde: Vorrunde
+        sieg: 1
         wettkampftag: 5
       - datum_iso: '2024-11-22 20:00:00'
         gast_mannschafts_nr: 1
@@ -120,25 +127,11 @@ disziplinen:
         heim_name: SG Burgoberbach
         runde: Rückrunde
         wettkampftag: 5
-      max: 1406.0
+      max: 1414.0
       min: 1344.0
       platzierung: 4
       tabelle:
-      - anzahl_geschossen: 4
-        gruppe: B-Klasse
-        gruppen_id: '5434'
-        gruppen_nr: 1
-        klasse: OK
-        klassen_id: '2666'
-        klassen_name: Offene Klasse
-        mannschafts_nr: 2
-        name: SG Sachsen
-        platzierung: 1
-        punkte_gewonnen: 8
-        punkte_verloren: 0
-        ringe: 5651
-        vereinsnummer: '102042'
-      - anzahl_geschossen: 4
+      - anzahl_geschossen: 5
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 1
@@ -147,12 +140,26 @@ disziplinen:
         klassen_name: Offene Klasse
         mannschafts_nr: 2
         name: SV Buch-am-Wald
-        platzierung: 2
-        punkte_gewonnen: 6
+        platzierung: 1
+        punkte_gewonnen: 8
         punkte_verloren: 2
-        ringe: 5584
+        ringe: 7001
         vereinsnummer: '102011'
-      - anzahl_geschossen: 4
+      - anzahl_geschossen: 5
+        gruppe: B-Klasse
+        gruppen_id: '5434'
+        gruppen_nr: 1
+        klasse: OK
+        klassen_id: '2666'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SG Sachsen
+        platzierung: 2
+        punkte_gewonnen: 8
+        punkte_verloren: 2
+        ringe: 6996
+        vereinsnummer: '102042'
+      - anzahl_geschossen: 5
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 1
@@ -162,11 +169,11 @@ disziplinen:
         mannschafts_nr: 6
         name: SV Petersaurach
         platzierung: 3
-        punkte_gewonnen: 6
+        punkte_gewonnen: 8
         punkte_verloren: 2
-        ringe: 5536
+        ringe: 6945
         vereinsnummer: '102037'
-      - anzahl_geschossen: 4
+      - anzahl_geschossen: 5
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 1
@@ -176,11 +183,11 @@ disziplinen:
         mannschafts_nr: 1
         name: SG Burgoberbach
         platzierung: 4
-        punkte_gewonnen: 2
+        punkte_gewonnen: 4
         punkte_verloren: 6
-        ringe: 5486
+        ringe: 6900
         vereinsnummer: '102013'
-      - anzahl_geschossen: 4
+      - anzahl_geschossen: 5
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 1
@@ -191,10 +198,10 @@ disziplinen:
         name: SG Elbersroth
         platzierung: 5
         punkte_gewonnen: 2
-        punkte_verloren: 6
-        ringe: 5361
+        punkte_verloren: 8
+        ringe: 6714
         vereinsnummer: '102067'
-      - anzahl_geschossen: 4
+      - anzahl_geschossen: 5
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 1
@@ -205,8 +212,8 @@ disziplinen:
         name: SV Leibelbach-Heuberg
         platzierung: 6
         punkte_gewonnen: 0
-        punkte_verloren: 8
-        ringe: 5339
+        punkte_verloren: 10
+        ringe: 6703
         vereinsnummer: '102027'
     klasse: OK
     klassen_id: '2666'
@@ -215,22 +222,22 @@ disziplinen:
     platzierung: 4
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 4
-      avg: 328.75
+      anzahl_stamm: 5
+      avg: 334.2
       avg_ersatz: 0.0
-      avg_stamm: 328.75
+      avg_stamm: 334.2
       gruppe: B-Klasse
       id: '375127'
       mannschafts_nr: 1
-      max: 351
+      max: 356
       min: 309
       nachname: Fetzer
       vorname: Angelina
     - anzahl_ersatz: 0
-      anzahl_stamm: 4
-      avg: 332.75
+      anzahl_stamm: 5
+      avg: 333.8
       avg_ersatz: 0.0
-      avg_stamm: 332.75
+      avg_stamm: 333.8
       gruppe: B-Klasse
       id: '375125'
       mannschafts_nr: 1
@@ -239,10 +246,10 @@ disziplinen:
       nachname: Göppel
       vorname: Tim
     - anzahl_ersatz: 0
-      anzahl_stamm: 4
-      avg: 354.0
+      anzahl_stamm: 5
+      avg: 354.6
       avg_ersatz: 0.0
-      avg_stamm: 354.0
+      avg_stamm: 354.6
       gruppe: B-Klasse
       id: '314646'
       mannschafts_nr: 1
@@ -251,10 +258,10 @@ disziplinen:
       nachname: Huber
       vorname: Jakob
     - anzahl_ersatz: 0
-      anzahl_stamm: 4
-      avg: 356.0
+      anzahl_stamm: 5
+      avg: 357.4
       avg_ersatz: 0.0
-      avg_stamm: 356.0
+      avg_stamm: 357.4
       gruppe: B-Klasse
       id: '16759'
       mannschafts_nr: 1
@@ -267,7 +274,7 @@ disziplinen:
     gruppen_id: '5434'
     gruppen_nr: 5
     info:
-      avg: 1317.0
+      avg: 1323.8
       durchgaenge:
       - avg: 1334.0
         datum_iso: '2024-09-13 20:00:00'
@@ -329,13 +336,20 @@ disziplinen:
         runde: Vorrunde
         sieg: 1
         wettkampftag: 4
-      - datum_iso: '2024-11-08 20:00:00'
+      - avg: 1323.8
+        datum_iso: '2024-11-08 20:00:00'
         gast_mannschafts_nr: 2
         gast_name: SG Burgoberbach
+        gast_ringe: 1351
         heim_id: '556702'
         heim_mannschafts_nr: 1
         heim_name: SV Neunstetten
+        heim_ringe: 1230
+        platzierung: 2
+        punkte: '2:0'
+        punkte_akkumulativ: '6:4'
         runde: Vorrunde
+        sieg: 1
         wettkampftag: 5
       - datum_iso: '2024-11-22 20:00:00'
         gast_mannschafts_nr: 2
@@ -377,25 +391,11 @@ disziplinen:
         heim_name: SG Burgoberbach
         runde: Rückrunde
         wettkampftag: 5
-      max: 1334.0
+      max: 1351.0
       min: 1301.0
-      platzierung: 3
+      platzierung: 2
       tabelle:
-      - anzahl_geschossen: 4
-        gruppe: B-Klasse
-        gruppen_id: '5434'
-        gruppen_nr: 5
-        klasse: OK
-        klassen_id: '2666'
-        klassen_name: Offene Klasse
-        mannschafts_nr: 2
-        name: SV Winterschneidbach
-        platzierung: 1
-        punkte_gewonnen: 6
-        punkte_verloren: 2
-        ringe: 5301
-        vereinsnummer: '102056'
-      - anzahl_geschossen: 4
+      - anzahl_geschossen: 5
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 5
@@ -404,12 +404,12 @@ disziplinen:
         klassen_name: Offene Klasse
         mannschafts_nr: 1
         name: SV Bürglein
-        platzierung: 2
-        punkte_gewonnen: 6
+        platzierung: 1
+        punkte_gewonnen: 8
         punkte_verloren: 2
-        ringe: 5299
+        ringe: 6620
         vereinsnummer: '102012'
-      - anzahl_geschossen: 4
+      - anzahl_geschossen: 5
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 5
@@ -418,11 +418,25 @@ disziplinen:
         klassen_name: Offene Klasse
         mannschafts_nr: 2
         name: SG Burgoberbach
-        platzierung: 3
-        punkte_gewonnen: 4
+        platzierung: 2
+        punkte_gewonnen: 6
         punkte_verloren: 4
-        ringe: 5268
+        ringe: 6619
         vereinsnummer: '102013'
+      - anzahl_geschossen: 5
+        gruppe: B-Klasse
+        gruppen_id: '5434'
+        gruppen_nr: 5
+        klasse: OK
+        klassen_id: '2666'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SV Winterschneidbach
+        platzierung: 3
+        punkte_gewonnen: 6
+        punkte_verloren: 4
+        ringe: 6603
+        vereinsnummer: '102056'
       - anzahl_geschossen: 4
         gruppe: B-Klasse
         gruppen_id: '5434'
@@ -451,7 +465,7 @@ disziplinen:
         punkte_verloren: 5
         ringe: 5204
         vereinsnummer: '102038'
-      - anzahl_geschossen: 4
+      - anzahl_geschossen: 5
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 5
@@ -462,20 +476,20 @@ disziplinen:
         name: SV Neunstetten
         platzierung: 6
         punkte_gewonnen: 1
-        punkte_verloren: 7
-        ringe: 5167
+        punkte_verloren: 9
+        ringe: 6397
         vereinsnummer: '102033'
     klasse: OK
     klassen_id: '2666'
     klassen_name: Offene Klasse
     mannschafts_nr: 2
-    platzierung: 3
+    platzierung: 2
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 4
-      avg: 340.25
+      anzahl_stamm: 5
+      avg: 342.0
       avg_ersatz: 0.0
-      avg_stamm: 340.25
+      avg_stamm: 342.0
       gruppe: B-Klasse
       id: '16769'
       mannschafts_nr: 2
@@ -484,10 +498,10 @@ disziplinen:
       nachname: Appel
       vorname: Philipp
     - anzahl_ersatz: 0
-      anzahl_stamm: 4
-      avg: 338.25
+      anzahl_stamm: 5
+      avg: 337.4
       avg_ersatz: 0.0
-      avg_stamm: 338.25
+      avg_stamm: 337.4
       gruppe: B-Klasse
       id: '16750'
       mannschafts_nr: 2
@@ -496,26 +510,26 @@ disziplinen:
       nachname: Hammerl
       vorname: Christian
     - anzahl_ersatz: 0
-      anzahl_stamm: 3
-      avg: 346.0
+      anzahl_stamm: 4
+      avg: 344.75
       avg_ersatz: 0.0
-      avg_stamm: 346.0
+      avg_stamm: 344.75
       gruppe: B-Klasse
       id: '328122'
       mannschafts_nr: 2
       max: 347
-      min: 345
+      min: 341
       nachname: Schreier
       vorname: Kevin
     - anzahl_ersatz: 0
-      anzahl_stamm: 4
-      avg: 301.0
+      anzahl_stamm: 5
+      avg: 306.2
       avg_ersatz: 0.0
-      avg_stamm: 301.0
+      avg_stamm: 306.2
       gruppe: B-Klasse
       id: '394394'
       mannschafts_nr: 2
-      max: 321
+      max: 327
       min: 285
       nachname: Stieg
       vorname: Benjamin Jonas

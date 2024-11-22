@@ -437,7 +437,7 @@ disziplinen:
         punkte_verloren: 4
         ringe: 6603
         vereinsnummer: '102056'
-      - anzahl_geschossen: 4
+      - anzahl_geschossen: 5
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 5
@@ -447,11 +447,11 @@ disziplinen:
         mannschafts_nr: 2
         name: SV H.T.Steinbach
         platzierung: 4
-        punkte_gewonnen: 4
+        punkte_gewonnen: 6
         punkte_verloren: 4
-        ringe: 5246
+        ringe: 6553
         vereinsnummer: '102045'
-      - anzahl_geschossen: 4
+      - anzahl_geschossen: 5
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 5
@@ -462,8 +462,8 @@ disziplinen:
         name: SV Rauenzell
         platzierung: 5
         punkte_gewonnen: 3
-        punkte_verloren: 5
-        ringe: 5204
+        punkte_verloren: 7
+        ringe: 6510
         vereinsnummer: '102038'
       - anzahl_geschossen: 5
         gruppe: B-Klasse

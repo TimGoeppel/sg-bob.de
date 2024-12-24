@@ -280,7 +280,7 @@ disziplinen:
     gruppen_id: '5434'
     gruppen_nr: 5
     info:
-      avg: 1323.8
+      avg: 1329.0
       durchgaenge:
       - avg: 1334.0
         datum_iso: '2024-09-13 20:00:00'
@@ -357,13 +357,19 @@ disziplinen:
         runde: Vorrunde
         sieg: 1
         wettkampftag: 5
-      - datum_iso: '2024-11-22 20:00:00'
+      - avg: 1329.0
+        datum_iso: '2024-11-22 20:00:00'
         gast_mannschafts_nr: 2
         gast_name: SG Burgoberbach
+        gast_ringe: 1355
         heim_id: '556675'
         heim_mannschafts_nr: 4
         heim_name: SV Rauenzell
+        heim_ringe: 1233
+        punkte: '2:0'
+        punkte_akkumulativ: '8:4'
         runde: Rückrunde
+        sieg: 1
         wettkampftag: 1
       - datum_iso: '2025-01-24 20:00:00'
         gast_mannschafts_nr: 2
@@ -397,9 +403,9 @@ disziplinen:
         heim_name: SG Burgoberbach
         runde: Rückrunde
         wettkampftag: 5
-      max: 1351.0
+      max: 1355.0
       min: 1301.0
-      platzierung: 3
+      platzierung: 2
       tabelle:
       - anzahl_geschossen: 6
         gruppe: B-Klasse
@@ -423,13 +429,13 @@ disziplinen:
         klassen_id: '2666'
         klassen_name: Offene Klasse
         mannschafts_nr: 2
-        name: SV Winterschneidbach
+        name: SG Burgoberbach
         platzierung: 2
         punkte_gewonnen: 8
         punkte_verloren: 4
-        ringe: 7959
-        vereinsnummer: '102056'
-      - anzahl_geschossen: 5
+        ringe: 7974
+        vereinsnummer: '102013'
+      - anzahl_geschossen: 6
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 5
@@ -437,12 +443,12 @@ disziplinen:
         klassen_id: '2666'
         klassen_name: Offene Klasse
         mannschafts_nr: 2
-        name: SG Burgoberbach
+        name: SV Winterschneidbach
         platzierung: 3
-        punkte_gewonnen: 6
+        punkte_gewonnen: 8
         punkte_verloren: 4
-        ringe: 6619
-        vereinsnummer: '102013'
+        ringe: 7959
+        vereinsnummer: '102056'
       - anzahl_geschossen: 6
         gruppe: B-Klasse
         gruppen_id: '5434'
@@ -457,7 +463,7 @@ disziplinen:
         punkte_verloren: 6
         ringe: 7841
         vereinsnummer: '102045'
-      - anzahl_geschossen: 5
+      - anzahl_geschossen: 6
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 5
@@ -468,8 +474,8 @@ disziplinen:
         name: SV Rauenzell
         platzierung: 5
         punkte_gewonnen: 3
-        punkte_verloren: 7
-        ringe: 6510
+        punkte_verloren: 9
+        ringe: 7743
         vereinsnummer: '102038'
       - anzahl_geschossen: 6
         gruppe: B-Klasse
@@ -489,13 +495,13 @@ disziplinen:
     klassen_id: '2666'
     klassen_name: Offene Klasse
     mannschafts_nr: 2
-    platzierung: 3
+    platzierung: 2
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 5
-      avg: 342.0
+      anzahl_stamm: 6
+      avg: 343.0
       avg_ersatz: 0.0
-      avg_stamm: 342.0
+      avg_stamm: 343.0
       gruppe: B-Klasse
       id: '16769'
       mannschafts_nr: 2
@@ -504,10 +510,10 @@ disziplinen:
       nachname: Appel
       vorname: Philipp
     - anzahl_ersatz: 0
-      anzahl_stamm: 5
-      avg: 337.4
+      anzahl_stamm: 6
+      avg: 336.83
       avg_ersatz: 0.0
-      avg_stamm: 337.4
+      avg_stamm: 336.83
       gruppe: B-Klasse
       id: '16750'
       mannschafts_nr: 2
@@ -516,22 +522,22 @@ disziplinen:
       nachname: Hammerl
       vorname: Christian
     - anzahl_ersatz: 0
-      anzahl_stamm: 4
-      avg: 344.75
+      anzahl_stamm: 5
+      avg: 347.4
       avg_ersatz: 0.0
-      avg_stamm: 344.75
+      avg_stamm: 347.4
       gruppe: B-Klasse
       id: '328122'
       mannschafts_nr: 2
-      max: 347
+      max: 358
       min: 341
       nachname: Schreier
       vorname: Kevin
     - anzahl_ersatz: 0
-      anzahl_stamm: 5
-      avg: 306.2
+      anzahl_stamm: 6
+      avg: 307.67
       avg_ersatz: 0.0
-      avg_stamm: 306.2
+      avg_stamm: 307.67
       gruppe: B-Klasse
       id: '394394'
       mannschafts_nr: 2

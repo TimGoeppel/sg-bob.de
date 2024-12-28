@@ -78,7 +78,7 @@ format: frontpage
             </p>
             {% if post.image.homepage %}
             <p>
-                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img width="300" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title | escape_once }}"></a>
+	    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img width="{% if post.image.large %}500{% else %}300{% endif %}" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title | escape_once }}"></a>
 
             {% if post.image.caption_url and post.image.caption %}
             <p class="text-right caption">

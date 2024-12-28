@@ -204,13 +204,13 @@
   zeitbis: '11:30'
 - name: Königsschießen
   zeit: 06.06.2024 18:30
-  zeitbis: 21:00
+  zeitbis: 1260
 - name: Königsschießen
   zeit: 13.06.2024 18:30
-  zeitbis: 21:00
+  zeitbis: 1260
 - name: Königsschießen
   zeit: 20.06.2024 18:30
-  zeitbis: 21:00
+  zeitbis: 1260
 - name: Königsproklamation und -abholung
   zeit: 22.06.2024 18:30
 - name: Training
@@ -319,3 +319,209 @@
   zeit: 19.12.2024 18:30
 - name: Jahresabschluss
   zeit: 31.12.2024 18:00
+- name: Training
+  wiederholt: true
+  zeit: 02.01.2025 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 04.01.2025 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 09.01.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 16.01.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 23.01.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 30.01.2025 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 01.02.2025 10:00
+  zeitbis: '11:30'
+- name: Karaokeabend
+  zeit: 01.02.2025 20:00
+- name: Training
+  wiederholt: true
+  zeit: 06.02.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 13.02.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 20.02.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 27.02.2025 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 01.03.2025 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 06.03.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 13.03.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 20.03.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 27.03.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 03.04.2025 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 05.04.2025 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 10.04.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 17.04.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 24.04.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 01.05.2025 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 03.05.2025 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 08.05.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 15.05.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 22.05.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 29.05.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 05.06.2025 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 07.06.2025 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 12.06.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 19.06.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 26.06.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 03.07.2025 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 05.07.2025 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 10.07.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 17.07.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 24.07.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 31.07.2025 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 02.08.2025 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 07.08.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 14.08.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 21.08.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 28.08.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 04.09.2025 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 06.09.2025 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 11.09.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 18.09.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 25.09.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 02.10.2025 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 04.10.2025 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 09.10.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 16.10.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 23.10.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 30.10.2025 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 01.11.2025 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 06.11.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 13.11.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 20.11.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 27.11.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 04.12.2025 18:30
+- name: Schützenzwerge
+  wiederholt: true
+  zeit: 06.12.2025 10:00
+  zeitbis: '11:30'
+- name: Training
+  wiederholt: true
+  zeit: 11.12.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 18.12.2025 18:30
+- name: Training
+  wiederholt: true
+  zeit: 25.12.2025 18:30

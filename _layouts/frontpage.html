@@ -68,7 +68,7 @@ format: frontpage
 
 
     <div class="row">
-        <div class="medium-6 columns">
+        <div class="medium-7 columns">
             {% for post in site.posts limit:1 %}
             {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %}
             <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -78,8 +78,8 @@ format: frontpage
             </p>
             {% if post.image.homepage %}
             <p>
-	    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img width="{% if post.image.large %}500{% else %}300{% endif %}" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title | escape_once }}"></a>
-
+	    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img width="{% if post.image.large %}600{% else %}300{% endif %}" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title | escape_once }}"></a>
+	    </p>
             {% if post.image.caption_url and post.image.caption %}
             <p class="text-right caption">
                 <a href="{{ post.image.caption_url }}">{{ post.image.caption }}</a>
@@ -89,7 +89,7 @@ format: frontpage
         </div><!-- /.medium-5.columns -->
 
 
-        <div class="medium-6 columns">{% include termine %}{% assign termin = termine | first %}{% include termin termin=termin customname=false pre="<p><strong>Nächster Termin</strong></p><p>" post="</p>" %}
+        <div class="medium-5 columns">{% include termine %}{% assign termin = termine | first %}{% include termin termin=termin customname=false pre="<p><strong>Nächster Termin</strong></p><p>" post="</p>" %}
 			<p><strong>{{ site.data.language.more_articles }}</strong></p>
             {% include list-posts entries='3' offset='1' %}
         </div><!-- /.medium-7.columns -->

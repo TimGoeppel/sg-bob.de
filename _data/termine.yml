@@ -386,7 +386,7 @@
 - name: Training
   wiederholt: true
   zeit: 10.04.2025 18:30
-- name: Ende Gauschießen in Elbersroth (Ende)
+- name: Gauschießen in Elbersroth (Ende)
   zeit: 13.04.2025
 - name: Training
   wiederholt: true
@@ -401,17 +401,16 @@
   wiederholt: true
   zeit: 03.05.2025 10:00
   zeitbis: '11:30'
-- name: Training
-  wiederholt: true
+- name: Königsschießen Burgoberbach
   zeit: 08.05.2025 18:30
 - name: König Neuses
   zeit: 10.05.2025
-- name: Training
-  wiederholt: true
+- name: Königsschießen Burgoberbach
   zeit: 15.05.2025 18:30
-- name: Training
-  wiederholt: true
+- name: Königsschießen Burgoberbach
   zeit: 22.05.2025 18:30
+- name: König Burgoberbach
+  zeit: 24.05.2025
 - name: Training
   wiederholt: true
   zeit: 29.05.2025 18:30
@@ -424,13 +423,16 @@
   zeitbis: '11:30'
 - name: König Winterschneidbach
   zeit: 07.06.2025
-- name: Königsschießen Burgoberbach
+- name: Training
+  wiederholt: true
   zeit: 12.06.2025 18:30
 - name: Gauschützenfest Elbersroth
   zeit: 15.06.2025
-- name: Königsschießen Burgoberbach
+- name: Training
+  wiederholt: true
   zeit: 19.06.2025 18:30
-- name: Königsschießen Burgoberbach
+- name: Training
+  wiederholt: true
   zeit: 20.06.2025 18:30
 - name: Training
   wiederholt: true
@@ -442,14 +444,14 @@
   wiederholt: true
   zeit: 05.07.2025 10:00
   zeitbis: '11:30'
-- name: König Burgoberbach
-  zeit: 05.07.2025
 - name: Training
   wiederholt: true
   zeit: 10.07.2025 18:30
 - name: Training
   wiederholt: true
   zeit: 17.07.2025 18:30
+- name: 100 Jahre SG Niederoberbach
+  zeit: 19.07.2025
 - name: Training
   wiederholt: true
   zeit: 24.07.2025 18:30

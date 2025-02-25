@@ -169,7 +169,7 @@ disziplinen:
         punkte_verloren: 2
         ringe: 12654
         vereinsnummer: '102042'
-      - anzahl_geschossen: 8
+      - anzahl_geschossen: 9
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 1
@@ -180,10 +180,10 @@ disziplinen:
         name: SV Buch-am-Wald
         platzierung: 2
         punkte_gewonnen: 14
-        punkte_verloren: 2
-        ringe: 11231
+        punkte_verloren: 4
+        ringe: 12644
         vereinsnummer: '102011'
-      - anzahl_geschossen: 8
+      - anzahl_geschossen: 9
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 1
@@ -193,9 +193,9 @@ disziplinen:
         mannschafts_nr: 6
         name: SV Petersaurach
         platzierung: 3
-        punkte_gewonnen: 10
+        punkte_gewonnen: 12
         punkte_verloren: 6
-        ringe: 11125
+        ringe: 12548
         vereinsnummer: '102037'
       - anzahl_geschossen: 9
         gruppe: B-Klasse
@@ -499,7 +499,7 @@ disziplinen:
         punkte_verloren: 8
         ringe: 11761
         vereinsnummer: '102045'
-      - anzahl_geschossen: 8
+      - anzahl_geschossen: 9
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 5
@@ -510,10 +510,10 @@ disziplinen:
         name: SV Rauenzell
         platzierung: 5
         punkte_gewonnen: 3
-        punkte_verloren: 13
-        ringe: 10279
+        punkte_verloren: 15
+        ringe: 11541
         vereinsnummer: '102038'
-      - anzahl_geschossen: 8
+      - anzahl_geschossen: 9
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 5
@@ -523,9 +523,9 @@ disziplinen:
         mannschafts_nr: 1
         name: SV Neunstetten
         platzierung: 6
-        punkte_gewonnen: 1
+        punkte_gewonnen: 3
         punkte_verloren: 15
-        ringe: 10079
+        ringe: 11353
         vereinsnummer: '102033'
     klasse: OK
     klassen_id: '2666'

@@ -455,7 +455,7 @@ disziplinen:
       min: 1301.0
       platzierung: 2
       tabelle:
-      - anzahl_geschossen: 9
+      - anzahl_geschossen: 10
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 5
@@ -465,9 +465,9 @@ disziplinen:
         mannschafts_nr: 1
         name: SV Bürglein
         platzierung: 1
-        punkte_gewonnen: 14
+        punkte_gewonnen: 16
         punkte_verloren: 4
-        ringe: 11965
+        ringe: 13335
         vereinsnummer: '102012'
       - anzahl_geschossen: 10
         gruppe: B-Klasse
@@ -483,7 +483,7 @@ disziplinen:
         punkte_verloren: 6
         ringe: 13324
         vereinsnummer: '102013'
-      - anzahl_geschossen: 9
+      - anzahl_geschossen: 10
         gruppe: B-Klasse
         gruppen_id: '5434'
         gruppen_nr: 5
@@ -494,8 +494,8 @@ disziplinen:
         name: SV Winterschneidbach
         platzierung: 3
         punkte_gewonnen: 12
-        punkte_verloren: 6
-        ringe: 12052
+        punkte_verloren: 8
+        ringe: 13378
         vereinsnummer: '102056'
       - anzahl_geschossen: 10
         gruppe: B-Klasse

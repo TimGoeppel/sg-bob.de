@@ -81,7 +81,7 @@ new Chart(document.getElementById('{{ chartid }}'), {
                         if(diff > 0) {
                             diff *= -1;
                         }
-                    })
+                    });
                     return "Differenz: " + (-diff);
                 } }
              }

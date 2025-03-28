@@ -89,7 +89,7 @@ format: frontpage
         </div><!-- /.medium-5.columns -->
 
 
-        <div class="medium-5 columns">{% include termine %}{% assign termin = termine | first %}{% include termin termin=termin customname=false pre="<p><strong>Nächster Termin</strong></p><p>" post="</p>" %}
+	{% capture pre %}<p><strong>{{ site.data.language.next_appointment }}</strong></p><ul class="side-nav"><li>{% endcapture %}{% capture post %}<li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/aktuelles/"><strong>{{ site.data.language.more }}</strong></a></li>{% endcapture %}<div class="medium-5 columns">{% include termine %}{% assign termin = termine | first %}{% assign termin2 = termine[1] %}{% include termin termin=termin customname=false pre=pre post='</li>' %}{% include termin termin=termin2 customname=false pre='<li>' post=post %}
 			<p><strong>{{ site.data.language.more_articles }}</strong></p>
             {% include list-posts entries='3' offset='1' %}
         </div><!-- /.medium-7.columns -->

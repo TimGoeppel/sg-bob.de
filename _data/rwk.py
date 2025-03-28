@@ -9,12 +9,13 @@ def fetch(path, query = {}):
 
     try:
         req = requests.get('https://www.rwk-shooting.de/drucken/webservices/' + path + '.php', params = query)
-        if req.ok:
+        if req.status_code == 204 or not req.text: # Empty response
+            return {}
+        elif req.ok:
             return req.json()
     except Exception as e:
-        print('Exception during execution of "fetch":')
+        print('Exception during execution of "fetch" (status code ' + str(req.status_code) + '): (' + str(path) + ', ' + str(query) + ')')
         print(e)
-
     return {}
 
 def to_int(string):
@@ -176,6 +177,50 @@ def get_mannschaftsinfo(mannschaft, erzeuge_tabelle = True, erzeuge_durchgaenge 
     }
     return mannschafts_info
 
+def get_chartjs(vereins_name, mannschaft, mannschafts_info):
+    try:
+        if vereins_name == None or mannschaft == None or 'klasse' not in mannschaft or 'mannschafts_nr' not in mannschaft or mannschafts_info == None or 'avg' not in mannschafts_info or 'durchgaenge' not in mannschafts_info or mannschafts_info['durchgaenge'] == None:
+            return None
+        maximum = 400
+        if mannschaft['klasse'] in ['Jug', 'Jugendklasse']:
+            maximum *= 3
+        else:
+            maximum *= 4
+        avg = mannschafts_info['avg']
+        s_min = max(2 * avg - maximum, 0)
+        labels = []
+        data_verein = []
+        data_gegner = []
+        for durchgang in mannschafts_info['durchgaenge']:
+            if 'wettkampftag' in durchgang and 'heim_name' in durchgang and 'heim_ringe' in durchgang and 'gast_ringe' in durchgang:
+                labels.append(str(durchgang['wettkampftag']) + '. ' + durchgang['runde'])
+                heim = durchgang['heim_name'] == vereins_name
+                data_verein.append(durchgang['heim_ringe' if heim else 'gast_ringe'])
+                data_gegner.append(durchgang['gast_ringe' if heim else 'heim_ringe'])
+
+        data = {
+            'labels': labels,
+            'datasets': [
+                {
+                    'label': vereins_name + ' ' + str(mannschaft['mannschafts_nr']),
+                    'data': data_verein,
+                    'pointRadius': 6
+                },
+                {
+                    'label': 'Gegner',
+                    'data': data_gegner,
+                    'pointRadius': 6
+                }
+            ]
+        }
+        return {
+            'data': data,
+            'suggested_min': s_min,
+            'max': maximum
+        }
+    except Exception as e:
+        return None
+
 def get_schuetzen(verein, disziplin, erzeuge_durchgaenge = False):
     schuetzen = fetch('get_shooter', {
         'vereinsnummer': verein.get('vereinsnummer'),
@@ -210,7 +255,7 @@ def get_schuetzen_mannschaft(schuetzen, mannschaft):
     return [schuetze for schuetze in schuetzen if (isinstance(schuetze, dict) and schuetze.get('mannschafts_nr') == mannschaft.get('mannschafts_nr') and schuetze.get('gruppe') == mannschaft.get('gruppe'))]
 
 # If 'years' is empty, use the current year, and if 'years' is equal to 'None', show all years.
-def get_overview(gau_nr, vereinsnummer, years, include_ersatz = False):
+def get_overview(gau_nr, vereinsnummer, vereins_name, years, include_ersatz = False):
     data = {
             'gau_nr': gau_nr,
             'vereinsnummer': vereinsnummer
@@ -230,6 +275,9 @@ def get_overview(gau_nr, vereinsnummer, years, include_ersatz = False):
                 mannschaft['info'] = get_mannschaftsinfo(mannschaft)
                 mannschaft['schuetzen'] = get_schuetzen_mannschaft(schuetzen, mannschaft)
                 del mannschaft['disziplin']
+                chartjs = get_chartjs(vereins_name, mannschaft, mannschaft['info'])
+                if chartjs != None:
+                    mannschaft['chartjs'] = chartjs
                 for tabellen_mannschaft in mannschaft['info'].get('tabelle', []):
                     del tabellen_mannschaft['disziplin']
             if include_ersatz:
@@ -254,7 +302,7 @@ elif len(args) != 0:
 path = os.path.dirname(__file__)
 file = open(path + '/' + 'rwk_data.yml', 'w')
 file2 = open(path + '/' + 'rwk_data.json', 'w')
-data = get_overview('102000', '102013', args, include_ersatz = True)
+data = get_overview('102000', '102013', 'SG Burgoberbach', args, include_ersatz = True)
 if data:
     yaml.dump(data, file, allow_unicode=True)
     json.dump(data, file2, ensure_ascii=False)

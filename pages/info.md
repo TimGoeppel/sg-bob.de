@@ -13,6 +13,9 @@ permalink: "/info/"
 - Gründung am 15. Mai 1958
 - …
 
+{% include todo msg="Chronik hinzufügen" %}
+{% include todo msg="Liste von (Bürger- und) Schützenkönigen?" %}
+
 Teil des [Schützengaus Ansbach](https://gau-ansbach.de/){:target="_blank"},
 des [Mittelfränkischen Schützenbundes](https://www.bssb-msb.de/){:target="_blank"},
 des [Bayerischen Sportschützenbundes](https://www.bssb.de/){:target="_blank"}

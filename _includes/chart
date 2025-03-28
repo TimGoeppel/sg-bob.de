@@ -1,0 +1,10 @@
+<div>
+	<canvas id="{{ include.id | default: "chart" }}"></canvas>
+</div>{% if include.json %}
+<script>
+	(async function() {
+			// TODO
+			new Chart(document.getElementById('{{ include.id | default: "chart" }}'), {});
+	})();
+</script>
+{% endif %}

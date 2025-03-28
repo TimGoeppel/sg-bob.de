@@ -6,6 +6,7 @@ permalink: "/rwk/"
 header: no
 image:
   title: "rundenwettkaempfe.jpeg"
+chartjs: true
 ---
 <style>
 .durchgang_win {
@@ -24,7 +25,6 @@ Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_b
 
 ## {{ disziplin.disziplin }} {{ disziplin.sportjahr }}
 {% for mannschaft in disziplin.mannschaften %}
-
 <details>
   <summary><b><center>{% if mannschaft.mannschafts_nr and mannschaft.klassen_name %}{{ mannschaft.mannschafts_nr }}. Mannschaft ({{ mannschaft.klassen_name }}){% else %}{{ mannschaft.gruppe }}{% endif %}</center></b></summary>
   Schützen:
@@ -47,6 +47,51 @@ Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_b
   <tr{% if durchgang.sieg %} class="durchgang_{% if durchgang.sieg == 1 %}win{% elsif durchgang.sieg == 0%}tie{% else %}def{% endif %}"{% endif %}><td>{{ durchgang.wettkampftag }}. {{ durchgang.runde }}</td><td>{{ durchgang.datum_iso | date: "%d.%m.%Y %H:%M" }}</td><td>{{ durchgang.heim_name }} {{ durchgang.heim_mannschafts_nr }}</td><td>{{ durchgang.gast_name }} {{ durchgang.gast_mannschafts_nr }}</td><td>{% if durchgang.heim_ringe and durchgang.gast_ringe %}{{ durchgang.heim_ringe }} : {{ durchgang.gast_ringe }}{% endif %}</td><td>{{ durchgang.punkte }}</td></tr>
   {% endfor %}
   </table>
+{% endif %}
+{% if mannschaft.chartjs %}
+{% assign chartid = "chart_" | append: disziplin.id | append: "_" | append: mannschaft.klasse | append: "_" | append: mannschaft.gruppen_nr | replace: " ", "_" | downcase %}
+{% include chart id=chartid %}
+<script>
+(async function() {
+new Chart(document.getElementById('{{ chartid }}'), {
+    type: 'line',
+    data: JSON.parse('{{ mannschaft.chartjs.data | jsonify }}'),
+    options: {
+        locale: 'de-DE',
+        scales: {
+            y: {
+                title: { display: true, text: 'Ringe' },
+                suggestedMin: {{ mannschaft.chartjs.suggested_min }},
+                max: {{ mannschaft.chartjs.max }},
+                ticks: {
+                    callback: function(val, index) {
+                        return (val == {{ mannschaft.chartjs.max }}) ? 'Max. ' + this.getLabelForValue(val) : this.getLabelForValue(val);
+                    }
+                }
+            }
+        },
+        interaction: {
+            intersect: false,
+            mode: 'index'
+        },
+        plugins: {
+            tooltip: {
+                callbacks: { footer: (tooltipItems) => {
+                    diff = 0;
+                    tooltipItems.forEach((tooltipItem) => {
+                        diff += tooltipItem.parsed.y;
+                        if(diff > 0) {
+                            diff *= -1;
+                        }
+                    })
+                    return "Differenz: " + (-diff);
+                } }
+             }
+        }
+    }
+})
+})();
+</script>
 {% endif %}
 </details>
 {% endfor %}

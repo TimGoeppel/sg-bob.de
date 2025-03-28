@@ -64,7 +64,9 @@ new Chart(document.getElementById('{{ chartid }}'), {
                 suggestedMin: {{ mannschaft.chartjs.suggested_min }},
                 max: {{ mannschaft.chartjs.max }},
                 ticks: {
-                    callback: (val, index) => ((val == {{ mannschaft.chartjs.max }}) ? 'Max. ' + this.getLabelForValue(val) : this.getLabelForValue(val))
+                    callback: function(val, index) {
+                      return (val == {{ mannschaft.chartjs.max }}) ? 'Max. ' + this.getLabelForValue(val) : this.getLabelForValue(val);
+                    }
                 }
             }
         },

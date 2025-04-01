@@ -1,4 +1,4 @@
 ---
 layout: null
 ---
-{% assign termine = "" | split: "" %}{% for termin in site.data.termine %}{% unless termin.wiederholt %}{% assign termine = termine | push: termin %}{% endunless %}{% endfor %}{% include calendar.ics termine=termine %}
+{% assign termine = "" | split: "" %}{% for termin in site.data.termine %}{% unless termin.wiederholt %}{% assign termine = termine | push: termin %}{% endunless %}{% endfor %}{% include calendar.ics termine=termine description="Termine des SG Burgoberbach" %}

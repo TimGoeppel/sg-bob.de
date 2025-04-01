@@ -1,4 +1,4 @@
 ---
 layout: null
 ---
-{% assign termine = site.data.rwk_data.disziplinen[0].mannschaften[0].info.durchgaenge %}{% include calendar.ics termine=termine %}
+{% assign termine = site.data.rwk_data.disziplinen[0].mannschaften[0].info.durchgaenge %}{% include calendar.ics termine=termine name="SG Burgoberbach 1 (Offene Klasse)" description="Wettkampftermine der 1. Mannschaft des SG Burgoberbach" %}

@@ -1,8 +1,15 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//SG-BOB//Kalender 1.0//DE
+URL:https://sg-bob.de/
+NAME:{% if include.name %}{{ include.name }}{% else %}SG Burgoberbach{% endif %}
+X-WR-CALNAME:{% if include.name %}{{ include.name }}{% else %}SG Burgoberbach{% endif %}{% if include.description %}
+DESCRIPTION:{{ include.description }}
+X-WR-CALDESC:{{ include.description }}{% endif %}
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
 {% comment %}https://www.smitscon.de/ics-dateien-erstellen/{% endcomment %}BEGIN:VTIMEZONE
-TZID:CET
+TZID:Europe/Berlin
 BEGIN:DAYLIGHT
 TZOFFSETFROM:+0100
 TZOFFSETTO:+0200
@@ -18,14 +25,16 @@ DTSTART:20161030T030000
 RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
 END:STANDARD
 END:VTIMEZONE
+TIMEZONE-ID:Europe/Berlin
+X-WR-TIMEZONE:Europe/Berlin
 CALSCALE:GREGORIAN
 METHOD:PUBLISH{% if include.termine %}{% assign termine = include.termine %}{% else %}{% assign termine = site.data.termine %}{% endif %}{% for termin in termine %}
 BEGIN:VEVENT
 SUMMARY:{{ termin.name }}
 UID:{{ termin.uuid }}
-DTSTART;TZID=CET:{{ termin.zeit | date: "%Y%m%d" }}{% capture hour %}{{ termin.zeit | date: "%H" }}{% endcapture %}{% unless hour == "00" %}T{{ termin.zeit | date: "%H%M%S" }}
-{% if termin.zeitbis %}{% capture end_date %}{{ termin.zeit | date: "%d.%m.%Y" }} {{ termin.zeitbis }}{% endcapture %}DTEND;TZID=CET:{{ end_date | date: "%Y%m%dT%H%M%S" }}{% else %}DURATION:PT1H{% endif %}{% endunless %}
-DTSTAMP;TZID=CET:{{ "now" | date: "%Y%m%dT%H%M%S" }}{% if termin.ort %}
+DTSTART;TZID=Europe/Berlin:{{ termin.zeit | date: "%Y%m%d" }}{% capture hour %}{{ termin.zeit | date: "%H" }}{% endcapture %}{% unless hour == "00" %}T{{ termin.zeit | date: "%H%M%S" }}
+{% if termin.zeitbis %}{% capture end_date %}{{ termin.zeit | date: "%d.%m.%Y" }} {{ termin.zeitbis }}{% endcapture %}DTEND;TZID=Europe/Berlin:{{ end_date | date: "%Y%m%dT%H%M%S" }}{% else %}DURATION:PT1H{% endif %}{% endunless %}
+DTSTAMP;TZID=Europe/Berlin:{{ "now" | date: "%Y%m%dT%H%M%S" }}{% if termin.ort %}
 LOCATION:{{ termin.ort}}{% endif %}{% if termin.beschreibung %}
 DESCRIPTION{{ termin.beschreibung }}{% endif %}
 END:VEVENT{% endfor %}

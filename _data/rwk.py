@@ -145,12 +145,14 @@ def get_mannschaftsinfo(mannschaft, erzeuge_tabelle = True, erzeuge_durchgaenge 
                     'heim_id': termin['heim'],
                     'runde': termin['v_r'],
                     'wettkampftag': to_int(termin.get('wettkampftag')),
-                    'datum_iso': join_str(termin.get('datum'), termin.get('zeit')),
+                    'zeit': join_str(termin.get('datum'), termin.get('zeit')),
+                    'ort': termin.get('name_heim_verein'),
                     'heim_name': termin.get('name_heim_verein'),
                     'gast_name': termin.get('name_gast_verein'),
                     'heim_mannschafts_nr': to_int(termin.get('heim_verein_ma_nr')),
                     'gast_mannschafts_nr': to_int(termin.get('gast_verein_ma_nr')),
             }
+            durchgang_new['name'] = ' '.join([durchgang_new['heim_name'], str(durchgang_new['heim_mannschafts_nr']), '–', durchgang_new['gast_name'], str(durchgang_new['gast_mannschafts_nr']), '(' + str(durchgang_new['wettkampftag']) + '.', durchgang_new['runde'] + ')'])
             if i < len(durchgaenge):
                 durchgang = durchgaenge[i]
                 if durchgang.get('wettkampftag') == (termin.get('wettkampftag') + ' ' + termin.get('v_r')) and (termin.get('name_heim_verein') + ' ' + termin.get('heim_verein_ma_nr')) == durchgang.get('heim_name') and (termin.get('name_gast_verein') + ' ' + termin.get('gast_verein_ma_nr')) == durchgang.get('gast_name'):
@@ -268,11 +270,25 @@ def get_overview(gau_nr, vereinsnummer, vereins_name, years, include_ersatz = Fa
         else:
             data['disziplinen'] = [disziplin for disziplin in get_disziplinen(data, only_current_year = False) if disziplin.get('sportjahr', None) in years]
     if data['disziplinen']:
-        for disziplin in data['disziplinen']:
+        parent_dir = os.path.dirname(os.path.dirname(__file__))
+        for index_d in range(0, len(data['disziplinen'])):
+            disziplin = data['disziplinen'][index_d]
             schuetzen = get_schuetzen(data, disziplin)
             disziplin['mannschaften'] = get_mannschaften(data, disziplin)
-            for mannschaft in disziplin['mannschaften']:
-                mannschaft['info'] = get_mannschaftsinfo(mannschaft)
+            for index_m in range(0, len(disziplin['mannschaften'])):
+                mannschaft = disziplin['mannschaften'][index_m]
+                mannschaft['info'] = get_mannschaftsinfo(mannschaft, erzeuge_tabelle = True, erzeuge_durchgaenge = True)
+                prefix = '_'.join([disziplin['disziplin_kurz'], str(disziplin['sportjahr']), str(mannschaft['mannschafts_nr']), mannschaft['klassen_name']]).replace(' ', '_').lower()
+                calendar_path = 'assets/calendar/' + prefix + '.ics'
+                mannschaft['info']['kalender'] = calendar_path
+                for durchgang in mannschaft['info'].get('durchgaenge', []):
+                    durchgang['uuid'] = prefix + '_' + (str(durchgang['wettkampftag']) + '_' + durchgang['runde']).replace(' ', '_').lower()
+                try:
+                    ical_file = open(parent_dir + '/' + calendar_path, 'w')
+                    ical_file.write('---\nlayout: null\n---\n{% assign termine = site.data.rwk_data.disziplinen[' + str(index_d) + '].mannschaften[' + str(index_m) + '].info.durchgaenge %}{% include calendar.ics termine=termine %}')
+                except Exception as e:
+                    print('Could not write "' + prefix + '.ics" to file')
+                    print(e)
                 mannschaft['schuetzen'] = get_schuetzen_mannschaft(schuetzen, mannschaft)
                 del mannschaft['disziplin']
                 chartjs = get_chartjs(vereins_name, mannschaft, mannschaft['info'])

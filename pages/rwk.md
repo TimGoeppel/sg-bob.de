@@ -35,6 +35,7 @@ Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_b
   </ul>
   {% assign info = mannschaft.info %}
   {% if mannschaft.info %}
+ <a href="{{ site.url }}{{ site.baseurl }}/{{ info.kalender }}" target="_blank" class="icon-calendar" title="Wettkampfkalender herunterladen (.ics)" download> Termine</a>
   <table>
   <tr><th>Tabelle {{ mannschaft.gruppe }} {{ mannschaft.gruppen_nr }}</th></tr>
   <tr><th>Platz</th><th>Mannschaft</th><th>Ringe</th><th>Punkte</th></tr>
@@ -44,7 +45,7 @@ Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_b
   <tr><th>Durchgänge</th></tr>
   <tr><th>Runde</th><th>Datum</th><th>Heimmannschaft</th><th>Gastmannschaft</th><th>Ergebnis</th><th>Punkte</th></tr>
   {% for durchgang in info.durchgaenge %}
-  <tr{% if durchgang.sieg %} class="durchgang_{% if durchgang.sieg == 1 %}win{% elsif durchgang.sieg == 0%}tie{% else %}def{% endif %}"{% endif %}><td>{{ durchgang.wettkampftag }}. {{ durchgang.runde }}</td><td>{{ durchgang.datum_iso | date: "%d.%m.%Y %H:%M" }}</td><td>{{ durchgang.heim_name }} {{ durchgang.heim_mannschafts_nr }}</td><td>{{ durchgang.gast_name }} {{ durchgang.gast_mannschafts_nr }}</td><td>{% if durchgang.heim_ringe and durchgang.gast_ringe %}{{ durchgang.heim_ringe }} : {{ durchgang.gast_ringe }}{% endif %}</td><td>{{ durchgang.punkte }}</td></tr>
+  <tr{% if durchgang.sieg %} class="durchgang_{% if durchgang.sieg == 1 %}win{% elsif durchgang.sieg == 0%}tie{% else %}def{% endif %}"{% endif %}><td>{{ durchgang.wettkampftag }}. {{ durchgang.runde }}</td><td>{{ durchgang.zeit | date: "%d.%m.%Y %H:%M" }}</td><td>{{ durchgang.heim_name }} {{ durchgang.heim_mannschafts_nr }}</td><td>{{ durchgang.gast_name }} {{ durchgang.gast_mannschafts_nr }}</td><td>{% if durchgang.heim_ringe and durchgang.gast_ringe %}{{ durchgang.heim_ringe }} : {{ durchgang.gast_ringe }}{% endif %}</td><td>{{ durchgang.punkte }}</td></tr>
   {% endfor %}
   </table>
 {% endif %}

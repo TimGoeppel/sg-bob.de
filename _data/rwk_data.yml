@@ -55,7 +55,6 @@ disziplinen:
       avg: 1384.7
       durchgaenge:
       - avg: 1406.0
-        datum_iso: '2024-09-13 20:00:00'
         gast_mannschafts_nr: 1
         gast_name: SV Leibelbach-Heuberg
         gast_ringe: 1315
@@ -63,14 +62,17 @@ disziplinen:
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
         heim_ringe: 1406
+        name: SG Burgoberbach 1 – SV Leibelbach-Heuberg 1 (1. Vorrunde)
+        ort: SG Burgoberbach
         platzierung: 2
         punkte: '2:0'
         punkte_akkumulativ: '2:0'
         runde: Vorrunde
         sieg: 1
+        uuid: lg_2025_1_offene_klasse_1_vorrunde
         wettkampftag: 1
+        zeit: '2024-09-13 20:00:00'
       - avg: 1389.5
-        datum_iso: '2024-09-27 20:00:00'
         gast_mannschafts_nr: 2
         gast_name: SV Buch-am-Wald
         gast_ringe: 1406
@@ -78,14 +80,17 @@ disziplinen:
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
         heim_ringe: 1373
+        name: SG Burgoberbach 1 – SV Buch-am-Wald 2 (2. Vorrunde)
+        ort: SG Burgoberbach
         platzierung: 4
         punkte: 0:2
         punkte_akkumulativ: '2:2'
         runde: Vorrunde
         sieg: -1
+        uuid: lg_2025_1_offene_klasse_2_vorrunde
         wettkampftag: 2
+        zeit: '2024-09-27 20:00:00'
       - avg: 1374.33
-        datum_iso: '2024-10-11 20:00:00'
         gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
         gast_ringe: 1344
@@ -93,14 +98,17 @@ disziplinen:
         heim_mannschafts_nr: 6
         heim_name: SV Petersaurach
         heim_ringe: 1378
+        name: SV Petersaurach 6 – SG Burgoberbach 1 (3. Vorrunde)
+        ort: SV Petersaurach
         platzierung: 4
         punkte: 0:2
         punkte_akkumulativ: '2:4'
         runde: Vorrunde
         sieg: -1
+        uuid: lg_2025_1_offene_klasse_3_vorrunde
         wettkampftag: 3
+        zeit: '2024-10-11 20:00:00'
       - avg: 1371.5
-        datum_iso: '2024-10-25 20:00:00'
         gast_mannschafts_nr: 2
         gast_name: SG Sachsen
         gast_ringe: 1430
@@ -108,14 +116,17 @@ disziplinen:
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
         heim_ringe: 1363
+        name: SG Burgoberbach 1 – SG Sachsen 2 (4. Vorrunde)
+        ort: SG Burgoberbach
         platzierung: 4
         punkte: 0:2
         punkte_akkumulativ: '2:6'
         runde: Vorrunde
         sieg: -1
+        uuid: lg_2025_1_offene_klasse_4_vorrunde
         wettkampftag: 4
+        zeit: '2024-10-25 20:00:00'
       - avg: 1380.0
-        datum_iso: '2024-11-08 20:00:00'
         gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
         gast_ringe: 1414
@@ -123,14 +134,17 @@ disziplinen:
         heim_mannschafts_nr: 3
         heim_name: SG Elbersroth
         heim_ringe: 1353
+        name: SG Elbersroth 3 – SG Burgoberbach 1 (5. Vorrunde)
+        ort: SG Elbersroth
         platzierung: 4
         punkte: '2:0'
         punkte_akkumulativ: '4:6'
         runde: Vorrunde
         sieg: 1
+        uuid: lg_2025_1_offene_klasse_5_vorrunde
         wettkampftag: 5
+        zeit: '2024-11-08 20:00:00'
       - avg: 1379.33
-        datum_iso: '2024-11-22 20:00:00'
         gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
         gast_ringe: 1376
@@ -138,13 +152,16 @@ disziplinen:
         heim_mannschafts_nr: 1
         heim_name: SV Leibelbach-Heuberg
         heim_ringe: 1329
+        name: SV Leibelbach-Heuberg 1 – SG Burgoberbach 1 (1. Rückrunde)
+        ort: SV Leibelbach-Heuberg
         punkte: '2:0'
         punkte_akkumulativ: '6:6'
         runde: Rückrunde
         sieg: 1
+        uuid: lg_2025_1_offene_klasse_1_rückrunde
         wettkampftag: 1
+        zeit: '2024-11-22 20:00:00'
       - avg: 1379.43
-        datum_iso: '2025-01-24 20:00:00'
         gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
         gast_ringe: 1380
@@ -152,13 +169,16 @@ disziplinen:
         heim_mannschafts_nr: 2
         heim_name: SV Buch-am-Wald
         heim_ringe: 1404
+        name: SV Buch-am-Wald 2 – SG Burgoberbach 1 (2. Rückrunde)
+        ort: SV Buch-am-Wald
         punkte: 0:2
         punkte_akkumulativ: '6:8'
         runde: Rückrunde
         sieg: -1
+        uuid: lg_2025_1_offene_klasse_2_rückrunde
         wettkampftag: 2
+        zeit: '2025-01-24 20:00:00'
       - avg: 1381.38
-        datum_iso: '2025-02-07 20:00:00'
         gast_mannschafts_nr: 6
         gast_name: SV Petersaurach
         gast_ringe: 1372
@@ -166,13 +186,16 @@ disziplinen:
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
         heim_ringe: 1395
+        name: SG Burgoberbach 1 – SV Petersaurach 6 (3. Rückrunde)
+        ort: SG Burgoberbach
         punkte: '2:0'
         punkte_akkumulativ: '8:8'
         runde: Rückrunde
         sieg: 1
+        uuid: lg_2025_1_offene_klasse_3_rückrunde
         wettkampftag: 3
+        zeit: '2025-02-07 20:00:00'
       - avg: 1384.22
-        datum_iso: '2025-02-21 20:00:00'
         gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
         gast_ringe: 1407
@@ -180,13 +203,16 @@ disziplinen:
         heim_mannschafts_nr: 2
         heim_name: SG Sachsen
         heim_ringe: 1438
+        name: SG Sachsen 2 – SG Burgoberbach 1 (4. Rückrunde)
+        ort: SG Sachsen
         punkte: 0:2
         punkte_akkumulativ: '8:10'
         runde: Rückrunde
         sieg: -1
+        uuid: lg_2025_1_offene_klasse_4_rückrunde
         wettkampftag: 4
+        zeit: '2025-02-21 20:00:00'
       - avg: 1384.7
-        datum_iso: '2025-03-07 20:00:00'
         gast_mannschafts_nr: 3
         gast_name: SG Elbersroth
         gast_ringe: 1354
@@ -194,11 +220,16 @@ disziplinen:
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
         heim_ringe: 1389
+        name: SG Burgoberbach 1 – SG Elbersroth 3 (5. Rückrunde)
+        ort: SG Burgoberbach
         punkte: '2:0'
         punkte_akkumulativ: '10:10'
         runde: Rückrunde
         sieg: 1
+        uuid: lg_2025_1_offene_klasse_5_rückrunde
         wettkampftag: 5
+        zeit: '2025-03-07 20:00:00'
+      kalender: assets/calendar/lg_2025_1_offene_klasse.ics
       max: 1414.0
       min: 1344.0
       platzierung: 4
@@ -391,7 +422,6 @@ disziplinen:
       avg: 1332.4
       durchgaenge:
       - avg: 1334.0
-        datum_iso: '2024-09-13 20:00:00'
         gast_mannschafts_nr: 4
         gast_name: SV Rauenzell
         gast_ringe: 1290
@@ -399,14 +429,17 @@ disziplinen:
         heim_mannschafts_nr: 2
         heim_name: SG Burgoberbach
         heim_ringe: 1334
+        name: SG Burgoberbach 2 – SV Rauenzell 4 (1. Vorrunde)
+        ort: SG Burgoberbach
         platzierung: 1
         punkte: '2:0'
         punkte_akkumulativ: '2:0'
         runde: Vorrunde
         sieg: 1
+        uuid: lg_2025_2_offene_klasse_1_vorrunde
         wettkampftag: 1
+        zeit: '2024-09-13 20:00:00'
       - avg: 1330.5
-        datum_iso: '2024-09-27 20:00:00'
         gast_mannschafts_nr: 1
         gast_name: SV Bürglein
         gast_ringe: 1365
@@ -414,14 +447,17 @@ disziplinen:
         heim_mannschafts_nr: 2
         heim_name: SG Burgoberbach
         heim_ringe: 1327
+        name: SG Burgoberbach 2 – SV Bürglein 1 (2. Vorrunde)
+        ort: SG Burgoberbach
         platzierung: 3
         punkte: 0:2
         punkte_akkumulativ: '2:2'
         runde: Vorrunde
         sieg: -1
+        uuid: lg_2025_2_offene_klasse_2_vorrunde
         wettkampftag: 2
+        zeit: '2024-09-27 20:00:00'
       - avg: 1320.67
-        datum_iso: '2024-10-11 20:00:00'
         gast_mannschafts_nr: 2
         gast_name: SG Burgoberbach
         gast_ringe: 1301
@@ -429,14 +465,17 @@ disziplinen:
         heim_mannschafts_nr: 2
         heim_name: SV H.T.Steinbach
         heim_ringe: 1335
+        name: SV H.T.Steinbach 2 – SG Burgoberbach 2 (3. Vorrunde)
+        ort: SV H.T.Steinbach
         platzierung: 4
         punkte: 0:2
         punkte_akkumulativ: '2:4'
         runde: Vorrunde
         sieg: -1
+        uuid: lg_2025_2_offene_klasse_3_vorrunde
         wettkampftag: 3
+        zeit: '2024-10-11 20:00:00'
       - avg: 1317.0
-        datum_iso: '2024-10-25 20:00:00'
         gast_mannschafts_nr: 2
         gast_name: SV Winterschneidbach
         gast_ringe: 1295
@@ -444,14 +483,17 @@ disziplinen:
         heim_mannschafts_nr: 2
         heim_name: SG Burgoberbach
         heim_ringe: 1306
+        name: SG Burgoberbach 2 – SV Winterschneidbach 2 (4. Vorrunde)
+        ort: SG Burgoberbach
         platzierung: 3
         punkte: '2:0'
         punkte_akkumulativ: '4:4'
         runde: Vorrunde
         sieg: 1
+        uuid: lg_2025_2_offene_klasse_4_vorrunde
         wettkampftag: 4
+        zeit: '2024-10-25 20:00:00'
       - avg: 1323.8
-        datum_iso: '2024-11-08 20:00:00'
         gast_mannschafts_nr: 2
         gast_name: SG Burgoberbach
         gast_ringe: 1351
@@ -459,14 +501,17 @@ disziplinen:
         heim_mannschafts_nr: 1
         heim_name: SV Neunstetten
         heim_ringe: 1230
+        name: SV Neunstetten 1 – SG Burgoberbach 2 (5. Vorrunde)
+        ort: SV Neunstetten
         platzierung: 2
         punkte: '2:0'
         punkte_akkumulativ: '6:4'
         runde: Vorrunde
         sieg: 1
+        uuid: lg_2025_2_offene_klasse_5_vorrunde
         wettkampftag: 5
+        zeit: '2024-11-08 20:00:00'
       - avg: 1329.0
-        datum_iso: '2024-11-22 20:00:00'
         gast_mannschafts_nr: 2
         gast_name: SG Burgoberbach
         gast_ringe: 1355
@@ -474,13 +519,16 @@ disziplinen:
         heim_mannschafts_nr: 4
         heim_name: SV Rauenzell
         heim_ringe: 1233
+        name: SV Rauenzell 4 – SG Burgoberbach 2 (1. Rückrunde)
+        ort: SV Rauenzell
         punkte: '2:0'
         punkte_akkumulativ: '8:4'
         runde: Rückrunde
         sieg: 1
+        uuid: lg_2025_2_offene_klasse_1_rückrunde
         wettkampftag: 1
+        zeit: '2024-11-22 20:00:00'
       - avg: 1331.57
-        datum_iso: '2025-01-24 20:00:00'
         gast_mannschafts_nr: 2
         gast_name: SG Burgoberbach
         gast_ringe: 1347
@@ -488,13 +536,16 @@ disziplinen:
         heim_mannschafts_nr: 1
         heim_name: SV Bürglein
         heim_ringe: 1358
+        name: SV Bürglein 1 – SG Burgoberbach 2 (2. Rückrunde)
+        ort: SV Bürglein
         punkte: 0:2
         punkte_akkumulativ: '8:6'
         runde: Rückrunde
         sieg: -1
+        uuid: lg_2025_2_offene_klasse_2_rückrunde
         wettkampftag: 2
+        zeit: '2025-01-24 20:00:00'
       - avg: 1329.0
-        datum_iso: '2025-02-07 20:00:00'
         gast_mannschafts_nr: 2
         gast_name: SV H.T.Steinbach
         gast_ringe: 1260
@@ -502,13 +553,16 @@ disziplinen:
         heim_mannschafts_nr: 2
         heim_name: SG Burgoberbach
         heim_ringe: 1311
+        name: SG Burgoberbach 2 – SV H.T.Steinbach 2 (3. Rückrunde)
+        ort: SG Burgoberbach
         punkte: '2:0'
         punkte_akkumulativ: '10:6'
         runde: Rückrunde
         sieg: 1
+        uuid: lg_2025_2_offene_klasse_3_rückrunde
         wettkampftag: 3
+        zeit: '2025-02-07 20:00:00'
       - avg: 1330.78
-        datum_iso: '2025-02-21 20:00:00'
         gast_mannschafts_nr: 2
         gast_name: SG Burgoberbach
         gast_ringe: 1345
@@ -516,13 +570,16 @@ disziplinen:
         heim_mannschafts_nr: 2
         heim_name: SV Winterschneidbach
         heim_ringe: 1322
+        name: SV Winterschneidbach 2 – SG Burgoberbach 2 (4. Rückrunde)
+        ort: SV Winterschneidbach
         punkte: '2:0'
         punkte_akkumulativ: '12:6'
         runde: Rückrunde
         sieg: 1
+        uuid: lg_2025_2_offene_klasse_4_rückrunde
         wettkampftag: 4
+        zeit: '2025-02-21 20:00:00'
       - avg: 1332.4
-        datum_iso: '2025-03-07 20:00:00'
         gast_mannschafts_nr: 1
         gast_name: SV Neunstetten
         gast_ringe: 1251
@@ -530,11 +587,16 @@ disziplinen:
         heim_mannschafts_nr: 2
         heim_name: SG Burgoberbach
         heim_ringe: 1347
+        name: SG Burgoberbach 2 – SV Neunstetten 1 (5. Rückrunde)
+        ort: SG Burgoberbach
         punkte: '2:0'
         punkte_akkumulativ: '14:6'
         runde: Rückrunde
         sieg: 1
+        uuid: lg_2025_2_offene_klasse_5_rückrunde
         wettkampftag: 5
+        zeit: '2025-03-07 20:00:00'
+      kalender: assets/calendar/lg_2025_2_offene_klasse.ics
       max: 1355.0
       min: 1301.0
       platzierung: 2

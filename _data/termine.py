@@ -1,10 +1,14 @@
-import yaml, re, sys, math
+import yaml, re, sys, math, uuid
 from datetime import datetime, timedelta
 
 termine = None
 now = datetime.now()
-# Latest date to add reoccuring events
-max_date = datetime(2025, 12, 31, 23, 59)
+max_date = None
+if len(sys.argv) > 1:
+    arg = sys.argv[1]
+    if arg.isdecimal():
+        # Latest date to add reoccuring events
+        max_date = datetime(int(arg), 12, 31, 23, 59)
 
 # Training
 difft = 3 - now.weekday()
@@ -63,8 +67,9 @@ with open('termine.yml', 'r+', encoding='utf-8') as file:
     for termin in termine:
         termin['zeit'] = parse_time(termin['zeit'])
     
-    print('Adding reoccuring...')
-    add_reoccuring(termine)
+    if max_date:
+        print('Adding reoccuring...')
+        add_reoccuring(termine)
 
     print('Normalizing datetimes...')
     for termin in termine:
@@ -72,6 +77,11 @@ with open('termine.yml', 'r+', encoding='utf-8') as file:
 
     print('Sorting...')
     termine.sort(key = lambda termin: parse_time(termin['zeit']))
+
+    print('Generating UUIDs...')
+    for termin in termine:
+        if 'uuid' not in termin:
+            termin['uuid'] = str(uuid.uuid4())
     
     print('Saving...')
     file.seek(0)

@@ -1,541 +1,727 @@
 - name: König Niederoberbach
+  uuid: beb5e5d4-ea5a-4709-9c82-e6805d1cf341
   zeit: 20.05.2023 18:30
 - name: König Neuses
+  uuid: d0c81a29-63b8-45b8-a5d3-08778c692a3e
   zeit: 13.06.2023 17:30
 - name: Königsschießen Burgoberbach
+  uuid: ea40add2-663f-4530-97d8-42a0d5fd6684
   zeit: 15.06.2023 18:30
 - name: Königsschießen Burgoberbach
+  uuid: 80ffe7f8-dd73-4e2e-a1ef-e4879106b07a
   zeit: 22.06.2023 18:30
 - name: Königsschießen Burgoberbach
+  uuid: a7a3f115-5b1e-4f75-b93d-6cd7bae4a3a6
   zeit: 29.06.2023 18:30
 - name: Schützenfahrt
+  uuid: d9b03895-bbb0-4437-8d5e-8e16f9311e66
   zeit: 08.07.2023 08:00
 - name: König Burgoberbach
+  uuid: eae75cfe-35cc-4e13-b0fa-a9678e2cc99a
   zeit: 15.07.2023 18:00
 - name: Training
+  uuid: 7c09b197-8f2e-4b5b-a368-8bd3b3c3796d
   wiederholt: true
   zeit: 20.07.2023 18:30
 - name: Training
+  uuid: 732dd38e-346c-4d29-900f-2f90265ab01d
   wiederholt: true
   zeit: 27.07.2023 18:30
 - name: Training
+  uuid: 574e08cd-635b-4493-b365-17e97e85d48c
   wiederholt: true
   zeit: 03.08.2023 18:30
 - name: Schützenzwerge
+  uuid: 42e44f68-9ad6-4792-93cf-5c16b57251db
   wiederholt: true
   zeit: 05.08.2023 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: 405aade0-4c6b-48ba-b973-b265c6aaba26
   wiederholt: true
   zeit: 10.08.2023 18:30
 - name: Ferienprogramm
+  uuid: f93aca85-6d3d-4e0d-b476-7e9932903bf1
   zeit: 17.08.2023 18:00
 - name: Training
+  uuid: c551ad62-a603-4c42-81d6-474aa8ce9055
   wiederholt: true
   zeit: 24.08.2023 18:30
 - name: Training
+  uuid: cef01536-ce80-4bb9-bfb6-ce7078ff1cfc
   wiederholt: true
   zeit: 31.08.2023 18:30
 - name: Schützenzwerge
+  uuid: 8c1af4c8-2f96-4503-8137-b52d6d62f8de
   wiederholt: true
   zeit: 02.09.2023 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: a610f417-01af-49f6-a816-041d3c750222
   wiederholt: true
   zeit: 07.09.2023 18:30
 - name: Training
+  uuid: 3ceeafbf-8f75-4972-94ed-33e087ddc2cf
   wiederholt: true
   zeit: 14.09.2023 18:30
 - name: Bürgerschießen
+  uuid: 1b0d7c81-7e96-4012-b907-2554f7d3db3b
   zeit: 21.09.2023 18:30
 - name: Bürgerschießen
+  uuid: 089aeb08-f0b9-498b-b01a-a697d281098f
   zeit: 23.09.2023 18:30
 - name: Bürgerschießen
+  uuid: 8086f40c-dba4-478d-a344-424f920608dc
   zeit: 28.09.2023 18:30
 - name: Bürgerschießen
+  uuid: e9919542-a59d-41fe-a40e-08900bac5e7c
   zeit: 05.10.2023 18:30
 - name: Schützenzwerge
+  uuid: c6233b32-d3c4-41e6-83fd-6f920e9daa82
   wiederholt: true
   zeit: 07.10.2023 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: 26d783f6-e5ca-43fb-b7b9-b2e6fcf5e5db
   wiederholt: true
   zeit: 12.10.2023 18:30
 - name: Bürgerkönig / Kirchweih
+  uuid: 7a4d14ad-cc67-4bd8-a672-aabc9f619d07
   zeit: 13.10.2023 18:30
 - name: Training
+  uuid: 3ffeed89-484d-4835-9b70-2abb40d24e83
   wiederholt: true
   zeit: 19.10.2023 18:30
 - name: Training
+  uuid: 5f7e1122-f5a0-453e-9ba2-d443af02e50a
   wiederholt: true
   zeit: 26.10.2023 18:30
 - name: Training
+  uuid: 6ca15c07-ff83-4e03-b897-446625377af1
   wiederholt: true
   zeit: 02.11.2023 18:30
 - name: Schützenzwerge
+  uuid: 9c432859-421b-4f84-8ac9-04b849ce2524
   wiederholt: true
   zeit: 04.11.2023 10:00
   zeitbis: '11:30'
 - name: Gau Ehrenabend
+  uuid: 660252af-6917-4b39-82a9-5c63a0087011
   zeit: 04.11.2023 17:00
 - name: Training
+  uuid: 08ed2733-b79f-47c9-b19e-c6e0fa67df87
   wiederholt: true
   zeit: 09.11.2023 18:30
 - name: Training
+  uuid: 1e78d755-88b4-463b-8765-46eba42f26c3
   wiederholt: true
   zeit: 16.11.2023 18:30
 - name: Training
+  uuid: 6c9b1fdd-80e9-4821-a580-b5eda256eed8
   wiederholt: true
   zeit: 23.11.2023 18:30
 - name: Training
+  uuid: 622f1695-2179-4526-8254-8fb6b33ee519
   wiederholt: true
   zeit: 30.11.2023 18:30
 - name: Schützenzwerge
+  uuid: ac65df54-d928-4388-901e-8ba26c0d0720
   wiederholt: true
   zeit: 02.12.2023 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: 25c43b27-c221-4ecd-a60f-6601307ffc4e
   wiederholt: true
   zeit: 07.12.2023 18:30
 - name: Training
+  uuid: 2868ae35-9c7d-4120-a080-b7f25c2d8f46
   wiederholt: true
   zeit: 14.12.2023 18:30
 - name: Königsessen / Weihnachtsfeier
+  uuid: b6d881d1-f40d-4a94-95cb-28cdaea48f13
   zeit: 16.12.2023 18:30
 - name: Training
+  uuid: 4af79b07-f782-4550-b4a7-4ad6e313718c
   wiederholt: true
   zeit: 21.12.2023 18:30
 - name: Training
+  uuid: 2661dccb-612d-4153-8537-69638dbd2195
   wiederholt: true
   zeit: 28.12.2023 18:30
 - name: Jahresabschluss
+  uuid: 8bc7dcfc-481d-4d04-b214-e7b66f519872
   zeit: 31.12.2023 18:00
 - name: Training
+  uuid: ff38ae52-92e3-4205-8ae5-bf0b7de45e23
   wiederholt: true
   zeit: 04.01.2024 18:30
 - name: Training
+  uuid: ead165e4-d546-4f2c-a8b3-e8d582a70730
   wiederholt: true
   zeit: 11.01.2024 18:30
 - name: Training
+  uuid: e5e07d8f-c07b-48e7-ac11-00231a0f1739
   wiederholt: true
   zeit: 18.01.2024 18:30
 - name: Strategietag
+  uuid: 5182fa2a-a268-4659-b93a-d64183fdb7c6
   zeit: 20.01.2024 18:00
 - name: Training
+  uuid: 9377a196-ef4b-4860-94b6-0ba467b18c68
   wiederholt: true
   zeit: 25.01.2024 18:30
 - name: Training
+  uuid: e40224e4-1175-497f-b65f-84e958d48887
   wiederholt: true
   zeit: 01.02.2024 18:30
 - name: Schützenzwerge
+  uuid: 2c88b488-9231-474d-8510-781405ba34d5
   wiederholt: true
   zeit: 03.02.2024 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: af2ee37e-83c7-4cf4-b238-9af511b143b3
   wiederholt: true
   zeit: 08.02.2024 18:30
 - name: Training
+  uuid: 7db1a771-f403-4807-b901-70cd42d1675f
   wiederholt: true
   zeit: 15.02.2024 18:30
 - name: Training
+  uuid: 7c2283f2-5363-4c52-b79e-2fdcd859c7d4
   wiederholt: true
   zeit: 22.02.2024 18:30
 - name: Training
+  uuid: 1534fbd7-3a99-40fe-9db9-fc1e96a41eb5
   wiederholt: true
   zeit: 29.02.2024 18:30
 - name: Schützenzwerge
+  uuid: 6529aaf1-c137-497c-a50f-ac2abd8dc527
   wiederholt: true
   zeit: 02.03.2024 10:00
   zeitbis: '11:30'
 - name: Jahreshauptversammlung
+  uuid: 5fba64ff-5dbb-400f-a1db-63bbbd69deec
   zeit: 02.03.2024 19:00
 - name: Training
+  uuid: cb0aeb84-e595-4926-99d9-5b38e07145e4
   wiederholt: true
   zeit: 07.03.2024 18:30
 - name: Filmvorführung Turnhalle 25 Jahre SG BOB
+  uuid: 3473065a-606f-4495-8431-3a91342552ed
   zeit: 10.03.2024
 - name: Training
+  uuid: 7fe82cc6-19cb-460e-ae22-f84d1795cd5f
   wiederholt: true
   zeit: 14.03.2024 18:30
 - name: Training
+  uuid: 4444b473-1f50-4668-ab23-e1942f1d14ce
   wiederholt: true
   zeit: 21.03.2024 18:30
 - name: Training
+  uuid: bc571cde-1ecd-4594-be5e-c406a77e0c05
   wiederholt: true
   zeit: 28.03.2024 18:30
 - name: Training
+  uuid: f25ed758-dd36-44bd-bfb2-4b76e4e5cc07
   wiederholt: true
   zeit: 04.04.2024 18:30
 - name: Schützenzwerge
+  uuid: 54a69058-d248-4b38-9ff1-a6dabc6388e2
   wiederholt: true
   zeit: 06.04.2024 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: 6e9c0b94-982a-4f42-be6d-a5694e0e8892
   wiederholt: true
   zeit: 11.04.2024 18:30
 - name: Training
+  uuid: ef0327f5-f537-432c-92c9-71de8ac30a94
   wiederholt: true
   zeit: 18.04.2024 18:30
 - name: Training
+  uuid: 543658d2-fe20-4e7c-b9b9-d02a456930b5
   wiederholt: true
   zeit: 25.04.2024 18:30
 - name: Training
+  uuid: 3cb2e02c-6093-47b0-8fa5-302a645f4a7e
   wiederholt: true
   zeit: 02.05.2024 18:30
 - name: Schützenzwerge
+  uuid: 52315aef-9171-4b53-b5d9-fc68156efcc4
   wiederholt: true
   zeit: 04.05.2024 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: 59c7e759-04da-4edd-aebe-e5c9545be652
   wiederholt: true
   zeit: 09.05.2024 18:30
 - name: Training
+  uuid: 6d1548d8-ba14-4450-931d-544019bfe2c2
   wiederholt: true
   zeit: 16.05.2024 18:30
 - name: Training
+  uuid: 329804e6-c4b7-4182-b345-0bc51825adb2
   wiederholt: true
   zeit: 23.05.2024 18:30
 - name: Training
+  uuid: 13afd20e-fa63-422b-97ff-7685591a31a3
   wiederholt: true
   zeit: 30.05.2024 18:30
 - name: Schützenzwerge
+  uuid: d1960580-4d1c-4dbd-ba1a-963d487dadae
   wiederholt: true
   zeit: 01.06.2024 10:00
   zeitbis: '11:30'
 - name: Königsschießen
+  uuid: c6caed3b-51c0-482d-913a-b9c1ddd73131
   zeit: 06.06.2024 18:30
   zeitbis: '21:00'
 - name: Königsschießen
+  uuid: 6f0dbede-ba7f-4f7e-8f0f-179094260ea7
   zeit: 13.06.2024 18:30
   zeitbis: '21:00'
 - name: Königsschießen
+  uuid: 48c7bddf-c01d-4e47-bbe0-aaf17623c9dc
   zeit: 20.06.2024 18:30
   zeitbis: '21:00'
 - name: Königsproklamation und -abholung
+  uuid: 10d0ef22-c6dc-4038-a62d-1dd2eed61e7a
   zeit: 22.06.2024 18:30
 - name: Training
+  uuid: 74c09c82-b179-414d-89ba-581eabc94b8c
   wiederholt: true
   zeit: 27.06.2024 18:30
 - name: Schützenfahrt
+  uuid: fdf1b894-715f-40d8-8d6c-e9c92bc46a3c
   zeit: 29.06.2024
 - name: Training
+  uuid: db04acde-7861-4da0-8eee-69edb28fe10f
   wiederholt: true
   zeit: 04.07.2024 18:30
 - name: Schützenzwerge
+  uuid: 7a3d38a4-2f71-45bf-8f77-63083a3b9a86
   wiederholt: true
   zeit: 06.07.2024 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: 22efc760-d942-4476-9f0e-ec641bbd0c78
   wiederholt: true
   zeit: 11.07.2024 18:30
 - name: Training
+  uuid: 8c93ced6-2f85-4a1e-87f5-669a11526539
   wiederholt: true
   zeit: 18.07.2024 18:30
 - name: Training
+  uuid: e7e043af-acb5-4727-8f57-e58730c01f93
   wiederholt: true
   zeit: 25.07.2024 18:30
 - name: Training
+  uuid: c172dce2-bfb0-4b76-9f26-72f1e706cc5b
   wiederholt: true
   zeit: 01.08.2024 18:30
 - name: Schützenzwerge
+  uuid: 1cf1db18-1626-48fc-8980-1f38eb96a608
   wiederholt: true
   zeit: 03.08.2024 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: f017f29f-871d-4dbf-97ea-b90e2c89b570
   wiederholt: true
   zeit: 08.08.2024 18:30
 - name: Ferienprogramm
+  uuid: e01ad7de-afba-4cd0-8743-945a56272e9f
   zeit: 15.08.2024 18:00
 - name: Training
+  uuid: 83036a71-76b1-4667-bae1-a1f410227110
   wiederholt: true
   zeit: 22.08.2024 18:30
 - name: Training
+  uuid: b9024e76-fd48-49fc-914b-0e5d591fe67b
   wiederholt: true
   zeit: 29.08.2024 18:30
 - name: Training
+  uuid: ff7ebf99-364e-4d32-9401-aba65c3d5298
   wiederholt: true
   zeit: 05.09.2024 18:30
 - name: Schützenzwerge
+  uuid: 76c05e0b-4f42-4812-a6f0-2e6e576376c2
   wiederholt: true
   zeit: 07.09.2024 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: b9d8435a-8660-422c-bb8d-ab21bd6832a2
   wiederholt: true
   zeit: 12.09.2024 18:30
 - name: Gau Schützenfest
+  uuid: 31480a0f-c7f8-4b01-9625-e921d84907f5
   zeit: 15.09.2024
 - name: Training
+  uuid: f651a669-b686-4875-83ef-c1de7855a8e5
   wiederholt: true
   zeit: 19.09.2024 18:30
 - name: Training
+  uuid: 8162a2b5-fef7-4ad5-9a5e-fcab820937ff
   wiederholt: true
   zeit: 26.09.2024 18:30
 - name: Bürgerschießen
+  uuid: 96c41d1a-4cb0-48db-9f6f-0cb0963e6ae2
   zeit: 03.10.2024 18:30
 - name: Schützenzwerge
+  uuid: 2362ecae-46a4-4469-b611-35cc25d38706
   wiederholt: true
   zeit: 05.10.2024 10:00
   zeitbis: '11:30'
 - name: Bürgerschießen
+  uuid: 6c072c49-bb77-4267-b282-5260e5ef8d1d
   zeit: 10.10.2024 18:30
 - name: Bürgerkönig / Kirchweih
+  uuid: a39ecc8b-33fd-4142-bac7-75e4f984e516
   zeit: 17.10.2024 18:30
 - name: Training
+  uuid: 70bc03c8-583a-49ed-996d-b9eaea3c5749
   wiederholt: true
   zeit: 24.10.2024 18:30
 - name: Training
+  uuid: 6b6ed334-00f8-4468-8424-f5b74d21abc1
   wiederholt: true
   zeit: 31.10.2024 18:30
 - name: Schützenzwerge
+  uuid: 251400e6-754d-4cce-8af9-6bee08ad60c0
   wiederholt: true
   zeit: 02.11.2024 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: 824cde69-6fb6-4a76-816b-573fda0115f9
   wiederholt: true
   zeit: 07.11.2024 18:30
 - name: Training
+  uuid: 69ce27c7-e271-454b-aa4b-3c4464221585
   wiederholt: true
   zeit: 14.11.2024 18:30
 - name: Training
+  uuid: c75de5fa-8b98-4735-8f3a-93bd42c63198
   wiederholt: true
   zeit: 21.11.2024 18:30
 - name: Training
+  uuid: c041738c-2076-4fec-8cf5-f15e6e746f25
   wiederholt: true
   zeit: 28.11.2024 18:30
 - name: Training
+  uuid: aa835877-0a2e-481f-bb97-9046b6cbf513
   wiederholt: true
   zeit: 05.12.2024 18:30
 - name: Schützenzwerge
+  uuid: f0ea059c-8904-423f-bf61-d598ad70cf83
   wiederholt: true
   zeit: 07.12.2024 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: 608e283b-6ecf-4cc9-9655-a7e21aaf536d
   wiederholt: true
   zeit: 12.12.2024 18:30
 - name: Königsessen u. Adventsfeier
+  uuid: e38598b8-5e30-4321-b39a-68f1911cf3b4
   zeit: 14.12.2024 18:30
 - name: Training
+  uuid: 132b1226-7c6a-49c4-8457-b8065ddf89b5
   wiederholt: true
   zeit: 19.12.2024 18:30
 - name: Jahresabschluss
+  uuid: 7754f22c-2cf2-4164-ab51-4f56cfc2d6b5
   zeit: 31.12.2024 18:00
 - name: Training
+  uuid: cb3bcf3f-4a85-445c-97bf-5a871aca0395
   wiederholt: true
   zeit: 02.01.2025 18:30
 - name: Schützenzwerge
+  uuid: 6e1539e7-2ff4-4eca-9f5a-b7d34b6867ba
   wiederholt: true
   zeit: 04.01.2025 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: 48fc20c4-684f-40dc-a6a3-34f73322c052
   wiederholt: true
   zeit: 09.01.2025 18:30
 - name: Training
+  uuid: 327052c9-cf06-4c10-9ebd-c4816a04e821
   wiederholt: true
   zeit: 16.01.2025 18:30
 - name: Training
+  uuid: 4fa85949-79c0-4ad9-b10c-15a77a3b2ad6
   wiederholt: true
   zeit: 23.01.2025 18:30
 - name: Training
+  uuid: eb3a1afb-70e0-49cc-b5a6-6a9efb9d44e1
   wiederholt: true
   zeit: 30.01.2025 18:30
 - name: Schützenzwerge
+  uuid: 8cb9326f-dcae-4a60-82cf-9427f5732d1e
   wiederholt: true
   zeit: 01.02.2025 10:00
   zeitbis: '11:30'
 - name: Karaokeabend
+  uuid: 46d7df7e-73dd-4e69-b83d-e9cbed276e96
   zeit: 01.02.2025 20:00
 - name: Training
+  uuid: b4600570-c508-4158-9e52-d3f7e17f32cd
   wiederholt: true
   zeit: 06.02.2025 18:30
 - name: Training
+  uuid: 382b5fde-c329-4caa-bfe4-3db339e1b046
   wiederholt: true
   zeit: 13.02.2025 18:30
 - name: Training
+  uuid: 7359cec6-b81b-42bc-a18c-dd2d7f550ae3
   wiederholt: true
   zeit: 20.02.2025 18:30
 - name: Training
+  uuid: 5912a347-67f3-4f85-8744-acfc4a059c74
   wiederholt: true
   zeit: 27.02.2025 18:30
 - name: Schützenzwerge
+  uuid: 0b5fe806-a243-4291-8c2e-31001f87a944
   wiederholt: true
   zeit: 01.03.2025 10:00
   zeitbis: '11:30'
 - name: Jahreshauptversammlung / Strategietag
+  uuid: 10fba32a-1186-434a-a91b-8ab878a14600
   zeit: 01.03.2025 19:00
 - name: Training
+  uuid: 85f2c952-d471-4789-84b9-49f3264ea98a
   wiederholt: true
   zeit: 06.03.2025 18:30
 - name: Training
+  uuid: 286ef36b-d878-459c-b000-b0d8ba2ea52b
   wiederholt: true
   zeit: 13.03.2025 18:30
 - name: Training
+  uuid: f8f00ec8-5288-4055-b762-90899a96ab87
   wiederholt: true
   zeit: 20.03.2025 18:30
 - name: Training
+  uuid: 6196aee7-8e8d-4684-bb1c-c655fbdd0308
   wiederholt: true
   zeit: 27.03.2025 18:30
 - name: Gauschießen in Elbersroth (Beginn)
+  uuid: 039f696b-118a-4207-99a4-60f201ad6ed6
   zeit: 28.03.2025
 - name: Training
+  uuid: 2f254093-834f-4fe1-982a-f22603e9f07f
   wiederholt: true
   zeit: 03.04.2025 18:30
 - name: Schützenzwerge
+  uuid: d191cedc-f100-461e-8064-816c15f523ac
   wiederholt: true
   zeit: 05.04.2025 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: 9e54883f-42ab-4c73-800b-4983deb6e412
   wiederholt: true
   zeit: 10.04.2025 18:30
 - name: Gauschießen in Elbersroth (Ende)
+  uuid: 2078ec8e-c496-456a-be28-0708199a1fa5
   zeit: 13.04.2025
 - name: Training
+  uuid: d31cd4f8-85be-4e4b-89f5-e6833c03c035
   wiederholt: true
   zeit: 17.04.2025 18:30
 - name: Training
+  uuid: 20c5f824-7bd8-4317-b8b0-c84c5852e150
   wiederholt: true
   zeit: 24.04.2025 18:30
 - name: Training
+  uuid: cf80e6a6-58e4-494c-acb6-5c38c595c90c
   wiederholt: true
   zeit: 01.05.2025 18:30
 - name: Schützenzwerge
+  uuid: f9fa5e6c-a46b-4ecd-9633-78553d7b8057
   wiederholt: true
   zeit: 03.05.2025 10:00
   zeitbis: '11:30'
 - name: Königsschießen Burgoberbach
+  uuid: 7a96a630-5b04-425d-b893-3b8ddd2f1067
   zeit: 08.05.2025 18:30
 - name: König Neuses
+  uuid: 5e4f0d7a-8581-45c9-8f85-43fc783a62e3
   zeit: 10.05.2025
 - name: Königsschießen Burgoberbach
+  uuid: d642197d-ab22-435c-9c7e-4192053191fd
   zeit: 15.05.2025 18:30
 - name: Königsschießen Burgoberbach
+  uuid: 28b3ef58-f36d-4ccc-b981-f5dca4694f61
   zeit: 22.05.2025 18:30
 - name: König Burgoberbach
+  uuid: be7bfa3f-4860-438c-809e-ff22d09492ea
   zeit: 24.05.2025
 - name: Training
+  uuid: 52cf3f01-7312-4856-a75f-5ab24dec5bc1
   wiederholt: true
   zeit: 29.05.2025 18:30
 - name: Training
+  uuid: a20fbfe2-87c9-4ed5-84e8-dbbfecf9e85d
   wiederholt: true
   zeit: 05.06.2025 18:30
+- name: König Winterschneidbach
+  uuid: 6cfd36c9-0f67-47e3-8e2c-af81738d2760
+  zeit: 07.06.2025
 - name: Schützenzwerge
+  uuid: c1efa722-ee93-43df-b7ff-215d183bff68
   wiederholt: true
   zeit: 07.06.2025 10:00
   zeitbis: '11:30'
-- name: König Winterschneidbach
-  zeit: 07.06.2025
 - name: Training
+  uuid: 624e11d2-9e84-4681-95a0-25e68c2dc75f
   wiederholt: true
   zeit: 12.06.2025 18:30
 - name: Gauschützenfest Elbersroth
+  uuid: ec690932-a9d7-47b5-a67c-646cafa7ae01
   zeit: 15.06.2025
 - name: Training
+  uuid: 4d22d600-5a43-472f-a120-af3fb9cd2641
   wiederholt: true
   zeit: 19.06.2025 18:30
 - name: Training
+  uuid: 20fe6aea-702e-4225-902b-a0af554fa10c
   wiederholt: true
   zeit: 20.06.2025 18:30
 - name: Training
+  uuid: 53cd0253-1665-4572-9bb5-a8689babe5fd
   wiederholt: true
   zeit: 26.06.2025 18:30
 - name: Training
+  uuid: 19e771a2-5b65-450f-b81f-1a29460f775e
   wiederholt: true
   zeit: 03.07.2025 18:30
 - name: Schützenzwerge
+  uuid: d6e0bd6a-4bf3-4be2-8ea3-6a12a7ee676c
   wiederholt: true
   zeit: 05.07.2025 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: 6b92d62c-7f14-4cf4-aeff-220f156081ba
   wiederholt: true
   zeit: 10.07.2025 18:30
 - name: Training
+  uuid: a6c4131a-7900-4826-82bc-d448cec50a50
   wiederholt: true
   zeit: 17.07.2025 18:30
 - name: 100 Jahre SG Niederoberbach
+  uuid: eafbea5e-40b4-40c6-b9a4-4072b80efd54
   zeit: 19.07.2025
 - name: Training
+  uuid: 470d0308-080b-406a-bf62-06ae862dfb13
   wiederholt: true
   zeit: 24.07.2025 18:30
 - name: Training
+  uuid: 75b12537-47db-4c7f-b115-bea663daf0ca
   wiederholt: true
   zeit: 31.07.2025 18:30
 - name: Schützenzwerge
+  uuid: 2f1fba00-0a40-43e9-9abe-ab1af6ad9bbc
   wiederholt: true
   zeit: 02.08.2025 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: 6b11d9ac-988a-40cb-8b0e-ac72012b9bf1
   wiederholt: true
   zeit: 07.08.2025 18:30
 - name: Training
+  uuid: 44305ec9-0b9e-4dab-82c6-a38c74ef07f3
   wiederholt: true
   zeit: 14.08.2025 18:30
 - name: Training
+  uuid: 54511b6d-3bfb-4554-a469-6fbaf8d41e1b
   wiederholt: true
   zeit: 21.08.2025 18:30
 - name: Training
+  uuid: 3bd08ada-f8d6-47cf-a194-e70bc401d4c0
   wiederholt: true
   zeit: 28.08.2025 18:30
 - name: Training
+  uuid: 2b6a68bf-c0af-4df3-8630-ed12849f1917
   wiederholt: true
   zeit: 04.09.2025 18:30
 - name: Schützenzwerge
+  uuid: 42f12a58-da20-48ad-8366-c89da5034132
   wiederholt: true
   zeit: 06.09.2025 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: 94e4c5e8-23ec-4525-b873-7a38de995cf0
   wiederholt: true
   zeit: 11.09.2025 18:30
 - name: Training
+  uuid: 06f0edcc-aa4c-4c7c-a223-e3afe7b043b7
   wiederholt: true
   zeit: 18.09.2025 18:30
 - name: Training
+  uuid: 8303f5a9-7a04-4c93-a9da-9713df013b1f
   wiederholt: true
   zeit: 25.09.2025 18:30
 - name: Bürgerschießen
+  uuid: 356d465c-6582-4085-9c1b-1396c8b6f854
   zeit: 02.10.2025 18:30
 - name: Schützenzwerge
+  uuid: 327f8129-b6b0-44b0-ba66-e63a7fbeab5b
   wiederholt: true
   zeit: 04.10.2025 10:00
   zeitbis: '11:30'
 - name: Bürgerschießen
+  uuid: d903b1a9-ff8c-4940-8c62-850de6b7bf09
   zeit: 09.10.2025 18:30
 - name: Bürgerkönig / Kirchweih
+  uuid: 7f48ec75-2ee6-459b-8f1f-ed7fc23fd95e
   zeit: 16.10.2025 18:30
 - name: Training
+  uuid: 8e0369ab-ae22-4cf3-8788-6f8712a1ba96
   wiederholt: true
   zeit: 23.10.2025 18:30
 - name: Training
+  uuid: 094f8479-5f73-4882-b197-fd7b67878f45
   wiederholt: true
   zeit: 30.10.2025 18:30
 - name: Schützenzwerge
+  uuid: d13f0570-c0cd-4225-9079-54e024c6b5c5
   wiederholt: true
   zeit: 01.11.2025 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: 7490a5e5-0770-4851-9950-d96ed13fcab8
   wiederholt: true
   zeit: 06.11.2025 18:30
 - name: Training
+  uuid: 5552f580-274a-46d9-adb2-e9d01ed4455b
   wiederholt: true
   zeit: 13.11.2025 18:30
 - name: Training
+  uuid: c703d6d1-4dce-4754-bed3-d51c675f685d
   wiederholt: true
   zeit: 20.11.2025 18:30
 - name: Training
+  uuid: ae3d23b5-baa8-46e2-b842-907a8e099cd4
   wiederholt: true
   zeit: 27.11.2025 18:30
 - name: Training
+  uuid: 0a572571-53e1-4b52-aa36-e96dede77bee
   wiederholt: true
   zeit: 04.12.2025 18:30
 - name: Schützenzwerge
+  uuid: a01daaca-0f45-46f6-a610-d3befe69845a
   wiederholt: true
   zeit: 06.12.2025 10:00
   zeitbis: '11:30'
 - name: Training
+  uuid: cedcf22a-b041-4645-8778-83a0740cb14c
   wiederholt: true
   zeit: 11.12.2025 18:30
 - name: Königsessen / Weihnachtsfeier
+  uuid: 9353646e-686d-49d7-83e5-e1348e3ac85e
   zeit: 13.12.2025 18:30
 - name: Training
+  uuid: 8d70ae56-bcc6-4e1c-aee9-730ee3e076b5
   wiederholt: true
   zeit: 18.12.2025 18:30
 - name: Jahresabschluss
+  uuid: b48bdc56-af00-4a86-876f-0f6a1f1f44a8
   zeit: 31.12.2025 18:00

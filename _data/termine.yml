@@ -510,11 +510,6 @@
   uuid: 2f254093-834f-4fe1-982a-f22603e9f07f
   wiederholt: true
   zeit: 03.04.2025 18:30
-- name: Schützenzwerge
-  uuid: d191cedc-f100-461e-8064-816c15f523ac
-  wiederholt: true
-  zeit: 05.04.2025 10:00
-  zeitbis: '11:30'
 - name: Training
   uuid: 9e54883f-42ab-4c73-800b-4983deb6e412
   wiederholt: true

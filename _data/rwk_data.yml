@@ -229,7 +229,7 @@ disziplinen:
         uuid: lg_2025_1_offene_klasse_5_rückrunde
         wettkampftag: 5
         zeit: '2025-03-07 20:00:00'
-      kalender: assets/calendar/lg_2025_1_offene_klasse.ics
+      kalender: lg_2025_1_offene_klasse
       max: 1414.0
       min: 1344.0
       platzierung: 4
@@ -596,7 +596,7 @@ disziplinen:
         uuid: lg_2025_2_offene_klasse_5_rückrunde
         wettkampftag: 5
         zeit: '2025-03-07 20:00:00'
-      kalender: assets/calendar/lg_2025_2_offene_klasse.ics
+      kalender: lg_2025_2_offene_klasse
       max: 1355.0
       min: 1301.0
       platzierung: 2

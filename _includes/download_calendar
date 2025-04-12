@@ -1,0 +1,6 @@
+{% capture _ %}{% increment drop_cal %}{% endcapture %}{% if include.p %}<p>{% endif %}<a href="#" class="icon-calendar" data-dropdown="drop_cal_{{ drop_cal }}" aria-controls="drop_cal_{{ drop_cal }}" aria-expanded="false"> {% if include.name %}{{ include.name }}{% else %}Kalender{% endif %}</a>{% if include.p %}</p>{% endif %}
+<ul id="drop_cal_{{ drop_cal }}" data-dropdown-content class="f-dropdown" aria-hidden="true">
+{% assign hover_arr = include.hover | split: ";" %}{% assign calendar_arr = include.calendar | default: "sg_bob_termine" | split: ";" | default: calendar_default %}{% for c in calendar_arr %}{% capture cal_link %}{{ site.url }}{{ site.baseurl }}/assets/calendar/{{ c }}.ics{% endcapture %}
+<li><a href="{{ cal_link }}" download>{% if hover_arr[forloop.index0] %}{{ hover_arr[forloop.index0] }}{% else %}Kalender herunterladen (.ics-Datei){% endif %}</a></li>
+<li><a onclick="navigator.clipboard.writeText(String.raw`{{ cal_link }}`);">Link kopieren</a></li>{% endfor %}
+</ul>

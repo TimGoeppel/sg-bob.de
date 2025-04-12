@@ -24,9 +24,11 @@ Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_b
 {% for disziplin in site.data.rwk_data.disziplinen %}
 
 ## {{ disziplin.disziplin }} {{ disziplin.sportjahr }}
+<ul class="accordion" data-accordion>
 {% for mannschaft in disziplin.mannschaften %}
-<details>
-  <summary><b><center>{% if mannschaft.mannschafts_nr and mannschaft.klassen_name %}{{ mannschaft.mannschafts_nr }}. Mannschaft ({{ mannschaft.klassen_name }}){% else %}{{ mannschaft.gruppe }}{% endif %}</center></b></summary>
+  <li class="accordion-navigation">{% capture panel %}{{ disziplin.disziplin }} {{ disziplin.sportjahr }} mannschaft{{ mannschaft.mannschafts_nr }} {{ mannschaft.klassen_name }}{% endcapture %}{% assign panel = panel | downcase | replace: ' ', '_' %}
+  <a href="#panel{{ panel }}"><b><center>{% if mannschaft.mannschafts_nr and mannschaft.klassen_name %}{{ mannschaft.mannschafts_nr }}. Mannschaft ({{ mannschaft.klassen_name }}){% else %}{{ mannschaft.gruppe }}{% endif %}</center></b></a>
+  <div id="panel{{ panel }}" class="content">
   Schützen:
   <ul>
   {% for schuetze in mannschaft.schuetzen %}
@@ -35,7 +37,7 @@ Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_b
   </ul>
   {% assign info = mannschaft.info %}
   {% if mannschaft.info %}
- <a href="{{ site.url }}{{ site.baseurl }}/{{ info.kalender }}" target="_blank" class="icon-calendar" title="Wettkampfkalender herunterladen (.ics)" download> Termine</a>
+  {% include download_calendar calendar=info.kalender hover="Wettkampfkalender herunterladen (.ics)" name="Termine" %}
   <table>
   <tr><th>Tabelle {{ mannschaft.gruppe }} {{ mannschaft.gruppen_nr }}</th></tr>
   <tr><th>Platz</th><th>Mannschaft</th><th>Ringe</th><th>Punkte</th></tr>
@@ -94,6 +96,8 @@ new Chart(document.getElementById('{{ chartid }}'), {
 })();
 </script>
 {% endif %}
-</details>
+</div>
+</li>
 {% endfor %}
+</ul>
 {% endfor %}

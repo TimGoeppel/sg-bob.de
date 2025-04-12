@@ -89,9 +89,9 @@ format: frontpage
         </div><!-- /.medium-5.columns -->
 
 
-	{% capture pre %}<p><strong>{{ site.data.language.next_appointment }} <a href="{{ site.url }}{{ site.baseurl }}/assets/calendar/sg_bob_termine.ics" style="float: right;" target="_blank" class="icon-calendar" title="Kalendar herunterladen (.ics)" download> Kalender</a></p></strong></p><ul class="side-nav"><li>{% endcapture %}{% capture post %}<li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/aktuelles/"><strong>{{ site.data.language.more }}</strong></a></li></li>{% endcapture %}<div class="medium-5 columns">{% include termine %}{% assign termin = termine | first %}{% assign termin2 = termine[1] %}{% include termin termin=termin customname=false pre=pre post='</li>' %}{% include termin termin=termin2 customname=false pre='<li>' post=post %}
+	{% capture pre %}<div><strong>{{ site.data.language.next_appointment }} <span style="float: right">{% include download_calendar %}</span></strong></div><ul class="side-nav"><li>{% endcapture %}{% capture post %}</li><li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/aktuelles/"><strong>{{ site.data.language.more }}</strong></a></li></ul>{% endcapture %}<div class="medium-5 columns">{% include termine %}{% assign termin = termine | first %}{% assign termin2 = termine[1] %}{% include termin termin=termin customname=false pre=pre post='</li>' %}{% include termin termin=termin2 customname=false pre='<li>' post=post %} 
 
-			<p><strong>{{ site.data.language.more_articles }}</strong></p>
+			<div><strong>{{ site.data.language.more_articles }}</strong></div>
             {% include list-posts entries='3' offset='1' %}
         </div><!-- /.medium-7.columns -->
     </div><!-- /.row -->

@@ -2,12 +2,14 @@
 	<div class="">
 		<h3>Kommende Termine</h3>
 		<p><a href="{{ site.url }}{{ site.baseurl }}/assets/files/termine.pdf" target="_blank">Aktueller Terminplan</a></p>
-		<p><a href="{{ site.url }}{{ site.baseurl }}/assets/calendar/sg_bob_termine.ics" target="_blank" class="icon-calendar" title="Kalendar herunterladen (.ics)" download> Kalender herunterladen</a></p>
-		<p><a id="show" href="#" onclick="event.preventDefault();Array.prototype.forEach.call(document.getElementsByClassName('hiddenrow'), elem => elem.hidden = false); document.getElementById('show').hidden = true; document.getElementById('hide').hidden = false;">Mehr anzeigen</a>
-		<a id="hide" href="#" hidden onclick="event.preventDefault();Array.prototype.forEach.call(document.getElementsByClassName('hiddenrow'), elem => elem.hidden = true);  document.getElementById('hide').hidden = true; document.getElementById('show').hidden = false;">Ausblenden</a></p>
+
+		{% include download_calendar calendar="sg_bob_termine;sg_bob_training;sg_bob_schuetzenzwerge" name="Kalender herunterladen" hover="Termine (ohne Training und Schützenzwerge) herunterladen (.ics-Datei);Termine (Training) herunterladen (.ics-Datei);Termine (Schützenzwerge) herunterladen (.ics-Datei)" p=true %}
+
+		<p><a id="show" href="#" onclick="event.preventDefault();Array.prototype.forEach.call(document.getElementsByClassName('hiddenrow'), elem => elem.hidden = false); document.getElementById('show').hidden = true; document.getElementById('hide').hidden = false;">Mehr anzeigen</a></p>
+		<a id="hide" href="#" hidden onclick="event.preventDefault();Array.prototype.forEach.call(document.getElementsByClassName('hiddenrow'), elem => elem.hidden = true);  document.getElementById('hide').hidden = true; document.getElementById('show').hidden = false;">Ausblenden</a>
 		<table>
 			<tr><th>Name</th><th>Datum</th><th>Uhrzeit</th><tr>
-			{% for termin in termine %}<tr{% if forloop.index > 10 %} class="hiddenrow" hidden{% endif %}><td>{% unless termin.wiederholt %}<strong>{% endunless %}{{ termin.name }}</td>{% unless termin.wiederholt %}</strong>{% endunless %}<td>{{ termin.zeit | date: "%d.%m.%Y"}}</td><td>{% assign uhrzeit = termin.zeit | date: "%H:%M" %}{% unless uhrzeit == "00:00" %}{{ uhrzeit }}{% if termin.zeitbis %}&mdash;{{ termin.zeitbis }}{% endif %}{% endunless %}</td></tr>{% endfor %}
+			{% for termin in termine %}<tr{% if forloop.index > 10 %} class="hiddenrow" hidden{% endif %}><td>{% unless termin.wiederholt %}<strong>{% endunless %}{{ termin.name }}{% unless termin.wiederholt %}</strong>{% endunless %}</td><td>{{ termin.zeit | date: "%d.%m.%Y"}}</td><td>{% assign uhrzeit = termin.zeit | date: "%H:%M" %}{% unless uhrzeit == "00:00" %}{{ uhrzeit }}{% if termin.zeitbis %}&mdash;{{ termin.zeitbis }}{% endif %}{% endunless %}</td></tr>{% endfor %}
 		</table>
 	</div>
 </aside>{% endif %}

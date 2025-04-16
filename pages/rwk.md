@@ -38,11 +38,14 @@ Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_b
   {% assign info = mannschaft.info %}
   {% if mannschaft.info %}
   {% include download_calendar calendar=info.kalender hover="Wettkampfkalender herunterladen (.ics)" name="Termine" %}
+  <div style="overflow-y: scroll;">
   <table>
   <tr><th>Tabelle {{ mannschaft.gruppe }} {{ mannschaft.gruppen_nr }}</th></tr>
   <tr><th>Platz</th><th>Mannschaft</th><th>Ringe</th><th>Punkte</th></tr>
   {% for m in info.tabelle %}{% capture bs %}{% if mannschaft.vereinsnummer == m.vereinsnummer and mannschaft.mannschafts_nr == m.mannschafts_nr %}<b>{% else %}{% endif %}{% endcapture %}{% capture be %}{% if mannschaft.vereinsnummer == m.vereinsnummer and mannschaft.mannschafts_nr == m.mannschafts_nr %}</b>{% else %}{% endif %}{% endcapture %}<tr><td>{{ bs }}{{ m.platzierung }}{{ be }}</td><td>{{ bs }}{{ m.name }} {{ m.mannschafts_nr }}{{ be }}</td><td>{{ bs }}{{ m.ringe }} (&#8960; {% assign g = m.anzahl_geschossen | times: 1.0 %}{{ m.ringe | divided_by: g | round }}){{ be }}</td><td>{{ bs }}{{ m.punkte_gewonnen }}:{{ m.punkte_verloren }}{{ be }}</td></tr>{% endfor %}
   </table>
+  </div>
+  <div style="overflow-y: scroll;">
   <table>
   <tr><th>Durchgänge</th></tr>
   <tr><th>Runde</th><th>Datum</th><th>Heimmannschaft</th><th>Gastmannschaft</th><th>Ergebnis</th><th>Punkte</th></tr>
@@ -50,6 +53,7 @@ Rundenwettkämpfe im [Schützengau Ansbach](https://gau-ansbach.de/){:target="_b
   <tr{% if durchgang.sieg %} class="durchgang_{% if durchgang.sieg == 1 %}win{% elsif durchgang.sieg == 0%}tie{% else %}def{% endif %}"{% endif %}><td>{{ durchgang.wettkampftag }}. {{ durchgang.runde }}</td><td>{{ durchgang.zeit | date: "%d.%m.%Y %H:%M" }}</td><td>{{ durchgang.heim_name }} {{ durchgang.heim_mannschafts_nr }}</td><td>{{ durchgang.gast_name }} {{ durchgang.gast_mannschafts_nr }}</td><td>{% if durchgang.heim_ringe and durchgang.gast_ringe %}{{ durchgang.heim_ringe }} : {{ durchgang.gast_ringe }}{% endif %}</td><td>{{ durchgang.punkte }}</td></tr>
   {% endfor %}
   </table>
+  </div>
 {% endif %}
 {% if mannschaft.chartjs %}
 {% assign chartid = "chart_" | append: disziplin.id | append: "_" | append: mannschaft.klasse | append: "_" | append: mannschaft.gruppen_nr | replace: " ", "_" | downcase %}

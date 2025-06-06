@@ -559,12 +559,7 @@
   zeit: 05.06.2025 18:30
 - name: König Winterschneidbach
   uuid: 6cfd36c9-0f67-47e3-8e2c-af81738d2760
-  zeit: 07.06.2025
-- name: Schützenzwerge
-  uuid: c1efa722-ee93-43df-b7ff-215d183bff68
-  wiederholt: true
-  zeit: 07.06.2025 10:00
-  zeitbis: '11:30'
+  zeit: 07.06.2025 17:30
 - name: Training
   uuid: 624e11d2-9e84-4681-95a0-25e68c2dc75f
   wiederholt: true
@@ -629,10 +624,9 @@
   uuid: 54511b6d-3bfb-4554-a469-6fbaf8d41e1b
   wiederholt: true
   zeit: 21.08.2025 18:30
-- name: Training
-  uuid: 3bd08ada-f8d6-47cf-a194-e70bc401d4c0
-  wiederholt: true
-  zeit: 28.08.2025 18:30
+- name: Ferienprogramm
+  uuid: 4df99e3e-4dbf-4315-a1d7-af75130998cf
+  zeit: 28.08.2025
 - name: Training
   uuid: 2b6a68bf-c0af-4df3-8630-ed12849f1917
   wiederholt: true

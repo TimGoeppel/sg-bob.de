@@ -607,11 +607,6 @@
   uuid: 75b12537-47db-4c7f-b115-bea663daf0ca
   wiederholt: true
   zeit: 31.07.2025 18:30
-- name: Schützenzwerge
-  uuid: 2f1fba00-0a40-43e9-9abe-ab1af6ad9bbc
-  wiederholt: true
-  zeit: 02.08.2025 10:00
-  zeitbis: '11:30'
 - name: Training
   uuid: 6b11d9ac-988a-40cb-8b0e-ac72012b9bf1
   wiederholt: true

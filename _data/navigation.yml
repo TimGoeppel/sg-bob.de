@@ -32,6 +32,10 @@
   url: "/kontakt/"
   side: right
 
+- title: "Mitglied werden"
+  url: "/mitglied-werden/"
+  side: right
+
 - title: "Suche"
   url: "/suche/"
   side: right

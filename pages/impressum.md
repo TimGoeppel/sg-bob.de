@@ -13,6 +13,9 @@ eingetragen im Vereinsregister Ansbach: VR 113
 {% assign vorstand1 = site.data.vorstandschaft.erwachsene | where: "funktion", "1. Vorstand" | first %}
 {% unless vorstand1 %}<!-- Failed to retrieve "1. Vorstand" -->{% assign vorstand1 = site.data.vorstandschaft.erwachsene[0] %}{% endunless %}
 
+## Satzung
+<a href="{{ site.url }}{{ site.baseurl }}/assets/files/satzung.pdf" download>Satzung der Schützengesellschaft „Edelweiß” Burgoberbach 1958 e. V. (Download)</a>
+
 ## Vertreten durch:
 {{ vorstand1.name }}
 

@@ -279,7 +279,7 @@ def get_overview(gau_nr, vereinsnummer, vereins_name, years, include_ersatz = Fa
                 mannschaft = disziplin['mannschaften'][index_m]
                 mannschaft['info'] = get_mannschaftsinfo(mannschaft, erzeuge_tabelle = True, erzeuge_durchgaenge = True)
                 prefix = '_'.join([disziplin['disziplin_kurz'], str(disziplin['sportjahr']), str(mannschaft['mannschafts_nr']), mannschaft['klassen_name']]).replace(' ', '_').lower()
-                calendar_path = prefix
+                calendar_path = 'assets/calendar/' + prefix + '.ics'
                 mannschaft['info']['kalender'] = calendar_path
                 for durchgang in mannschaft['info'].get('durchgaenge', []):
                     durchgang['uuid'] = prefix + '_' + (str(durchgang['wettkampftag']) + '_' + durchgang['runde']).replace(' ', '_').lower()

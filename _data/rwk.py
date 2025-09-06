@@ -279,12 +279,12 @@ def get_overview(gau_nr, vereinsnummer, vereins_name, years, include_ersatz = Fa
                 mannschaft = disziplin['mannschaften'][index_m]
                 mannschaft['info'] = get_mannschaftsinfo(mannschaft, erzeuge_tabelle = True, erzeuge_durchgaenge = True)
                 prefix = '_'.join([disziplin['disziplin_kurz'], str(disziplin['sportjahr']), str(mannschaft['mannschafts_nr']), mannschaft['klassen_name']]).replace(' ', '_').lower()
-                calendar_path = 'assets/calendar/' + prefix + '.ics'
+                calendar_path = prefix
                 mannschaft['info']['kalender'] = calendar_path
                 for durchgang in mannschaft['info'].get('durchgaenge', []):
                     durchgang['uuid'] = prefix + '_' + (str(durchgang['wettkampftag']) + '_' + durchgang['runde']).replace(' ', '_').lower()
                 try:
-                    ical_file = open(parent_dir + '/' + calendar_path, 'w')
+                    ical_file = open(parent_dir + '/assets/calendar/' + prefix + '.ics', 'w')
                     ical_file.write('---\nlayout: null\n---\n{% assign termine = site.data.rwk_data.disziplinen[' + str(index_d) + '].mannschaften[' + str(index_m) + '].info.durchgaenge %}{% include calendar.ics termine=termine name="SG Burgoberbach ' + str(mannschaft['mannschafts_nr']) + ' (' + mannschaft['klassen_name'] + ')" description="Wettkampftermine der ' + str(mannschaft['mannschafts_nr']) + '. Mannschaft des SG Burgoberbach" %}')
                 except Exception as e:
                     print('Could not write "' + prefix + '.ics" to file')

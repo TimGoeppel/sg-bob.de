@@ -289,6 +289,9 @@ def get_overview(gau_nr, vereinsnummer, vereins_name, years, include_ersatz = Fa
                     ical_file = open(parent_dir + '/assets/calendar/' + calendar_path + '.ics', 'w')
                     ical_file.write('---\nlayout: null\n---\n{% assign termine = site.data.rwk_data.disziplinen[' + str(index_d) + '].mannschaften[' + str(index_m) + '].info.durchgaenge %}{% include calendar.ics termine=termine name="SG Burgoberbach ' + str(mannschaft['mannschafts_nr']) + ' (' + mannschaft['klassen_name'] + ')" description="Wettkampftermine der ' + str(mannschaft['mannschafts_nr']) + '. Mannschaft des SG Burgoberbach" %}')
                     ical_file.close()
+                    f = open(parent_dir + '/assets/calendar/' + calendar_path + '.ics', 'r')
+                    print(f.readlines())
+                    f.close()
                 except Exception as e:
                     print('Could not write "' + prefix + '.ics" to file')
                     print(e)

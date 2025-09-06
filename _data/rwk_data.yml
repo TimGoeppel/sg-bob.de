@@ -134,7 +134,7 @@ disziplinen:
         uuid: lg_2026_1_offene_klasse_5_rückrunde
         wettkampftag: 5
         zeit: '2026-02-27 20:00:00'
-      kalender: assets/calendar/lg_2026_1_offene_klasse.ics
+      kalender: lg_2026_1_offene_klasse
       max: 0.0
       min: 0.0
       platzierung: 0
@@ -300,7 +300,7 @@ disziplinen:
         uuid: lg_2026_1_jugendklasse_5_rückrunde
         wettkampftag: 5
         zeit: '2026-03-06 19:00:00'
-      kalender: assets/calendar/lg_2026_1_jugendklasse.ics
+      kalender: lg_2026_1_jugendklasse
       max: 0.0
       min: 0.0
       platzierung: 0

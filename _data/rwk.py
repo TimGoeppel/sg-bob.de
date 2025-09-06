@@ -288,6 +288,7 @@ def get_overview(gau_nr, vereinsnummer, vereins_name, years, include_ersatz = Fa
                     print(parent_dir)
                     ical_file = open(parent_dir + '/assets/calendar/' + calendar_path + '.ics', 'w')
                     ical_file.write('---\nlayout: null\n---\n{% assign termine = site.data.rwk_data.disziplinen[' + str(index_d) + '].mannschaften[' + str(index_m) + '].info.durchgaenge %}{% include calendar.ics termine=termine name="SG Burgoberbach ' + str(mannschaft['mannschafts_nr']) + ' (' + mannschaft['klassen_name'] + ')" description="Wettkampftermine der ' + str(mannschaft['mannschafts_nr']) + '. Mannschaft des SG Burgoberbach" %}')
+                    ical_file.close()
                 except Exception as e:
                     print('Could not write "' + prefix + '.ics" to file')
                     print(e)
@@ -323,4 +324,6 @@ file2 = open(path + '/' + 'rwk_data.json', 'w')
 data = get_overview('102000', '102013', 'SG Burgoberbach', args, include_ersatz = True)
 if data:
     yaml.dump(data, file, allow_unicode=True)
+    file.close()
     json.dump(data, file2, ensure_ascii=False)
+    file2.close()

@@ -9,29 +9,39 @@ disziplinen:
   - chartjs:
       data:
         datasets:
-        - data: []
+        - data:
+          - 1364
           label: SG Burgoberbach 1
           pointRadius: 6
-        - data: []
+        - data:
+          - 1411
           label: Gegner
           pointRadius: 6
-        labels: []
+        labels:
+        - 1. Vorrunde
       max: 1600
-      suggested_min: 0
+      suggested_min: 1128.0
     gruppe: B-Klasse
     gruppen_id: '5864'
     gruppen_nr: 2
     info:
-      avg: 0.0
+      avg: 1364.0
       durchgaenge:
-      - gast_mannschafts_nr: 1
+      - avg: 1364.0
+        gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
+        gast_ringe: 1364
         heim_id: '582386'
         heim_mannschafts_nr: 2
         heim_name: SV Larrieden
+        heim_ringe: 1411
         name: SV Larrieden 2 – SG Burgoberbach 1 (1. Vorrunde)
         ort: SV Larrieden
+        platzierung: 5
+        punkte: 0:2
+        punkte_akkumulativ: 0:2
         runde: Vorrunde
+        sieg: -1
         uuid: lg_2026_1_offene_klasse_1_vorrunde
         wettkampftag: 1
         zeit: '2025-09-19 20:00:00'
@@ -135,62 +145,146 @@ disziplinen:
         wettkampftag: 5
         zeit: '2026-02-27 20:00:00'
       kalender: lg_2026_1_offene_klasse
-      max: 0.0
-      min: 0.0
-      platzierung: 0
-      tabelle: []
+      max: 1364.0
+      min: 1364.0
+      platzierung: 5
+      tabelle:
+      - anzahl_geschossen: 1
+        gruppe: B-Klasse
+        gruppen_id: '5864'
+        gruppen_nr: 2
+        klasse: OK
+        klassen_id: '2858'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SV Larrieden
+        platzierung: 1
+        punkte_gewonnen: 2
+        punkte_verloren: 0
+        ringe: 1411
+        vereinsnummer: '102063'
+      - anzahl_geschossen: 1
+        gruppe: B-Klasse
+        gruppen_id: '5864'
+        gruppen_nr: 2
+        klasse: OK
+        klassen_id: '2858'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SG Dorfgütingen
+        platzierung: 2
+        punkte_gewonnen: 2
+        punkte_verloren: 0
+        ringe: 1390
+        vereinsnummer: '102058'
+      - anzahl_geschossen: 1
+        gruppe: B-Klasse
+        gruppen_id: '5864'
+        gruppen_nr: 2
+        klasse: OK
+        klassen_id: '2858'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SSV Lohr
+        platzierung: 3
+        punkte_gewonnen: 2
+        punkte_verloren: 0
+        ringe: 1348
+        vereinsnummer: '102030'
+      - anzahl_geschossen: 1
+        gruppe: B-Klasse
+        gruppen_id: '5864'
+        gruppen_nr: 2
+        klasse: OK
+        klassen_id: '2858'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SV Leibelbach-Heuberg
+        platzierung: 4
+        punkte_gewonnen: 0
+        punkte_verloren: 2
+        ringe: 1371
+        vereinsnummer: '102027'
+      - anzahl_geschossen: 1
+        gruppe: B-Klasse
+        gruppen_id: '5864'
+        gruppen_nr: 2
+        klasse: OK
+        klassen_id: '2858'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 1
+        name: SG Burgoberbach
+        platzierung: 5
+        punkte_gewonnen: 0
+        punkte_verloren: 2
+        ringe: 1364
+        vereinsnummer: '102013'
+      - anzahl_geschossen: 1
+        gruppe: B-Klasse
+        gruppen_id: '5864'
+        gruppen_nr: 2
+        klasse: OK
+        klassen_id: '2858'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 3
+        name: SV Buch-am-Wald
+        platzierung: 6
+        punkte_gewonnen: 0
+        punkte_verloren: 2
+        ringe: 1301
+        vereinsnummer: '102011'
     klasse: OK
     klassen_id: '2858'
     klassen_name: Offene Klasse
     mannschafts_nr: 1
-    platzierung: 0
+    platzierung: 5
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 0
-      avg: 0.0
+      anzahl_stamm: 1
+      avg: 335.0
       avg_ersatz: 0.0
-      avg_stamm: 0.0
+      avg_stamm: 335.0
       gruppe: B-Klasse
       id: '16769'
       mannschafts_nr: 1
-      max: 0
-      min: 0
+      max: 335
+      min: 335
       nachname: Appel
       vorname: Philipp
     - anzahl_ersatz: 0
-      anzahl_stamm: 0
-      avg: 0.0
+      anzahl_stamm: 1
+      avg: 341.0
       avg_ersatz: 0.0
-      avg_stamm: 0.0
+      avg_stamm: 341.0
       gruppe: B-Klasse
       id: '375125'
       mannschafts_nr: 1
-      max: 0
-      min: 0
+      max: 341
+      min: 341
       nachname: Göppel
       vorname: Tim
     - anzahl_ersatz: 0
-      anzahl_stamm: 0
-      avg: 0.0
+      anzahl_stamm: 1
+      avg: 325.0
       avg_ersatz: 0.0
-      avg_stamm: 0.0
+      avg_stamm: 325.0
       gruppe: B-Klasse
       id: '16750'
       mannschafts_nr: 1
-      max: 0
-      min: 0
+      max: 325
+      min: 325
       nachname: Hammerl
       vorname: Christian
     - anzahl_ersatz: 0
-      anzahl_stamm: 0
-      avg: 0.0
+      anzahl_stamm: 1
+      avg: 363.0
       avg_ersatz: 0.0
-      avg_stamm: 0.0
+      avg_stamm: 363.0
       gruppe: B-Klasse
       id: '314646'
       mannschafts_nr: 1
-      max: 0
-      min: 0
+      max: 363
+      min: 363
       nachname: Huber
       vorname: Jakob
     vereinsnummer: '102013'

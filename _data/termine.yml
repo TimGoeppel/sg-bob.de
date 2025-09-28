@@ -646,11 +646,6 @@
 - name: Bürgerschießen
   uuid: 356d465c-6582-4085-9c1b-1396c8b6f854
   zeit: 02.10.2025 18:30
-- name: Schützenzwerge
-  uuid: 327f8129-b6b0-44b0-ba66-e63a7fbeab5b
-  wiederholt: true
-  zeit: 04.10.2025 10:00
-  zeitbis: '11:30'
 - name: Bürgerschießen
   uuid: d903b1a9-ff8c-4940-8c62-850de6b7bf09
   zeit: 09.10.2025 18:30

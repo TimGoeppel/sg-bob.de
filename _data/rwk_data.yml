@@ -291,29 +291,39 @@ disziplinen:
   - chartjs:
       data:
         datasets:
-        - data: []
+        - data:
+          - 746
           label: SG Burgoberbach 1
           pointRadius: 6
-        - data: []
+        - data:
+          - 811
           label: Gegner
           pointRadius: 6
-        labels: []
+        labels:
+        - 1. Vorrunde
       max: 1200
-      suggested_min: 0
+      suggested_min: 292.0
     gruppe: J
     gruppen_id: '5869'
     gruppen_nr: 4
     info:
-      avg: 0.0
+      avg: 746.0
       durchgaenge:
-      - gast_mannschafts_nr: 1
+      - avg: 746.0
+        gast_mannschafts_nr: 1
         gast_name: SG Elbersroth
+        gast_ringe: 811
         heim_id: '579184'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
+        heim_ringe: 746
         name: SG Burgoberbach 1 – SG Elbersroth 1 (1. Vorrunde)
         ort: SG Burgoberbach
+        platzierung: 3
+        punkte: 0:2
+        punkte_akkumulativ: 0:2
         runde: Vorrunde
+        sieg: -1
         uuid: lg_2026_1_jugendklasse_1_vorrunde
         wettkampftag: 1
         zeit: '2025-09-26 19:00:00'
@@ -395,50 +405,106 @@ disziplinen:
         wettkampftag: 5
         zeit: '2026-03-06 19:00:00'
       kalender: lg_2026_1_jugendklasse
-      max: 0.0
-      min: 0.0
-      platzierung: 0
-      tabelle: []
+      max: 746.0
+      min: 746.0
+      platzierung: 3
+      tabelle:
+      - anzahl_geschossen: 1
+        gruppe: J
+        gruppen_id: '5869'
+        gruppen_nr: 4
+        klasse: Jugendklasse
+        klassen_id: '2861'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SG Weihenzell
+        platzierung: 1
+        punkte_gewonnen: 2
+        punkte_verloren: 0
+        ringe: 986
+        vereinsnummer: '102051'
+      - anzahl_geschossen: 1
+        gruppe: J
+        gruppen_id: '5869'
+        gruppen_nr: 4
+        klasse: Jugendklasse
+        klassen_id: '2861'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SG Elbersroth
+        platzierung: 2
+        punkte_gewonnen: 2
+        punkte_verloren: 0
+        ringe: 811
+        vereinsnummer: '102067'
+      - anzahl_geschossen: 1
+        gruppe: J
+        gruppen_id: '5869'
+        gruppen_nr: 4
+        klasse: Jugendklasse
+        klassen_id: '2861'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SG Burgoberbach
+        platzierung: 3
+        punkte_gewonnen: 0
+        punkte_verloren: 2
+        ringe: 746
+        vereinsnummer: '102013'
+      - anzahl_geschossen: 1
+        gruppe: J
+        gruppen_id: '5869'
+        gruppen_nr: 4
+        klasse: Jugendklasse
+        klassen_id: '2861'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SV Leibelbach-Heuberg
+        platzierung: 4
+        punkte_gewonnen: 0
+        punkte_verloren: 2
+        ringe: 721
+        vereinsnummer: '102027'
     klasse: Jugendklasse
     klassen_id: '2861'
     klassen_name: Jugendklasse
     mannschafts_nr: 1
-    platzierung: 0
+    platzierung: 3
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 0
-      avg: 0.0
+      anzahl_stamm: 1
+      avg: 193.0
       avg_ersatz: 0.0
-      avg_stamm: 0.0
+      avg_stamm: 193.0
       gruppe: J
       id: '404149'
       mannschafts_nr: 1
-      max: 0
-      min: 0
+      max: 193
+      min: 193
       nachname: Schulz
       vorname: Lina
     - anzahl_ersatz: 0
-      anzahl_stamm: 0
-      avg: 0.0
+      anzahl_stamm: 1
+      avg: 277.0
       avg_ersatz: 0.0
-      avg_stamm: 0.0
+      avg_stamm: 277.0
       gruppe: J
       id: '404148'
       mannschafts_nr: 1
-      max: 0
-      min: 0
+      max: 277
+      min: 277
       nachname: Siegordner
       vorname: Lea
     - anzahl_ersatz: 0
-      anzahl_stamm: 0
-      avg: 0.0
+      anzahl_stamm: 1
+      avg: 276.0
       avg_ersatz: 0.0
-      avg_stamm: 0.0
+      avg_stamm: 276.0
       gruppe: J
       id: '404146'
       mannschafts_nr: 1
-      max: 0
-      min: 0
+      max: 276
+      min: 276
       nachname: Zettl
       vorname: Nora
     vereinsnummer: '102013'

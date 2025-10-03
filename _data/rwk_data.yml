@@ -11,21 +11,24 @@ disziplinen:
         datasets:
         - data:
           - 1364
+          - 1423
           label: SG Burgoberbach 1
           pointRadius: 6
         - data:
           - 1411
+          - 1373
           label: Gegner
           pointRadius: 6
         labels:
         - 1. Vorrunde
+        - 2. Vorrunde
       max: 1600
-      suggested_min: 1128.0
+      suggested_min: 1187.0
     gruppe: B-Klasse
     gruppen_id: '5864'
     gruppen_nr: 2
     info:
-      avg: 1364.0
+      avg: 1393.5
       durchgaenge:
       - avg: 1364.0
         gast_mannschafts_nr: 1
@@ -45,14 +48,21 @@ disziplinen:
         uuid: lg_2026_1_offene_klasse_1_vorrunde
         wettkampftag: 1
         zeit: '2025-09-19 20:00:00'
-      - gast_mannschafts_nr: 3
+      - avg: 1393.5
+        gast_mannschafts_nr: 3
         gast_name: SV Buch-am-Wald
+        gast_ringe: 1373
         heim_id: '582392'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
+        heim_ringe: 1423
         name: SG Burgoberbach 1 – SV Buch-am-Wald 3 (2. Vorrunde)
         ort: SG Burgoberbach
+        platzierung: 3
+        punkte: '2:0'
+        punkte_akkumulativ: '2:2'
         runde: Vorrunde
+        sieg: 1
         uuid: lg_2026_1_offene_klasse_2_vorrunde
         wettkampftag: 2
         zeit: '2025-10-03 20:00:00'
@@ -145,25 +155,11 @@ disziplinen:
         wettkampftag: 5
         zeit: '2026-02-27 20:00:00'
       kalender: lg_2026_1_offene_klasse
-      max: 1364.0
+      max: 1423.0
       min: 1364.0
-      platzierung: 5
+      platzierung: 3
       tabelle:
-      - anzahl_geschossen: 1
-        gruppe: B-Klasse
-        gruppen_id: '5864'
-        gruppen_nr: 2
-        klasse: OK
-        klassen_id: '2858'
-        klassen_name: Offene Klasse
-        mannschafts_nr: 2
-        name: SV Larrieden
-        platzierung: 1
-        punkte_gewonnen: 2
-        punkte_verloren: 0
-        ringe: 1411
-        vereinsnummer: '102063'
-      - anzahl_geschossen: 1
+      - anzahl_geschossen: 2
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -172,12 +168,12 @@ disziplinen:
         klassen_name: Offene Klasse
         mannschafts_nr: 2
         name: SG Dorfgütingen
-        platzierung: 2
-        punkte_gewonnen: 2
+        platzierung: 1
+        punkte_gewonnen: 4
         punkte_verloren: 0
-        ringe: 1390
+        ringe: 2780
         vereinsnummer: '102058'
-      - anzahl_geschossen: 1
+      - anzahl_geschossen: 2
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -185,13 +181,27 @@ disziplinen:
         klassen_id: '2858'
         klassen_name: Offene Klasse
         mannschafts_nr: 2
-        name: SSV Lohr
+        name: SV Larrieden
+        platzierung: 2
+        punkte_gewonnen: 2
+        punkte_verloren: 2
+        ringe: 2794
+        vereinsnummer: '102063'
+      - anzahl_geschossen: 2
+        gruppe: B-Klasse
+        gruppen_id: '5864'
+        gruppen_nr: 2
+        klasse: OK
+        klassen_id: '2858'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 1
+        name: SG Burgoberbach
         platzierung: 3
         punkte_gewonnen: 2
-        punkte_verloren: 0
-        ringe: 1348
-        vereinsnummer: '102030'
-      - anzahl_geschossen: 1
+        punkte_verloren: 2
+        ringe: 2787
+        vereinsnummer: '102013'
+      - anzahl_geschossen: 2
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -201,25 +211,25 @@ disziplinen:
         mannschafts_nr: 2
         name: SV Leibelbach-Heuberg
         platzierung: 4
-        punkte_gewonnen: 0
+        punkte_gewonnen: 2
         punkte_verloren: 2
-        ringe: 1371
+        ringe: 2753
         vereinsnummer: '102027'
-      - anzahl_geschossen: 1
+      - anzahl_geschossen: 2
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
         klasse: OK
         klassen_id: '2858'
         klassen_name: Offene Klasse
-        mannschafts_nr: 1
-        name: SG Burgoberbach
+        mannschafts_nr: 2
+        name: SSV Lohr
         platzierung: 5
-        punkte_gewonnen: 0
+        punkte_gewonnen: 2
         punkte_verloren: 2
-        ringe: 1364
-        vereinsnummer: '102013'
-      - anzahl_geschossen: 1
+        ringe: 2662
+        vereinsnummer: '102030'
+      - anzahl_geschossen: 2
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -230,60 +240,60 @@ disziplinen:
         name: SV Buch-am-Wald
         platzierung: 6
         punkte_gewonnen: 0
-        punkte_verloren: 2
-        ringe: 1301
+        punkte_verloren: 4
+        ringe: 2674
         vereinsnummer: '102011'
     klasse: OK
     klassen_id: '2858'
     klassen_name: Offene Klasse
     mannschafts_nr: 1
-    platzierung: 5
+    platzierung: 3
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 1
-      avg: 335.0
+      anzahl_stamm: 2
+      avg: 345.5
       avg_ersatz: 0.0
-      avg_stamm: 335.0
+      avg_stamm: 345.5
       gruppe: B-Klasse
       id: '16769'
       mannschafts_nr: 1
-      max: 335
+      max: 356
       min: 335
       nachname: Appel
       vorname: Philipp
     - anzahl_ersatz: 0
-      anzahl_stamm: 1
-      avg: 341.0
+      anzahl_stamm: 2
+      avg: 350.0
       avg_ersatz: 0.0
-      avg_stamm: 341.0
+      avg_stamm: 350.0
       gruppe: B-Klasse
       id: '375125'
       mannschafts_nr: 1
-      max: 341
+      max: 359
       min: 341
       nachname: Göppel
       vorname: Tim
     - anzahl_ersatz: 0
-      anzahl_stamm: 1
-      avg: 325.0
+      anzahl_stamm: 2
+      avg: 334.5
       avg_ersatz: 0.0
-      avg_stamm: 325.0
+      avg_stamm: 334.5
       gruppe: B-Klasse
       id: '16750'
       mannschafts_nr: 1
-      max: 325
+      max: 344
       min: 325
       nachname: Hammerl
       vorname: Christian
     - anzahl_ersatz: 0
-      anzahl_stamm: 1
-      avg: 363.0
+      anzahl_stamm: 2
+      avg: 363.5
       avg_ersatz: 0.0
-      avg_stamm: 363.0
+      avg_stamm: 363.5
       gruppe: B-Klasse
       id: '314646'
       mannschafts_nr: 1
-      max: 363
+      max: 364
       min: 363
       nachname: Huber
       vorname: Jakob

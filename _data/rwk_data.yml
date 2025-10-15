@@ -303,21 +303,24 @@ disziplinen:
         datasets:
         - data:
           - 746
+          - 846
           label: SG Burgoberbach 1
           pointRadius: 6
         - data:
           - 811
+          - 873
           label: Gegner
           pointRadius: 6
         labels:
         - 1. Vorrunde
+        - 2. Vorrunde
       max: 1200
-      suggested_min: 292.0
+      suggested_min: 392.0
     gruppe: J
     gruppen_id: '5869'
     gruppen_nr: 4
     info:
-      avg: 746.0
+      avg: 796.0
       durchgaenge:
       - avg: 746.0
         gast_mannschafts_nr: 1
@@ -337,14 +340,21 @@ disziplinen:
         uuid: lg_2026_1_jugendklasse_1_vorrunde
         wettkampftag: 1
         zeit: '2025-09-26 19:00:00'
-      - gast_mannschafts_nr: 1
+      - avg: 796.0
+        gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
+        gast_ringe: 846
         heim_id: '579190'
         heim_mannschafts_nr: 2
         heim_name: SG Colmberg
+        heim_ringe: 873
         name: SG Colmberg 2 – SG Burgoberbach 1 (2. Vorrunde)
         ort: SG Colmberg
+        platzierung: 5
+        punkte: 0:2
+        punkte_akkumulativ: 0:4
         runde: Vorrunde
+        sieg: -1
         uuid: lg_2026_1_jugendklasse_2_vorrunde
         wettkampftag: 2
         zeit: '2025-10-10 19:00:00'
@@ -415,9 +425,9 @@ disziplinen:
         wettkampftag: 5
         zeit: '2026-03-06 19:00:00'
       kalender: lg_2026_1_jugendklasse
-      max: 746.0
+      max: 846.0
       min: 746.0
-      platzierung: 3
+      platzierung: 5
       tabelle:
       - anzahl_geschossen: 1
         gruppe: J
@@ -440,28 +450,14 @@ disziplinen:
         klasse: Jugendklasse
         klassen_id: '2861'
         klassen_name: Jugendklasse
-        mannschafts_nr: 1
-        name: SG Elbersroth
+        mannschafts_nr: 2
+        name: SG Colmberg
         platzierung: 2
         punkte_gewonnen: 2
         punkte_verloren: 0
-        ringe: 811
-        vereinsnummer: '102067'
-      - anzahl_geschossen: 1
-        gruppe: J
-        gruppen_id: '5869'
-        gruppen_nr: 4
-        klasse: Jugendklasse
-        klassen_id: '2861'
-        klassen_name: Jugendklasse
-        mannschafts_nr: 1
-        name: SG Burgoberbach
-        platzierung: 3
-        punkte_gewonnen: 0
-        punkte_verloren: 2
-        ringe: 746
-        vereinsnummer: '102013'
-      - anzahl_geschossen: 1
+        ringe: 873
+        vereinsnummer: '102014'
+      - anzahl_geschossen: 2
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -470,26 +466,54 @@ disziplinen:
         klassen_name: Jugendklasse
         mannschafts_nr: 1
         name: SV Leibelbach-Heuberg
-        platzierung: 4
-        punkte_gewonnen: 0
+        platzierung: 3
+        punkte_gewonnen: 2
         punkte_verloren: 2
-        ringe: 721
+        ringe: 1708
         vereinsnummer: '102027'
+      - anzahl_geschossen: 2
+        gruppe: J
+        gruppen_id: '5869'
+        gruppen_nr: 4
+        klasse: Jugendklasse
+        klassen_id: '2861'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SG Elbersroth
+        platzierung: 4
+        punkte_gewonnen: 2
+        punkte_verloren: 2
+        ringe: 1689
+        vereinsnummer: '102067'
+      - anzahl_geschossen: 2
+        gruppe: J
+        gruppen_id: '5869'
+        gruppen_nr: 4
+        klasse: Jugendklasse
+        klassen_id: '2861'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SG Burgoberbach
+        platzierung: 5
+        punkte_gewonnen: 0
+        punkte_verloren: 4
+        ringe: 1592
+        vereinsnummer: '102013'
     klasse: Jugendklasse
     klassen_id: '2861'
     klassen_name: Jugendklasse
     mannschafts_nr: 1
-    platzierung: 3
+    platzierung: 5
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 1
-      avg: 193.0
+      anzahl_stamm: 2
+      avg: 207.5
       avg_ersatz: 0.0
-      avg_stamm: 193.0
+      avg_stamm: 207.5
       gruppe: J
       id: '404149'
       mannschafts_nr: 1
-      max: 193
+      max: 222
       min: 193
       nachname: Schulz
       vorname: Lina
@@ -517,6 +541,31 @@ disziplinen:
       min: 276
       nachname: Zettl
       vorname: Nora
+    vereinsnummer: '102013'
+  - gruppe: Ersatz
+    schuetzen:
+    - anzahl_ersatz: 1
+      anzahl_stamm: 0
+      avg: 289.0
+      avg_ersatz: 289.0
+      avg_stamm: 0.0
+      gruppe: Ersatz
+      id: '398557'
+      max: 289
+      min: 289
+      nachname: Dörr
+      vorname: Alina
+    - anzahl_ersatz: 1
+      anzahl_stamm: 0
+      avg: 335.0
+      avg_ersatz: 335.0
+      avg_stamm: 0.0
+      gruppe: Ersatz
+      id: '375127'
+      max: 335
+      min: 335
+      nachname: Fetzer
+      vorname: Angelina
     vereinsnummer: '102013'
   rwk_id: '2129'
   sportjahr: 2026

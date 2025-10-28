@@ -177,8 +177,22 @@ disziplinen:
         klassen_id: '2858'
         klassen_name: Offene Klasse
         mannschafts_nr: 2
-        name: SG Dorfgütingen
+        name: SV Leibelbach-Heuberg
         platzierung: 1
+        punkte_gewonnen: 4
+        punkte_verloren: 2
+        ringe: 4120
+        vereinsnummer: '102027'
+      - anzahl_geschossen: 3
+        gruppe: B-Klasse
+        gruppen_id: '5864'
+        gruppen_nr: 2
+        klasse: OK
+        klassen_id: '2858'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SG Dorfgütingen
+        platzierung: 2
         punkte_gewonnen: 4
         punkte_verloren: 2
         ringe: 4083
@@ -192,12 +206,12 @@ disziplinen:
         klassen_name: Offene Klasse
         mannschafts_nr: 2
         name: SSV Lohr
-        platzierung: 2
+        platzierung: 3
         punkte_gewonnen: 4
         punkte_verloren: 2
         ringe: 4027
         vereinsnummer: '102030'
-      - anzahl_geschossen: 2
+      - anzahl_geschossen: 3
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -206,25 +220,11 @@ disziplinen:
         klassen_name: Offene Klasse
         mannschafts_nr: 2
         name: SV Larrieden
-        platzierung: 3
-        punkte_gewonnen: 2
-        punkte_verloren: 2
-        ringe: 2794
-        vereinsnummer: '102063'
-      - anzahl_geschossen: 2
-        gruppe: B-Klasse
-        gruppen_id: '5864'
-        gruppen_nr: 2
-        klasse: OK
-        klassen_id: '2858'
-        klassen_name: Offene Klasse
-        mannschafts_nr: 2
-        name: SV Leibelbach-Heuberg
         platzierung: 4
         punkte_gewonnen: 2
-        punkte_verloren: 2
-        ringe: 2753
-        vereinsnummer: '102027'
+        punkte_verloren: 4
+        ringe: 4152
+        vereinsnummer: '102063'
       - anzahl_geschossen: 3
         gruppe: B-Klasse
         gruppen_id: '5864'
@@ -439,7 +439,7 @@ disziplinen:
       min: 746.0
       platzierung: 5
       tabelle:
-      - anzahl_geschossen: 1
+      - anzahl_geschossen: 2
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -449,25 +449,11 @@ disziplinen:
         mannschafts_nr: 1
         name: SG Weihenzell
         platzierung: 1
-        punkte_gewonnen: 2
+        punkte_gewonnen: 4
         punkte_verloren: 0
-        ringe: 986
+        ringe: 2015
         vereinsnummer: '102051'
-      - anzahl_geschossen: 1
-        gruppe: J
-        gruppen_id: '5869'
-        gruppen_nr: 4
-        klasse: Jugendklasse
-        klassen_id: '2861'
-        klassen_name: Jugendklasse
-        mannschafts_nr: 2
-        name: SG Colmberg
-        platzierung: 2
-        punkte_gewonnen: 2
-        punkte_verloren: 0
-        ringe: 873
-        vereinsnummer: '102014'
-      - anzahl_geschossen: 2
+      - anzahl_geschossen: 3
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -476,12 +462,26 @@ disziplinen:
         klassen_name: Jugendklasse
         mannschafts_nr: 1
         name: SV Leibelbach-Heuberg
+        platzierung: 2
+        punkte_gewonnen: 4
+        punkte_verloren: 2
+        ringe: 2594
+        vereinsnummer: '102027'
+      - anzahl_geschossen: 2
+        gruppe: J
+        gruppen_id: '5869'
+        gruppen_nr: 4
+        klasse: Jugendklasse
+        klassen_id: '2861'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 2
+        name: SG Colmberg
         platzierung: 3
         punkte_gewonnen: 2
         punkte_verloren: 2
-        ringe: 1708
-        vereinsnummer: '102027'
-      - anzahl_geschossen: 2
+        ringe: 1756
+        vereinsnummer: '102014'
+      - anzahl_geschossen: 3
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -492,8 +492,8 @@ disziplinen:
         name: SG Elbersroth
         platzierung: 4
         punkte_gewonnen: 2
-        punkte_verloren: 2
-        ringe: 1689
+        punkte_verloren: 4
+        ringe: 2586
         vereinsnummer: '102067'
       - anzahl_geschossen: 2
         gruppe: J

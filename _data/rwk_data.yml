@@ -13,25 +13,31 @@ disziplinen:
           - 1364
           - 1423
           - 1345
+          - 1392
+          - 1369
           label: SG Burgoberbach 1
           pointRadius: 6
         - data:
           - 1411
           - 1373
           - 1365
+          - 1391
+          - 1354
           label: Gegner
           pointRadius: 6
         labels:
         - 1. Vorrunde
         - 2. Vorrunde
         - 3. Vorrunde
+        - 4. Vorrunde
+        - 5. Vorrunde
       max: 1600
-      suggested_min: 1154.6666666666665
+      suggested_min: 1157.1999999999998
     gruppe: B-Klasse
     gruppen_id: '5864'
     gruppen_nr: 2
     info:
-      avg: 1377.3333333333333
+      avg: 1378.6
       durchgaenge:
       - avg: 1364.0
         gast_mannschafts_nr: 1
@@ -87,25 +93,39 @@ disziplinen:
         uuid: lg_2026_1_offene_klasse_3_vorrunde
         wettkampftag: 3
         zeit: '2025-10-17 20:00:00'
-      - gast_mannschafts_nr: 1
+      - avg: 1381.0
+        gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
+        gast_ringe: 1392
         heim_id: '582402'
         heim_mannschafts_nr: 2
         heim_name: SV Leibelbach-Heuberg
+        heim_ringe: 1391
         name: SV Leibelbach-Heuberg 2 – SG Burgoberbach 1 (4. Vorrunde)
         ort: SV Leibelbach-Heuberg
+        platzierung: 3
+        punkte: '2:0'
+        punkte_akkumulativ: '4:4'
         runde: Vorrunde
+        sieg: 1
         uuid: lg_2026_1_offene_klasse_4_vorrunde
         wettkampftag: 4
         zeit: '2025-10-31 20:00:00'
-      - gast_mannschafts_nr: 2
+      - avg: 1378.6
+        gast_mannschafts_nr: 2
         gast_name: SG Dorfgütingen
+        gast_ringe: 1354
         heim_id: '582412'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
+        heim_ringe: 1369
         name: SG Burgoberbach 1 – SG Dorfgütingen 2 (5. Vorrunde)
         ort: SG Burgoberbach
+        platzierung: 2
+        punkte: '2:0'
+        punkte_akkumulativ: '6:4'
         runde: Vorrunde
+        sieg: 1
         uuid: lg_2026_1_offene_klasse_5_vorrunde
         wettkampftag: 5
         zeit: '2025-11-14 20:00:00'
@@ -167,37 +187,9 @@ disziplinen:
       kalender: lg_2026_1_offene_klasse
       max: 1423.0
       min: 1345.0
-      platzierung: 5
+      platzierung: 2
       tabelle:
-      - anzahl_geschossen: 3
-        gruppe: B-Klasse
-        gruppen_id: '5864'
-        gruppen_nr: 2
-        klasse: OK
-        klassen_id: '2858'
-        klassen_name: Offene Klasse
-        mannschafts_nr: 2
-        name: SV Leibelbach-Heuberg
-        platzierung: 1
-        punkte_gewonnen: 4
-        punkte_verloren: 2
-        ringe: 4120
-        vereinsnummer: '102027'
-      - anzahl_geschossen: 3
-        gruppe: B-Klasse
-        gruppen_id: '5864'
-        gruppen_nr: 2
-        klasse: OK
-        klassen_id: '2858'
-        klassen_name: Offene Klasse
-        mannschafts_nr: 2
-        name: SG Dorfgütingen
-        platzierung: 2
-        punkte_gewonnen: 4
-        punkte_verloren: 2
-        ringe: 4083
-        vereinsnummer: '102058'
-      - anzahl_geschossen: 3
+      - anzahl_geschossen: 5
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -206,12 +198,40 @@ disziplinen:
         klassen_name: Offene Klasse
         mannschafts_nr: 2
         name: SSV Lohr
-        platzierung: 3
-        punkte_gewonnen: 4
+        platzierung: 1
+        punkte_gewonnen: 8
         punkte_verloren: 2
-        ringe: 4027
+        ringe: 6776
         vereinsnummer: '102030'
-      - anzahl_geschossen: 3
+      - anzahl_geschossen: 5
+        gruppe: B-Klasse
+        gruppen_id: '5864'
+        gruppen_nr: 2
+        klasse: OK
+        klassen_id: '2858'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 1
+        name: SG Burgoberbach
+        platzierung: 2
+        punkte_gewonnen: 6
+        punkte_verloren: 4
+        ringe: 6893
+        vereinsnummer: '102013'
+      - anzahl_geschossen: 5
+        gruppe: B-Klasse
+        gruppen_id: '5864'
+        gruppen_nr: 2
+        klasse: OK
+        klassen_id: '2858'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SV Leibelbach-Heuberg
+        platzierung: 3
+        punkte_gewonnen: 6
+        punkte_verloren: 4
+        ringe: 6890
+        vereinsnummer: '102027'
+      - anzahl_geschossen: 5
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -221,25 +241,25 @@ disziplinen:
         mannschafts_nr: 2
         name: SV Larrieden
         platzierung: 4
-        punkte_gewonnen: 2
-        punkte_verloren: 4
-        ringe: 4152
+        punkte_gewonnen: 4
+        punkte_verloren: 6
+        ringe: 6889
         vereinsnummer: '102063'
-      - anzahl_geschossen: 3
+      - anzahl_geschossen: 5
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
         klasse: OK
         klassen_id: '2858'
         klassen_name: Offene Klasse
-        mannschafts_nr: 1
-        name: SG Burgoberbach
+        mannschafts_nr: 2
+        name: SG Dorfgütingen
         platzierung: 5
-        punkte_gewonnen: 2
-        punkte_verloren: 4
-        ringe: 4132
-        vereinsnummer: '102013'
-      - anzahl_geschossen: 3
+        punkte_gewonnen: 4
+        punkte_verloren: 6
+        ringe: 6783
+        vereinsnummer: '102058'
+      - anzahl_geschossen: 5
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -250,44 +270,44 @@ disziplinen:
         name: SV Buch-am-Wald
         platzierung: 6
         punkte_gewonnen: 2
-        punkte_verloren: 4
-        ringe: 4012
+        punkte_verloren: 8
+        ringe: 6706
         vereinsnummer: '102011'
     klasse: OK
     klassen_id: '2858'
     klassen_name: Offene Klasse
     mannschafts_nr: 1
-    platzierung: 5
+    platzierung: 2
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 3
-      avg: 346.33
+      anzahl_stamm: 4
+      avg: 349.25
       avg_ersatz: 0.0
-      avg_stamm: 346.33
+      avg_stamm: 349.25
       gruppe: B-Klasse
       id: '16769'
       mannschafts_nr: 1
-      max: 356
+      max: 358
       min: 335
       nachname: Appel
       vorname: Philipp
     - anzahl_ersatz: 0
-      anzahl_stamm: 3
-      avg: 348.0
+      anzahl_stamm: 5
+      avg: 341.6
       avg_ersatz: 0.0
-      avg_stamm: 348.0
+      avg_stamm: 341.6
       gruppe: B-Klasse
       id: '375125'
       mannschafts_nr: 1
       max: 359
-      min: 341
+      min: 329
       nachname: Göppel
       vorname: Tim
     - anzahl_ersatz: 0
-      anzahl_stamm: 3
-      avg: 327.67
+      anzahl_stamm: 5
+      avg: 325.2
       avg_ersatz: 0.0
-      avg_stamm: 327.67
+      avg_stamm: 325.2
       gruppe: B-Klasse
       id: '16750'
       mannschafts_nr: 1
@@ -296,15 +316,15 @@ disziplinen:
       nachname: Hammerl
       vorname: Christian
     - anzahl_ersatz: 0
-      anzahl_stamm: 2
+      anzahl_stamm: 4
       avg: 363.5
       avg_ersatz: 0.0
       avg_stamm: 363.5
       gruppe: B-Klasse
       id: '314646'
       mannschafts_nr: 1
-      max: 364
-      min: 363
+      max: 373
+      min: 354
       nachname: Huber
       vorname: Jakob
     vereinsnummer: '102013'
@@ -314,23 +334,26 @@ disziplinen:
         - data:
           - 746
           - 846
+          - 835
           label: SG Burgoberbach 1
           pointRadius: 6
         - data:
           - 811
           - 873
+          - 942
           label: Gegner
           pointRadius: 6
         labels:
         - 1. Vorrunde
         - 2. Vorrunde
+        - 4. Vorrunde
       max: 1200
-      suggested_min: 392.0
+      suggested_min: 418.0
     gruppe: J
     gruppen_id: '5869'
     gruppen_nr: 4
     info:
-      avg: 796.0
+      avg: 809.0
       durchgaenge:
       - avg: 746.0
         gast_mannschafts_nr: 1
@@ -368,14 +391,21 @@ disziplinen:
         uuid: lg_2026_1_jugendklasse_2_vorrunde
         wettkampftag: 2
         zeit: '2025-10-10 19:00:00'
-      - gast_mannschafts_nr: 1
+      - avg: 809.0
+        gast_mannschafts_nr: 1
         gast_name: SV Leibelbach-Heuberg
+        gast_ringe: 942
         heim_id: '579198'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
+        heim_ringe: 835
         name: SG Burgoberbach 1 – SV Leibelbach-Heuberg 1 (4. Vorrunde)
         ort: SG Burgoberbach
+        platzierung: 5
+        punkte: 0:2
+        punkte_akkumulativ: 0:6
         runde: Vorrunde
+        sieg: -1
         uuid: lg_2026_1_jugendklasse_4_vorrunde
         wettkampftag: 4
         zeit: '2025-11-07 19:00:00'
@@ -439,7 +469,7 @@ disziplinen:
       min: 746.0
       platzierung: 5
       tabelle:
-      - anzahl_geschossen: 2
+      - anzahl_geschossen: 3
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -449,11 +479,11 @@ disziplinen:
         mannschafts_nr: 1
         name: SG Weihenzell
         platzierung: 1
-        punkte_gewonnen: 4
+        punkte_gewonnen: 6
         punkte_verloren: 0
-        ringe: 2015
+        ringe: 3023
         vereinsnummer: '102051'
-      - anzahl_geschossen: 3
+      - anzahl_geschossen: 4
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -463,24 +493,10 @@ disziplinen:
         mannschafts_nr: 1
         name: SV Leibelbach-Heuberg
         platzierung: 2
-        punkte_gewonnen: 4
+        punkte_gewonnen: 6
         punkte_verloren: 2
-        ringe: 2594
+        ringe: 3536
         vereinsnummer: '102027'
-      - anzahl_geschossen: 2
-        gruppe: J
-        gruppen_id: '5869'
-        gruppen_nr: 4
-        klasse: Jugendklasse
-        klassen_id: '2861'
-        klassen_name: Jugendklasse
-        mannschafts_nr: 2
-        name: SG Colmberg
-        platzierung: 3
-        punkte_gewonnen: 2
-        punkte_verloren: 2
-        ringe: 1756
-        vereinsnummer: '102014'
       - anzahl_geschossen: 3
         gruppe: J
         gruppen_id: '5869'
@@ -490,12 +506,26 @@ disziplinen:
         klassen_name: Jugendklasse
         mannschafts_nr: 1
         name: SG Elbersroth
-        platzierung: 4
+        platzierung: 3
         punkte_gewonnen: 2
         punkte_verloren: 4
         ringe: 2586
         vereinsnummer: '102067'
-      - anzahl_geschossen: 2
+      - anzahl_geschossen: 3
+        gruppe: J
+        gruppen_id: '5869'
+        gruppen_nr: 4
+        klasse: Jugendklasse
+        klassen_id: '2861'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 2
+        name: SG Colmberg
+        platzierung: 4
+        punkte_gewonnen: 2
+        punkte_verloren: 4
+        ringe: 2521
+        vereinsnummer: '102014'
+      - anzahl_geschossen: 3
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -506,8 +536,8 @@ disziplinen:
         name: SG Burgoberbach
         platzierung: 5
         punkte_gewonnen: 0
-        punkte_verloren: 4
-        ringe: 1592
+        punkte_verloren: 6
+        ringe: 2427
         vereinsnummer: '102013'
     klasse: Jugendklasse
     klassen_id: '2861'
@@ -516,26 +546,26 @@ disziplinen:
     platzierung: 5
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 2
-      avg: 207.5
+      anzahl_stamm: 3
+      avg: 195.33
       avg_ersatz: 0.0
-      avg_stamm: 207.5
+      avg_stamm: 195.33
       gruppe: J
       id: '404149'
       mannschafts_nr: 1
       max: 222
-      min: 193
+      min: 171
       nachname: Schulz
       vorname: Lina
     - anzahl_ersatz: 0
-      anzahl_stamm: 1
-      avg: 277.0
+      anzahl_stamm: 2
+      avg: 287.5
       avg_ersatz: 0.0
-      avg_stamm: 277.0
+      avg_stamm: 287.5
       gruppe: J
       id: '404148'
       mannschafts_nr: 1
-      max: 277
+      max: 298
       min: 277
       nachname: Siegordner
       vorname: Lea
@@ -565,25 +595,25 @@ disziplinen:
       min: 289
       nachname: Dörr
       vorname: Alina
-    - anzahl_ersatz: 1
+    - anzahl_ersatz: 2
       anzahl_stamm: 0
-      avg: 335.0
-      avg_ersatz: 335.0
+      avg: 350.5
+      avg_ersatz: 350.5
       avg_stamm: 0.0
       gruppe: Ersatz
       id: '375127'
-      max: 335
+      max: 366
       min: 335
       nachname: Fetzer
       vorname: Angelina
-    - anzahl_ersatz: 1
+    - anzahl_ersatz: 2
       anzahl_stamm: 0
-      avg: 339.0
-      avg_ersatz: 339.0
+      avg: 354.0
+      avg_ersatz: 354.0
       avg_stamm: 0.0
       gruppe: Ersatz
       id: '16759'
-      max: 339
+      max: 369
       min: 339
       nachname: Luff
       vorname: Bastian

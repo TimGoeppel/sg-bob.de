@@ -335,25 +335,28 @@ disziplinen:
           - 746
           - 846
           - 835
+          - 821
           label: SG Burgoberbach 1
           pointRadius: 6
         - data:
           - 811
           - 873
           - 942
+          - 1023
           label: Gegner
           pointRadius: 6
         labels:
         - 1. Vorrunde
         - 2. Vorrunde
         - 4. Vorrunde
+        - 5. Vorrunde
       max: 1200
-      suggested_min: 418.0
+      suggested_min: 424.0
     gruppe: J
     gruppen_id: '5869'
     gruppen_nr: 4
     info:
-      avg: 809.0
+      avg: 812.0
       durchgaenge:
       - avg: 746.0
         gast_mannschafts_nr: 1
@@ -409,14 +412,21 @@ disziplinen:
         uuid: lg_2026_1_jugendklasse_4_vorrunde
         wettkampftag: 4
         zeit: '2025-11-07 19:00:00'
-      - gast_mannschafts_nr: 1
+      - avg: 812.0
+        gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
+        gast_ringe: 821
         heim_id: '579200'
         heim_mannschafts_nr: 1
         heim_name: SG Weihenzell
+        heim_ringe: 1023
         name: SG Weihenzell 1 – SG Burgoberbach 1 (5. Vorrunde)
         ort: SG Weihenzell
+        platzierung: 5
+        punkte: 0:2
+        punkte_akkumulativ: 0:8
         runde: Vorrunde
+        sieg: -1
         uuid: lg_2026_1_jugendklasse_5_vorrunde
         wettkampftag: 5
         zeit: '2025-11-21 19:00:00'
@@ -469,7 +479,7 @@ disziplinen:
       min: 746.0
       platzierung: 5
       tabelle:
-      - anzahl_geschossen: 3
+      - anzahl_geschossen: 4
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -479,9 +489,9 @@ disziplinen:
         mannschafts_nr: 1
         name: SG Weihenzell
         platzierung: 1
-        punkte_gewonnen: 6
+        punkte_gewonnen: 8
         punkte_verloren: 0
-        ringe: 3023
+        ringe: 4046
         vereinsnummer: '102051'
       - anzahl_geschossen: 4
         gruppe: J
@@ -497,7 +507,7 @@ disziplinen:
         punkte_verloren: 2
         ringe: 3536
         vereinsnummer: '102027'
-      - anzahl_geschossen: 3
+      - anzahl_geschossen: 4
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -507,11 +517,11 @@ disziplinen:
         mannschafts_nr: 1
         name: SG Elbersroth
         platzierung: 3
-        punkte_gewonnen: 2
+        punkte_gewonnen: 4
         punkte_verloren: 4
-        ringe: 2586
+        ringe: 3527
         vereinsnummer: '102067'
-      - anzahl_geschossen: 3
+      - anzahl_geschossen: 4
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -522,10 +532,10 @@ disziplinen:
         name: SG Colmberg
         platzierung: 4
         punkte_gewonnen: 2
-        punkte_verloren: 4
-        ringe: 2521
+        punkte_verloren: 6
+        ringe: 3149
         vereinsnummer: '102014'
-      - anzahl_geschossen: 3
+      - anzahl_geschossen: 4
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -536,8 +546,8 @@ disziplinen:
         name: SG Burgoberbach
         platzierung: 5
         punkte_gewonnen: 0
-        punkte_verloren: 6
-        ringe: 2427
+        punkte_verloren: 8
+        ringe: 3248
         vereinsnummer: '102013'
     klasse: Jugendklasse
     klassen_id: '2861'
@@ -558,14 +568,14 @@ disziplinen:
       nachname: Schulz
       vorname: Lina
     - anzahl_ersatz: 0
-      anzahl_stamm: 2
-      avg: 287.5
+      anzahl_stamm: 3
+      avg: 292.33
       avg_ersatz: 0.0
-      avg_stamm: 287.5
+      avg_stamm: 292.33
       gruppe: J
       id: '404148'
       mannschafts_nr: 1
-      max: 298
+      max: 302
       min: 277
       nachname: Siegordner
       vorname: Lea
@@ -584,14 +594,14 @@ disziplinen:
     vereinsnummer: '102013'
   - gruppe: Ersatz
     schuetzen:
-    - anzahl_ersatz: 1
+    - anzahl_ersatz: 2
       anzahl_stamm: 0
-      avg: 289.0
-      avg_ersatz: 289.0
+      avg: 293.0
+      avg_ersatz: 293.0
       avg_stamm: 0.0
       gruppe: Ersatz
       id: '398557'
-      max: 289
+      max: 297
       min: 289
       nachname: Dörr
       vorname: Alina

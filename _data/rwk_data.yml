@@ -345,6 +345,7 @@ disziplinen:
           - 846
           - 835
           - 821
+          - 749
           label: SG Burgoberbach 1
           pointRadius: 6
         - data:
@@ -352,6 +353,7 @@ disziplinen:
           - 873
           - 942
           - 1023
+          - 933
           label: Gegner
           pointRadius: 6
         labels:
@@ -359,13 +361,14 @@ disziplinen:
         - 2. Vorrunde
         - 4. Vorrunde
         - 5. Vorrunde
+        - 1. Rückrunde
       max: 1200
-      suggested_min: 424.0
+      suggested_min: 398.79999999999995
     gruppe: J
     gruppen_id: '5869'
     gruppen_nr: 4
     info:
-      avg: 812.0
+      avg: 799.4
       durchgaenge:
       - avg: 746.0
         gast_mannschafts_nr: 1
@@ -439,14 +442,20 @@ disziplinen:
         uuid: lg_2026_1_jugendklasse_5_vorrunde
         wettkampftag: 5
         zeit: '2025-11-21 19:00:00'
-      - gast_mannschafts_nr: 1
+      - avg: 799.4
+        gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
+        gast_ringe: 749
         heim_id: '579185'
         heim_mannschafts_nr: 1
         heim_name: SG Elbersroth
+        heim_ringe: 933
         name: SG Elbersroth 1 – SG Burgoberbach 1 (1. Rückrunde)
         ort: SG Elbersroth
+        punkte: 0:2
+        punkte_akkumulativ: 0:10
         runde: Rückrunde
+        sieg: -1
         uuid: lg_2026_1_jugendklasse_1_rückrunde
         wettkampftag: 1
         zeit: '2025-12-05 19:00:00'
@@ -488,7 +497,7 @@ disziplinen:
       min: 746.0
       platzierung: 5
       tabelle:
-      - anzahl_geschossen: 4
+      - anzahl_geschossen: 5
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -498,11 +507,11 @@ disziplinen:
         mannschafts_nr: 1
         name: SG Weihenzell
         platzierung: 1
-        punkte_gewonnen: 8
+        punkte_gewonnen: 10
         punkte_verloren: 0
-        ringe: 4046
+        ringe: 5043
         vereinsnummer: '102051'
-      - anzahl_geschossen: 4
+      - anzahl_geschossen: 5
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -513,10 +522,10 @@ disziplinen:
         name: SV Leibelbach-Heuberg
         platzierung: 2
         punkte_gewonnen: 6
-        punkte_verloren: 2
-        ringe: 3536
+        punkte_verloren: 4
+        ringe: 4483
         vereinsnummer: '102027'
-      - anzahl_geschossen: 4
+      - anzahl_geschossen: 5
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -526,9 +535,9 @@ disziplinen:
         mannschafts_nr: 1
         name: SG Elbersroth
         platzierung: 3
-        punkte_gewonnen: 4
+        punkte_gewonnen: 6
         punkte_verloren: 4
-        ringe: 3527
+        ringe: 4460
         vereinsnummer: '102067'
       - anzahl_geschossen: 4
         gruppe: J
@@ -544,7 +553,7 @@ disziplinen:
         punkte_verloren: 6
         ringe: 3365
         vereinsnummer: '102014'
-      - anzahl_geschossen: 4
+      - anzahl_geschossen: 5
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -555,8 +564,8 @@ disziplinen:
         name: SG Burgoberbach
         platzierung: 5
         punkte_gewonnen: 0
-        punkte_verloren: 8
-        ringe: 3248
+        punkte_verloren: 10
+        ringe: 3997
         vereinsnummer: '102013'
     klasse: Jugendklasse
     klassen_id: '2861'
@@ -565,22 +574,22 @@ disziplinen:
     platzierung: 5
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 3
-      avg: 195.33
+      anzahl_stamm: 4
+      avg: 214.25
       avg_ersatz: 0.0
-      avg_stamm: 195.33
+      avg_stamm: 214.25
       gruppe: J
       id: '404149'
       mannschafts_nr: 1
-      max: 222
+      max: 271
       min: 171
       nachname: Schulz
       vorname: Lina
     - anzahl_ersatz: 0
-      anzahl_stamm: 3
-      avg: 292.33
+      anzahl_stamm: 4
+      avg: 290.0
       avg_ersatz: 0.0
-      avg_stamm: 292.33
+      avg_stamm: 290.0
       gruppe: J
       id: '404148'
       mannschafts_nr: 1
@@ -636,6 +645,17 @@ disziplinen:
       min: 339
       nachname: Luff
       vorname: Bastian
+    - anzahl_ersatz: 1
+      anzahl_stamm: 0
+      avg: 195.0
+      avg_ersatz: 195.0
+      avg_stamm: 0.0
+      gruppe: Ersatz
+      id: '406428'
+      max: 195
+      min: 195
+      nachname: Weiß
+      vorname: Sven
     vereinsnummer: '102013'
   rwk_id: '2129'
   sportjahr: 2026

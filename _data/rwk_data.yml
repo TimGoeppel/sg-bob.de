@@ -16,6 +16,7 @@ disziplinen:
           - 1392
           - 1369
           - 1409
+          - 1338
           label: SG Burgoberbach 1
           pointRadius: 6
         - data:
@@ -25,6 +26,7 @@ disziplinen:
           - 1391
           - 1354
           - 1396
+          - 1308
           label: Gegner
           pointRadius: 6
         labels:
@@ -34,13 +36,14 @@ disziplinen:
         - 4. Vorrunde
         - 5. Vorrunde
         - 1. Rückrunde
+        - 2. Rückrunde
       max: 1600
-      suggested_min: 1167.3333333333335
+      suggested_min: 1154.2857142857142
     gruppe: B-Klasse
     gruppen_id: '5864'
     gruppen_nr: 2
     info:
-      avg: 1383.6666666666667
+      avg: 1377.142857142857
       durchgaenge:
       - avg: 1364.0
         gast_mannschafts_nr: 1
@@ -149,14 +152,20 @@ disziplinen:
         uuid: lg_2026_1_offene_klasse_1_rückrunde
         wettkampftag: 1
         zeit: '2025-11-28 20:00:00'
-      - gast_mannschafts_nr: 1
+      - avg: 1377.14
+        gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
+        gast_ringe: 1338
         heim_id: '582393'
         heim_mannschafts_nr: 3
         heim_name: SV Buch-am-Wald
+        heim_ringe: 1308
         name: SV Buch-am-Wald 3 – SG Burgoberbach 1 (2. Rückrunde)
         ort: SV Buch-am-Wald
+        punkte: '2:0'
+        punkte_akkumulativ: '10:4'
         runde: Rückrunde
+        sieg: 1
         uuid: lg_2026_1_offene_klasse_2_rückrunde
         wettkampftag: 2
         zeit: '2026-01-16 20:00:00'
@@ -195,10 +204,10 @@ disziplinen:
         zeit: '2026-02-27 20:00:00'
       kalender: lg_2026_1_offene_klasse
       max: 1423.0
-      min: 1345.0
+      min: 1338.0
       platzierung: 2
       tabelle:
-      - anzahl_geschossen: 6
+      - anzahl_geschossen: 7
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -206,13 +215,13 @@ disziplinen:
         klassen_id: '2858'
         klassen_name: Offene Klasse
         mannschafts_nr: 2
-        name: SSV Lohr
+        name: SV Leibelbach-Heuberg
         platzierung: 1
         punkte_gewonnen: 10
-        punkte_verloren: 2
-        ringe: 8184
-        vereinsnummer: '102030'
-      - anzahl_geschossen: 6
+        punkte_verloren: 4
+        ringe: 9659
+        vereinsnummer: '102027'
+      - anzahl_geschossen: 7
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -222,11 +231,11 @@ disziplinen:
         mannschafts_nr: 1
         name: SG Burgoberbach
         platzierung: 2
-        punkte_gewonnen: 8
+        punkte_gewonnen: 10
         punkte_verloren: 4
-        ringe: 8302
+        ringe: 9640
         vereinsnummer: '102013'
-      - anzahl_geschossen: 6
+      - anzahl_geschossen: 7
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -234,12 +243,12 @@ disziplinen:
         klassen_id: '2858'
         klassen_name: Offene Klasse
         mannschafts_nr: 2
-        name: SV Leibelbach-Heuberg
+        name: SSV Lohr
         platzierung: 3
-        punkte_gewonnen: 8
+        punkte_gewonnen: 10
         punkte_verloren: 4
-        ringe: 8289
-        vereinsnummer: '102027'
+        ringe: 9537
+        vereinsnummer: '102030'
       - anzahl_geschossen: 6
         gruppe: B-Klasse
         gruppen_id: '5864'
@@ -268,7 +277,7 @@ disziplinen:
         punkte_verloren: 8
         ringe: 8166
         vereinsnummer: '102058'
-      - anzahl_geschossen: 6
+      - anzahl_geschossen: 7
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -279,8 +288,8 @@ disziplinen:
         name: SV Buch-am-Wald
         platzierung: 6
         punkte_gewonnen: 2
-        punkte_verloren: 10
-        ringe: 8093
+        punkte_verloren: 12
+        ringe: 9401
         vereinsnummer: '102011'
     klasse: OK
     klassen_id: '2858'
@@ -289,10 +298,10 @@ disziplinen:
     platzierung: 2
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 5
-      avg: 351.8
+      anzahl_stamm: 6
+      avg: 349.83
       avg_ersatz: 0.0
-      avg_stamm: 351.8
+      avg_stamm: 349.83
       gruppe: B-Klasse
       id: '16769'
       mannschafts_nr: 1
@@ -301,22 +310,22 @@ disziplinen:
       nachname: Appel
       vorname: Philipp
     - anzahl_ersatz: 0
-      anzahl_stamm: 6
-      avg: 341.5
+      anzahl_stamm: 7
+      avg: 338.71
       avg_ersatz: 0.0
-      avg_stamm: 341.5
+      avg_stamm: 338.71
       gruppe: B-Klasse
       id: '375125'
       mannschafts_nr: 1
       max: 359
-      min: 329
+      min: 322
       nachname: Göppel
       vorname: Tim
     - anzahl_ersatz: 0
-      anzahl_stamm: 6
-      avg: 328.33
+      anzahl_stamm: 7
+      avg: 328.43
       avg_ersatz: 0.0
-      avg_stamm: 328.33
+      avg_stamm: 328.43
       gruppe: B-Klasse
       id: '16750'
       mannschafts_nr: 1
@@ -634,10 +643,10 @@ disziplinen:
       min: 335
       nachname: Fetzer
       vorname: Angelina
-    - anzahl_ersatz: 3
+    - anzahl_ersatz: 4
       anzahl_stamm: 0
-      avg: 356.67
-      avg_ersatz: 356.67
+      avg: 354.25
+      avg_ersatz: 354.25
       avg_stamm: 0.0
       gruppe: Ersatz
       id: '16759'

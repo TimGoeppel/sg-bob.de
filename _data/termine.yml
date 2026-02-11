@@ -707,3 +707,251 @@
 - name: Jahresabschluss
   uuid: b48bdc56-af00-4a86-876f-0f6a1f1f44a8
   zeit: 31.12.2025 18:00
+- name: Training
+  uuid: 37c7733d-6c3b-4454-9b79-2676c253a727
+  wiederholt: true
+  zeit: 12.02.2026 18:30
+- name: Training
+  uuid: 0df5b33b-9c2c-4980-b9a8-d4fdf766a726
+  wiederholt: true
+  zeit: 19.02.2026 18:30
+- name: Training
+  uuid: 99f380c7-da57-43fa-98a0-a60461fc60c3
+  wiederholt: true
+  zeit: 26.02.2026 18:30
+- name: Jahreshauptversammlung mit Neuwahlen & Strategietag
+  uuid: d755f96b-344e-4529-bb94-86a8cd2c6fb1
+  zeit: 28.02.2026 19:00
+- name: Training
+  uuid: 530b78ab-ab4f-4351-95db-1962a755d225
+  wiederholt: true
+  zeit: 05.03.2026 18:30
+- name: Schützenzwerge
+  uuid: bf7b7d7b-344c-4508-8aeb-083a780eb95b
+  wiederholt: true
+  zeit: 07.03.2026 10:00
+  zeitbis: '11:30'
+- name: Training
+  uuid: 2e4367dc-49c6-4e40-82d4-5b1eb5e44779
+  wiederholt: true
+  zeit: 12.03.2026 18:30
+- name: Training
+  uuid: a1ba5f1b-6a67-46d0-b543-cff0dc17588b
+  wiederholt: true
+  zeit: 19.03.2026 18:30
+- name: Training
+  uuid: 025b9599-cdf1-4ad7-a7db-c7f3a2b33af9
+  wiederholt: true
+  zeit: 26.03.2026 18:30
+- name: Training
+  uuid: 6d19b741-093c-4081-a8d4-03fcf9dcfd06
+  wiederholt: true
+  zeit: 02.04.2026 18:30
+- name: Schützenzwerge
+  uuid: 5f71b4a4-2ac9-4f56-ac14-c28f25ffab0e
+  wiederholt: true
+  zeit: 04.04.2026 10:00
+  zeitbis: '11:30'
+- name: Training
+  uuid: 47822757-00ac-445b-a614-5b74f5408149
+  wiederholt: true
+  zeit: 09.04.2026 18:30
+- name: Training
+  uuid: 06a4a7b5-97ef-473c-9457-736267475535
+  wiederholt: true
+  zeit: 16.04.2026 18:30
+- name: Training
+  uuid: 44080028-72e2-4242-b4ee-19444559b57e
+  wiederholt: true
+  zeit: 23.04.2026 18:30
+- name: Training
+  uuid: f4066a4c-08db-4fa1-9388-4cd2e57a9ba7
+  wiederholt: true
+  zeit: 30.04.2026 18:30
+- name: Schützenzwerge
+  uuid: 915c82e0-5f88-4a02-b0e3-ed1f971fa357
+  wiederholt: true
+  zeit: 02.05.2026 10:00
+  zeitbis: '11:30'
+- name: Training
+  uuid: fd03f1d1-6a85-41f9-a832-d88b3727867d
+  wiederholt: true
+  zeit: 07.05.2026 18:30
+- name: Königsabholung Neuses
+  uuid: 9be70462-0049-44ef-a7a2-edfd825234af
+  zeit: 09.05.2026 18:00
+- name: Training
+  uuid: d7de03b2-ffbf-47ad-b067-11f468da74ed
+  wiederholt: true
+  zeit: 14.05.2026 18:30
+- name: Training
+  uuid: 738be0b1-97ff-4790-ac63-13db0a630157
+  wiederholt: true
+  zeit: 21.05.2026 18:30
+- name: Königsabholung Winterschneidbach
+  uuid: 58bef097-ec04-40ac-b73d-834981a4881d
+  zeit: 23.05.2026 18:00
+- name: Training
+  uuid: 7e2220d1-385c-4ae2-b18c-794824e7a14e
+  wiederholt: true
+  zeit: 28.05.2026 18:30
+- name: Königsschießen Burgoberbach
+  uuid: d1e645ea-85e8-47a3-bb01-4ac5cb8f8111
+  zeit: 04.06.2026 18:30
+- name: Schützenzwerge
+  uuid: 456617de-d999-4c18-807d-260ce9454521
+  wiederholt: true
+  zeit: 06.06.2026 10:00
+  zeitbis: '11:30'
+- name: Königsschießen Burgoberbach
+  uuid: 299ad516-721d-4c2a-9152-3c11cc744739
+  zeit: 11.06.2026 18:30
+- name: Königsschießen Burgoberbach
+  uuid: 9a2ecb1f-5c1d-4ee8-8769-f7cb9cd59941
+  zeit: 18.06.2026 18:30
+- name: Training
+  uuid: a7d2eaa8-937e-4301-8d89-84657a68aa3f
+  wiederholt: true
+  zeit: 25.06.2026 18:30
+- name: Training
+  uuid: cc4594f2-8ad9-4bab-a3ba-30b982973c41
+  wiederholt: true
+  zeit: 02.07.2026 18:30
+- name: Schützenzwerge
+  uuid: 9353b0c3-07ec-4b4f-a0ad-fd03f6f0ca61
+  wiederholt: true
+  zeit: 04.07.2026 10:00
+  zeitbis: '11:30'
+- name: Königsabholung Burgoberbach
+  uuid: 366e79fb-c00e-417b-95d2-1451be821b4b
+  zeit: 04.07.2026 16:00
+- name: Training
+  uuid: a971416d-4703-4d5d-9b8f-2ca4d703c5d3
+  wiederholt: true
+  zeit: 09.07.2026 18:30
+- name: 125 Jahre FFW Neuses
+  uuid: 9be14eee-4ab2-47b5-ac2e-db0ecc6c164a
+  zeit: 12.07.2026 14:00
+- name: Training
+  uuid: fe449bf1-56ef-40b9-b4c8-2233a5457b39
+  wiederholt: true
+  zeit: 16.07.2026 18:30
+- name: Training
+  uuid: ea6198ef-f9f0-4f7a-9932-6292455610ff
+  wiederholt: true
+  zeit: 23.07.2026 18:30
+- name: Training
+  uuid: f98e4945-f42a-48dc-b6d0-139e0500ec4f
+  wiederholt: true
+  zeit: 30.07.2026 18:30
+- name: Schützenzwerge
+  uuid: f892708d-9622-4d32-8455-5a12b6adc8ea
+  wiederholt: true
+  zeit: 01.08.2026 10:00
+  zeitbis: '11:30'
+- name: Training
+  uuid: 30c71fa4-d1a8-4421-a562-29bea6b3fa94
+  wiederholt: true
+  zeit: 06.08.2026 18:30
+- name: Training
+  uuid: d60c4a62-ff4f-4c6e-823f-47b8f761b495
+  wiederholt: true
+  zeit: 13.08.2026 18:30
+- name: Training
+  uuid: 36a03703-1c32-40d5-a470-e1ecbd1f904f
+  wiederholt: true
+  zeit: 20.08.2026 18:30
+- name: Training
+  uuid: 4348fd87-aedb-42bf-81ce-336da48644b0
+  wiederholt: true
+  zeit: 27.08.2026 18:30
+- name: Training
+  uuid: 5dcd0841-e0ec-403c-95ce-dd27dc6ecdf1
+  wiederholt: true
+  zeit: 03.09.2026 18:30
+- name: Schützenzwerge
+  uuid: 7566e0b8-42b2-4764-89f4-d541d48359f0
+  wiederholt: true
+  zeit: 05.09.2026 10:00
+  zeitbis: '11:30'
+- name: Training
+  uuid: d865f22d-3897-4bff-98ec-5e51cc103700
+  wiederholt: true
+  zeit: 10.09.2026 18:30
+- name: Training
+  uuid: 2ceeb4f3-3502-474f-b736-3de23a40fb92
+  wiederholt: true
+  zeit: 17.09.2026 18:30
+- name: Gauschützenfest Herrieden
+  uuid: 609ecf3e-d0c9-4a75-89be-81438f82069c
+  zeit: 20.09.2026
+- name: Training
+  uuid: 748e3676-c48f-45f3-8bdb-ebb15f04ef40
+  wiederholt: true
+  zeit: 24.09.2026 18:30
+- name: Bürgerschießen
+  uuid: ae005aa9-4a51-4331-a3d7-7be339c0479a
+  zeit: 01.10.2026 18:30
+- name: Schützenzwerge
+  uuid: 98bcc3c9-b83e-4a65-9ebf-54c3315f2525
+  wiederholt: true
+  zeit: 03.10.2026 10:00
+  zeitbis: '11:30'
+- name: Bürgerschießen
+  uuid: dadc47df-8823-4722-847a-1df5009b9c5d
+  zeit: 08.10.2026 18:30
+- name: Bürgerkönig / Kirchweih
+  uuid: 41b07af6-739b-451c-a323-0f88bed2b830
+  zeit: 15.10.2026 18:30
+- name: Training
+  uuid: 811a5211-fd87-4e9e-8d3b-a15d95608c61
+  wiederholt: true
+  zeit: 22.10.2026 18:30
+- name: Training
+  uuid: 59b3c454-5a03-4abf-89f4-0ff26d8854b2
+  wiederholt: true
+  zeit: 29.10.2026 18:30
+- name: Training
+  uuid: 309b4fec-d299-40c2-8352-933a01977b31
+  wiederholt: true
+  zeit: 05.11.2026 18:30
+- name: Schützenzwerge
+  uuid: 6c6efa53-dded-435d-8955-5493353a06c9
+  wiederholt: true
+  zeit: 07.11.2026 10:00
+  zeitbis: '11:30'
+- name: Training
+  uuid: fb2444f0-020b-4c11-a5bc-c65ceb02fd57
+  wiederholt: true
+  zeit: 12.11.2026 18:30
+- name: Training
+  uuid: ba682af1-c873-409b-8280-8883fe0454e2
+  wiederholt: true
+  zeit: 19.11.2026 18:30
+- name: Training
+  uuid: 65ac61bd-0cb4-4e9e-a40b-569ac0be2ea2
+  wiederholt: true
+  zeit: 26.11.2026 18:30
+- name: Training
+  uuid: c0cc8fae-f77d-4aaa-9288-9af4c65316d7
+  wiederholt: true
+  zeit: 03.12.2026 18:30
+- name: Schützenzwerge
+  uuid: 987307bc-7bd4-4f94-9685-7c01ee8193ef
+  wiederholt: true
+  zeit: 05.12.2026 10:00
+  zeitbis: '11:30'
+- name: Training
+  uuid: 682afa6d-f11f-4b63-820e-1e7fbc294983
+  wiederholt: true
+  zeit: 10.12.2026 18:30
+- name: Training
+  uuid: 41d4290d-cf1e-46b2-8c4a-ba3077e7a160
+  wiederholt: true
+  zeit: 17.12.2026 18:30
+- name: Königsessen / Weihnachtsfeier
+  uuid: 0b87d2ce-b53e-42b0-99d2-ecef0b9c8ab2
+  zeit: 19.12.2026 18:30
+- name: Jahresabschluss
+  uuid: 7dd5c639-c9f8-4d33-909e-7d72a18cd096
+  zeit: 31.12.2026 18:00

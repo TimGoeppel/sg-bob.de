@@ -18,6 +18,7 @@ disziplinen:
           - 1409
           - 1338
           - 1364
+          - 1393
           label: SG Burgoberbach 1
           pointRadius: 6
         - data:
@@ -29,6 +30,7 @@ disziplinen:
           - 1396
           - 1308
           - 1368
+          - 1399
           label: Gegner
           pointRadius: 6
         labels:
@@ -40,13 +42,14 @@ disziplinen:
         - 1. Rückrunde
         - 2. Rückrunde
         - 3. Rückrunde
+        - 4. Rückrunde
       max: 1600
-      suggested_min: 1151.0
+      suggested_min: 1154.8888888888887
     gruppe: B-Klasse
     gruppen_id: '5864'
     gruppen_nr: 2
     info:
-      avg: 1375.5
+      avg: 1377.4444444444443
       durchgaenge:
       - avg: 1364.0
         gast_mannschafts_nr: 1
@@ -189,14 +192,20 @@ disziplinen:
         uuid: lg_2026_1_offene_klasse_3_rückrunde
         wettkampftag: 3
         zeit: '2026-01-30 20:00:00'
-      - gast_mannschafts_nr: 2
+      - avg: 1377.44
+        gast_mannschafts_nr: 2
         gast_name: SV Leibelbach-Heuberg
+        gast_ringe: 1399
         heim_id: '582403'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
+        heim_ringe: 1393
         name: SG Burgoberbach 1 – SV Leibelbach-Heuberg 2 (4. Rückrunde)
         ort: SG Burgoberbach
+        punkte: 0:2
+        punkte_akkumulativ: '10:8'
         runde: Rückrunde
+        sieg: -1
         uuid: lg_2026_1_offene_klasse_4_rückrunde
         wettkampftag: 4
         zeit: '2026-02-13 20:00:00'
@@ -216,7 +225,7 @@ disziplinen:
       min: 1338.0
       platzierung: 3
       tabelle:
-      - anzahl_geschossen: 8
+      - anzahl_geschossen: 9
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -226,11 +235,11 @@ disziplinen:
         mannschafts_nr: 2
         name: SV Leibelbach-Heuberg
         platzierung: 1
-        punkte_gewonnen: 12
+        punkte_gewonnen: 14
         punkte_verloren: 4
-        ringe: 11054
+        ringe: 12453
         vereinsnummer: '102027'
-      - anzahl_geschossen: 8
+      - anzahl_geschossen: 9
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -241,10 +250,10 @@ disziplinen:
         name: SSV Lohr
         platzierung: 2
         punkte_gewonnen: 12
-        punkte_verloren: 4
-        ringe: 10905
+        punkte_verloren: 6
+        ringe: 12233
         vereinsnummer: '102030'
-      - anzahl_geschossen: 8
+      - anzahl_geschossen: 9
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -255,10 +264,10 @@ disziplinen:
         name: SG Burgoberbach
         platzierung: 3
         punkte_gewonnen: 10
-        punkte_verloren: 6
-        ringe: 11004
+        punkte_verloren: 8
+        ringe: 12397
         vereinsnummer: '102013'
-      - anzahl_geschossen: 8
+      - anzahl_geschossen: 9
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -268,11 +277,11 @@ disziplinen:
         mannschafts_nr: 2
         name: SG Dorfgütingen
         platzierung: 4
-        punkte_gewonnen: 8
+        punkte_gewonnen: 10
         punkte_verloren: 8
-        ringe: 10949
+        ringe: 12308
         vereinsnummer: '102058'
-      - anzahl_geschossen: 8
+      - anzahl_geschossen: 9
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -282,11 +291,11 @@ disziplinen:
         mannschafts_nr: 2
         name: SV Larrieden
         platzierung: 5
-        punkte_gewonnen: 4
+        punkte_gewonnen: 6
         punkte_verloren: 12
-        ringe: 10975
+        ringe: 12366
         vereinsnummer: '102063'
-      - anzahl_geschossen: 8
+      - anzahl_geschossen: 9
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -297,8 +306,8 @@ disziplinen:
         name: SV Buch-am-Wald
         platzierung: 6
         punkte_gewonnen: 2
-        punkte_verloren: 14
-        ringe: 10738
+        punkte_verloren: 16
+        ringe: 12121
         vereinsnummer: '102011'
     klasse: OK
     klassen_id: '2858'
@@ -307,10 +316,10 @@ disziplinen:
     platzierung: 3
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 7
-      avg: 351.57
+      anzahl_stamm: 8
+      avg: 350.5
       avg_ersatz: 0.0
-      avg_stamm: 351.57
+      avg_stamm: 350.5
       gruppe: B-Klasse
       id: '16769'
       mannschafts_nr: 1
@@ -319,10 +328,10 @@ disziplinen:
       nachname: Appel
       vorname: Philipp
     - anzahl_ersatz: 0
-      anzahl_stamm: 8
-      avg: 338.38
+      anzahl_stamm: 9
+      avg: 339.56
       avg_ersatz: 0.0
-      avg_stamm: 338.38
+      avg_stamm: 339.56
       gruppe: B-Klasse
       id: '375125'
       mannschafts_nr: 1
@@ -331,10 +340,10 @@ disziplinen:
       nachname: Göppel
       vorname: Tim
     - anzahl_ersatz: 0
-      anzahl_stamm: 8
-      avg: 326.63
+      anzahl_stamm: 9
+      avg: 327.44
       avg_ersatz: 0.0
-      avg_stamm: 326.63
+      avg_stamm: 327.44
       gruppe: B-Klasse
       id: '16750'
       mannschafts_nr: 1
@@ -343,10 +352,10 @@ disziplinen:
       nachname: Hammerl
       vorname: Christian
     - anzahl_ersatz: 0
-      anzahl_stamm: 5
-      avg: 361.2
+      anzahl_stamm: 6
+      avg: 362.17
       avg_ersatz: 0.0
-      avg_stamm: 361.2
+      avg_stamm: 362.17
       gruppe: B-Klasse
       id: '314646'
       mannschafts_nr: 1

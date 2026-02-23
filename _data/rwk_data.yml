@@ -374,6 +374,7 @@ disziplinen:
           - 821
           - 749
           - 860
+          - 756
           label: SG Burgoberbach 1
           pointRadius: 6
         - data:
@@ -383,6 +384,7 @@ disziplinen:
           - 1023
           - 933
           - 904
+          - 941
           label: Gegner
           pointRadius: 6
         labels:
@@ -392,13 +394,14 @@ disziplinen:
         - 5. Vorrunde
         - 1. Rückrunde
         - 2. Rückrunde
+        - 4. Rückrunde
       max: 1200
-      suggested_min: 419.0
+      suggested_min: 403.7142857142858
     gruppe: J
     gruppen_id: '5869'
     gruppen_nr: 4
     info:
-      avg: 809.5
+      avg: 801.8571428571429
       durchgaenge:
       - avg: 746.0
         gast_mannschafts_nr: 1
@@ -506,14 +509,20 @@ disziplinen:
         uuid: lg_2026_1_jugendklasse_2_rückrunde
         wettkampftag: 2
         zeit: '2026-01-23 19:00:00'
-      - gast_mannschafts_nr: 1
+      - avg: 801.86
+        gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
+        gast_ringe: 756
         heim_id: '579199'
         heim_mannschafts_nr: 1
         heim_name: SV Leibelbach-Heuberg
+        heim_ringe: 941
         name: SV Leibelbach-Heuberg 1 – SG Burgoberbach 1 (4. Rückrunde)
         ort: SV Leibelbach-Heuberg
+        punkte: 0:2
+        punkte_akkumulativ: 0:14
         runde: Rückrunde
+        sieg: -1
         uuid: lg_2026_1_jugendklasse_4_rückrunde
         wettkampftag: 4
         zeit: '2026-02-20 19:00:00'
@@ -533,7 +542,7 @@ disziplinen:
       min: 746.0
       platzierung: 5
       tabelle:
-      - anzahl_geschossen: 6
+      - anzahl_geschossen: 7
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -543,11 +552,11 @@ disziplinen:
         mannschafts_nr: 1
         name: SG Weihenzell
         platzierung: 1
-        punkte_gewonnen: 12
+        punkte_gewonnen: 14
         punkte_verloren: 0
-        ringe: 6057
+        ringe: 7075
         vereinsnummer: '102051'
-      - anzahl_geschossen: 7
+      - anzahl_geschossen: 8
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -557,9 +566,9 @@ disziplinen:
         mannschafts_nr: 1
         name: SV Leibelbach-Heuberg
         platzierung: 2
-        punkte_gewonnen: 8
+        punkte_gewonnen: 10
         punkte_verloren: 6
-        ringe: 6393
+        ringe: 7334
         vereinsnummer: '102027'
       - anzahl_geschossen: 7
         gruppe: J
@@ -575,7 +584,7 @@ disziplinen:
         punkte_verloren: 6
         ringe: 6347
         vereinsnummer: '102067'
-      - anzahl_geschossen: 6
+      - anzahl_geschossen: 7
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -586,10 +595,10 @@ disziplinen:
         name: SG Colmberg
         platzierung: 4
         punkte_gewonnen: 4
-        punkte_verloren: 8
-        ringe: 5151
+        punkte_verloren: 10
+        ringe: 6050
         vereinsnummer: '102014'
-      - anzahl_geschossen: 6
+      - anzahl_geschossen: 7
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -600,8 +609,8 @@ disziplinen:
         name: SG Burgoberbach
         platzierung: 5
         punkte_gewonnen: 0
-        punkte_verloren: 12
-        ringe: 4857
+        punkte_verloren: 14
+        ringe: 5613
         vereinsnummer: '102013'
     klasse: Jugendklasse
     klassen_id: '2861'
@@ -622,41 +631,41 @@ disziplinen:
       nachname: Schulz
       vorname: Lina
     - anzahl_ersatz: 0
-      anzahl_stamm: 5
-      avg: 288.2
+      anzahl_stamm: 6
+      avg: 282.5
       avg_ersatz: 0.0
-      avg_stamm: 288.2
+      avg_stamm: 282.5
       gruppe: J
       id: '404148'
       mannschafts_nr: 1
       max: 302
-      min: 277
+      min: 254
       nachname: Siegordner
       vorname: Lea
     - anzahl_ersatz: 0
-      anzahl_stamm: 1
-      avg: 276.0
+      anzahl_stamm: 2
+      avg: 245.5
       avg_ersatz: 0.0
-      avg_stamm: 276.0
+      avg_stamm: 245.5
       gruppe: J
       id: '404146'
       mannschafts_nr: 1
       max: 276
-      min: 276
+      min: 215
       nachname: Zettl
       vorname: Nora
     vereinsnummer: '102013'
   - gruppe: Ersatz
     schuetzen:
-    - anzahl_ersatz: 3
+    - anzahl_ersatz: 4
       anzahl_stamm: 0
-      avg: 301.67
-      avg_ersatz: 301.67
+      avg: 298.0
+      avg_ersatz: 298.0
       avg_stamm: 0.0
       gruppe: Ersatz
       id: '398557'
       max: 319
-      min: 289
+      min: 287
       nachname: Dörr
       vorname: Alina
     - anzahl_ersatz: 2

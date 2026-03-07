@@ -232,7 +232,7 @@ disziplinen:
       kalender: lg_2026_1_offene_klasse
       max: 1423.0
       min: 1338.0
-      platzierung: 3
+      platzierung: 2
       tabelle:
       - anzahl_geschossen: 10
         gruppe: B-Klasse
@@ -248,20 +248,6 @@ disziplinen:
         punkte_verloren: 4
         ringe: 13853
         vereinsnummer: '102027'
-      - anzahl_geschossen: 9
-        gruppe: B-Klasse
-        gruppen_id: '5864'
-        gruppen_nr: 2
-        klasse: OK
-        klassen_id: '2858'
-        klassen_name: Offene Klasse
-        mannschafts_nr: 2
-        name: SSV Lohr
-        platzierung: 2
-        punkte_gewonnen: 12
-        punkte_verloren: 6
-        ringe: 12233
-        vereinsnummer: '102030'
       - anzahl_geschossen: 10
         gruppe: B-Klasse
         gruppen_id: '5864'
@@ -271,11 +257,25 @@ disziplinen:
         klassen_name: Offene Klasse
         mannschafts_nr: 1
         name: SG Burgoberbach
-        platzierung: 3
+        platzierung: 2
         punkte_gewonnen: 12
         punkte_verloren: 8
         ringe: 13798
         vereinsnummer: '102013'
+      - anzahl_geschossen: 10
+        gruppe: B-Klasse
+        gruppen_id: '5864'
+        gruppen_nr: 2
+        klasse: OK
+        klassen_id: '2858'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SSV Lohr
+        platzierung: 3
+        punkte_gewonnen: 12
+        punkte_verloren: 8
+        ringe: 13622
+        vereinsnummer: '102030'
       - anzahl_geschossen: 10
         gruppe: B-Klasse
         gruppen_id: '5864'
@@ -290,7 +290,7 @@ disziplinen:
         punkte_verloren: 10
         ringe: 13695
         vereinsnummer: '102058'
-      - anzahl_geschossen: 9
+      - anzahl_geschossen: 10
         gruppe: B-Klasse
         gruppen_id: '5864'
         gruppen_nr: 2
@@ -300,9 +300,9 @@ disziplinen:
         mannschafts_nr: 2
         name: SV Larrieden
         platzierung: 5
-        punkte_gewonnen: 6
+        punkte_gewonnen: 8
         punkte_verloren: 12
-        ringe: 12366
+        ringe: 13774
         vereinsnummer: '102063'
       - anzahl_geschossen: 10
         gruppe: B-Klasse
@@ -322,7 +322,7 @@ disziplinen:
     klassen_id: '2858'
     klassen_name: Offene Klasse
     mannschafts_nr: 1
-    platzierung: 3
+    platzierung: 2
     schuetzen:
     - anzahl_ersatz: 0
       anzahl_stamm: 9
@@ -579,7 +579,7 @@ disziplinen:
         punkte_verloren: 6
         ringe: 7334
         vereinsnummer: '102027'
-      - anzahl_geschossen: 7
+      - anzahl_geschossen: 8
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -590,10 +590,10 @@ disziplinen:
         name: SG Elbersroth
         platzierung: 3
         punkte_gewonnen: 8
-        punkte_verloren: 6
-        ringe: 6347
+        punkte_verloren: 8
+        ringe: 7258
         vereinsnummer: '102067'
-      - anzahl_geschossen: 7
+      - anzahl_geschossen: 8
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -603,9 +603,9 @@ disziplinen:
         mannschafts_nr: 2
         name: SG Colmberg
         platzierung: 4
-        punkte_gewonnen: 4
+        punkte_gewonnen: 6
         punkte_verloren: 10
-        ringe: 6050
+        ringe: 6987
         vereinsnummer: '102014'
       - anzahl_geschossen: 7
         gruppe: J

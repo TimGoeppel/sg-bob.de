@@ -384,6 +384,7 @@ disziplinen:
           - 749
           - 860
           - 756
+          - 907
           label: SG Burgoberbach 1
           pointRadius: 6
         - data:
@@ -394,6 +395,7 @@ disziplinen:
           - 933
           - 904
           - 941
+          - 1015
           label: Gegner
           pointRadius: 6
         labels:
@@ -404,13 +406,14 @@ disziplinen:
         - 1. Rückrunde
         - 2. Rückrunde
         - 4. Rückrunde
+        - 5. Rückrunde
       max: 1200
-      suggested_min: 403.7142857142858
+      suggested_min: 430.0
     gruppe: J
     gruppen_id: '5869'
     gruppen_nr: 4
     info:
-      avg: 801.8571428571429
+      avg: 815.0
       durchgaenge:
       - avg: 746.0
         gast_mannschafts_nr: 1
@@ -535,23 +538,29 @@ disziplinen:
         uuid: lg_2026_1_jugendklasse_4_rückrunde
         wettkampftag: 4
         zeit: '2026-02-20 19:00:00'
-      - gast_mannschafts_nr: 1
+      - avg: 815.0
+        gast_mannschafts_nr: 1
         gast_name: SG Weihenzell
+        gast_ringe: 1015
         heim_id: '579201'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
+        heim_ringe: 907
         name: SG Burgoberbach 1 – SG Weihenzell 1 (5. Rückrunde)
         ort: SG Burgoberbach
+        punkte: 0:2
+        punkte_akkumulativ: 0:16
         runde: Rückrunde
+        sieg: -1
         uuid: lg_2026_1_jugendklasse_5_rückrunde
         wettkampftag: 5
         zeit: '2026-03-06 19:00:00'
       kalender: lg_2026_1_jugendklasse
-      max: 860.0
+      max: 907.0
       min: 746.0
       platzierung: 5
       tabelle:
-      - anzahl_geschossen: 7
+      - anzahl_geschossen: 8
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -561,9 +570,9 @@ disziplinen:
         mannschafts_nr: 1
         name: SG Weihenzell
         platzierung: 1
-        punkte_gewonnen: 14
+        punkte_gewonnen: 16
         punkte_verloren: 0
-        ringe: 7075
+        ringe: 8090
         vereinsnummer: '102051'
       - anzahl_geschossen: 8
         gruppe: J
@@ -607,7 +616,7 @@ disziplinen:
         punkte_verloren: 10
         ringe: 6987
         vereinsnummer: '102014'
-      - anzahl_geschossen: 7
+      - anzahl_geschossen: 8
         gruppe: J
         gruppen_id: '5869'
         gruppen_nr: 4
@@ -618,8 +627,8 @@ disziplinen:
         name: SG Burgoberbach
         platzierung: 5
         punkte_gewonnen: 0
-        punkte_verloren: 14
-        ringe: 5613
+        punkte_verloren: 16
+        ringe: 6520
         vereinsnummer: '102013'
     klasse: Jugendklasse
     klassen_id: '2861'
@@ -640,10 +649,10 @@ disziplinen:
       nachname: Schulz
       vorname: Lina
     - anzahl_ersatz: 0
-      anzahl_stamm: 6
-      avg: 282.5
+      anzahl_stamm: 7
+      avg: 285.14
       avg_ersatz: 0.0
-      avg_stamm: 282.5
+      avg_stamm: 285.14
       gruppe: J
       id: '404148'
       mannschafts_nr: 1
@@ -652,14 +661,14 @@ disziplinen:
       nachname: Siegordner
       vorname: Lea
     - anzahl_ersatz: 0
-      anzahl_stamm: 2
-      avg: 245.5
+      anzahl_stamm: 3
+      avg: 257.33
       avg_ersatz: 0.0
-      avg_stamm: 245.5
+      avg_stamm: 257.33
       gruppe: J
       id: '404146'
       mannschafts_nr: 1
-      max: 276
+      max: 281
       min: 215
       nachname: Zettl
       vorname: Nora
@@ -699,6 +708,17 @@ disziplinen:
       min: 339
       nachname: Luff
       vorname: Bastian
+    - anzahl_ersatz: 1
+      anzahl_stamm: 0
+      avg: 325.0
+      avg_ersatz: 325.0
+      avg_stamm: 0.0
+      gruppe: Ersatz
+      id: '394394'
+      max: 325
+      min: 325
+      nachname: Stieg
+      vorname: Benjamin Jonas
     - anzahl_ersatz: 1
       anzahl_stamm: 0
       avg: 195.0

@@ -1,15 +1,15 @@
 ---
 layout: page
-title: "Einladung zum Königsschießen"
+title: "Einladung zum Königsschießen 2026"
 breadcrumb: true
 categories:
     - vereinsleben
 tags:
     - königsschießen
 image:
-    title: einladung_koenigsschiessen_2026.jpeg
-    homepage: einladung_koenigsschiessen_2026.jpeg
-    thumb: einladung_koenigsschiessen_2026-thumb.jpeg
+    title: einladung_zum_koenigsschiessen_2026.jpeg
+    homepage: einladung_zum_koenigsschiessen_2026.jpeg
+    thumb: einladung_zum_koenigsschiessen_2026-thumb.jpeg
 author: Bastian Luff
 ---
 Das **Königsschießen 2026** hat wieder begonnen!
@@ -26,7 +26,7 @@ Die darauffolgende **Königsabholung** ist für Samstag, den 04.07.2026 ab 16 Uh
 Wir freuen uns auf euer zahlreiches Kommen!
 
 ## Anhang
-- <a href="{{ site.url }}{{ site.baseurl }}/assets/files/einladung_koenigsschiessen_2026.pdf" download>Ursprüngliche .pdf-Datei herunterladen</a>
+- <a href="{{ site.url }}{{ site.baseurl }}/assets/files/einladung_zum_koenigsschiessen_2026.pdf" download>Ursprüngliche .pdf-Datei herunterladen</a>
 
 ## Weitere Artikel zum Königsschießen
 {: .t60 }

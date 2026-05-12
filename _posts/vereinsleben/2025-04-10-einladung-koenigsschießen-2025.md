@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Einladung zum Königsschießen"
+title: "Einladung zum Königsschießen 2025"
 breadcrumb: true
 categories:
     - vereinsleben

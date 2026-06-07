@@ -798,14 +798,13 @@
 - name: Königsschießen Burgoberbach
   uuid: d1e645ea-85e8-47a3-bb01-4ac5cb8f8111
   zeit: 04.06.2026 18:30
-- name: Schützenzwerge
-  uuid: 456617de-d999-4c18-807d-260ce9454521
-  wiederholt: true
-  zeit: 13.06.2026 10:00
-  zeitbis: '11:30'
 - name: Königsschießen Burgoberbach
   uuid: 299ad516-721d-4c2a-9152-3c11cc744739
   zeit: 11.06.2026 18:30
+- name: Schützenzwerge Königsschießen
+  uuid: 456617de-d999-4c18-807d-260ce9454521
+  zeit: 18.06.2026 17:00
+  zeitbis: '18:00'
 - name: Königsschießen Burgoberbach
   uuid: 9a2ecb1f-5c1d-4ee8-8769-f7cb9cd59941
   zeit: 18.06.2026 18:30

@@ -8,6 +8,10 @@ categories:
 tags:
     - instagram
 author: Bastian Luff
+image:
+    title: baumpflanz_challenge.jpeg
+    homepage: baumpflanz_challenge.jpeg
+    thumb: baumpflanz_challenge-thumb.jpeg
 ---
 Danke an den [Theater- und Kulturverein Burgoberbach](https://www.instagram.com/p/DNc8Mwgsn6H/){:target="_blank"} und den [SG Hubertus Neuses](https://www.sv-hubertus-neuses.de/){:target="_blank"} für Eure Nominierungen und an die Gemeinde Burgoberbach für die Erlaubnis zur Baumpflanzung!
 

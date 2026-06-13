@@ -13,6 +13,8 @@ gallery:
     caption: "Ferienprogramm 2024"
   - image_url: ferienprogramm_2024_2.jpeg
     caption: "Ferienprogramm 2024"
+  - image_url: ferienprogramm_2025.jpeg
+    caption: "Ferienprogramm 2025"
 ---
 <img style="float: right;" src="{{ site.urlimg }}kjr.png" width="240px" alt="Teil des Kreisjugendrings Ansbach">
 ## Angebot

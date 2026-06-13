@@ -852,10 +852,9 @@
   uuid: 30c71fa4-d1a8-4421-a562-29bea6b3fa94
   wiederholt: true
   zeit: 06.08.2026 18:30
-- name: Training
-  uuid: d60c4a62-ff4f-4c6e-823f-47b8f761b495
-  wiederholt: true
-  zeit: 13.08.2026 18:30
+- name: Ferienprogramm
+  uuid: 392dc281-624c-492f-81a4-0000baa21842
+  zeit: 13.08.2026
 - name: Training
   uuid: 36a03703-1c32-40d5-a470-e1ecbd1f904f
   wiederholt: true

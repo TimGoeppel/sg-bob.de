@@ -23,6 +23,8 @@ Am 4. Juli 2026 laden wir ab 16 Uhr wieder zu unserer Königsabholung ein! Angeb
 - Festumzug der Schützen (18 Uhr)
 - Proklamation des neuen Schützenkönigs/der neuen Schützenkönigin (19 Uhr)
 
+<img src="{{ site.urlimg }}koenigsabholung_2026_2.jpeg" width="512px" alt="Programm an der Königsabholung">
+
 ## Weitere Artikel zum Königsschießen
 {: .t60 }
 {% include list-posts tag='königsschießen' %}

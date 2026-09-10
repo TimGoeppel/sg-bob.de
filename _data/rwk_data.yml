@@ -1,737 +1,376 @@
 disziplinen:
 - disziplin: Luftgewehr
-  disziplin_id: '2942'
+  disziplin_id: '3108'
   disziplin_kurz: LG
-  eingeteilte_gruppen_id: '7237'
+  eingeteilte_gruppen_id: '7599'
   gau_nr: '102000'
-  id: '579184'
+  id: '599516'
   mannschaften:
   - chartjs:
       data:
         datasets:
-        - data:
-          - 1364
-          - 1423
-          - 1345
-          - 1392
-          - 1369
-          - 1409
-          - 1338
-          - 1364
-          - 1393
-          - 1401
+        - data: []
           label: SG Burgoberbach 1
           pointRadius: 6
-        - data:
-          - 1411
-          - 1373
-          - 1365
-          - 1391
-          - 1354
-          - 1396
-          - 1308
-          - 1368
-          - 1399
-          - 1387
+        - data: []
           label: Gegner
           pointRadius: 6
-        labels:
-        - 1. Vorrunde
-        - 2. Vorrunde
-        - 3. Vorrunde
-        - 4. Vorrunde
-        - 5. Vorrunde
-        - 1. Rückrunde
-        - 2. Rückrunde
-        - 3. Rückrunde
-        - 4. Rückrunde
-        - 5. Rückrunde
+        labels: []
       max: 1600
-      suggested_min: 1159.6
+      suggested_min: 0
     gruppe: B-Klasse
-    gruppen_id: '5864'
-    gruppen_nr: 2
+    gruppen_id: '6149'
+    gruppen_nr: 1
     info:
-      avg: 1379.8
+      avg: 0.0
       durchgaenge:
-      - avg: 1364.0
-        gast_mannschafts_nr: 1
+      - gast_mannschafts_nr: 2
+        gast_name: SV Vorderbreitenthann
+        heim_id: '599816'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        name: SG Burgoberbach 1 – SV Vorderbreitenthann 2 (1. Vorrunde)
+        ort: SG Burgoberbach
+        runde: Vorrunde
+        uuid: lg_2027_1_offene_klasse_1_vorrunde
+        wettkampftag: 1
+        zeit: '2026-09-18 20:00:00'
+      - gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
-        gast_ringe: 1364
-        heim_id: '582386'
+        heim_id: '599824'
         heim_mannschafts_nr: 2
         heim_name: SV Larrieden
-        heim_ringe: 1411
-        name: SV Larrieden 2 – SG Burgoberbach 1 (1. Vorrunde)
+        name: SV Larrieden 2 – SG Burgoberbach 1 (2. Vorrunde)
         ort: SV Larrieden
-        platzierung: 5
-        punkte: 0:2
-        punkte_akkumulativ: 0:2
         runde: Vorrunde
-        sieg: -1
-        uuid: lg_2026_1_offene_klasse_1_vorrunde
-        wettkampftag: 1
-        zeit: '2025-09-19 20:00:00'
-      - avg: 1393.5
-        gast_mannschafts_nr: 3
+        uuid: lg_2027_1_offene_klasse_2_vorrunde
+        wettkampftag: 2
+        zeit: '2026-10-02 20:00:00'
+      - gast_mannschafts_nr: 1
+        gast_name: SV Aichau-Oberahorn
+        heim_id: '599826'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        name: SG Burgoberbach 1 – SV Aichau-Oberahorn 1 (3. Vorrunde)
+        ort: SG Burgoberbach
+        runde: Vorrunde
+        uuid: lg_2027_1_offene_klasse_3_vorrunde
+        wettkampftag: 3
+        zeit: '2026-10-16 20:00:00'
+      - gast_mannschafts_nr: 2
+        gast_name: KSK Thürnhofen
+        heim_id: '599836'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        name: SG Burgoberbach 1 – KSK Thürnhofen 2 (4. Vorrunde)
+        ort: SG Burgoberbach
+        runde: Vorrunde
+        uuid: lg_2027_1_offene_klasse_4_vorrunde
+        wettkampftag: 4
+        zeit: '2026-10-30 20:00:00'
+      - gast_mannschafts_nr: 2
         gast_name: SV Buch-am-Wald
-        gast_ringe: 1373
-        heim_id: '582392'
+        heim_id: '599840'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
-        heim_ringe: 1423
-        name: SG Burgoberbach 1 – SV Buch-am-Wald 3 (2. Vorrunde)
+        name: SG Burgoberbach 1 – SV Buch-am-Wald 2 (5. Vorrunde)
         ort: SG Burgoberbach
-        platzierung: 3
-        punkte: '2:0'
-        punkte_akkumulativ: '2:2'
         runde: Vorrunde
-        sieg: 1
-        uuid: lg_2026_1_offene_klasse_2_vorrunde
-        wettkampftag: 2
-        zeit: '2025-10-03 20:00:00'
-      - avg: 1377.33
-        gast_mannschafts_nr: 1
-        gast_name: SG Burgoberbach
-        gast_ringe: 1345
-        heim_id: '582400'
-        heim_mannschafts_nr: 2
-        heim_name: SSV Lohr
-        heim_ringe: 1365
-        name: SSV Lohr 2 – SG Burgoberbach 1 (3. Vorrunde)
-        ort: SSV Lohr
-        platzierung: 5
-        punkte: 0:2
-        punkte_akkumulativ: '2:4'
-        runde: Vorrunde
-        sieg: -1
-        uuid: lg_2026_1_offene_klasse_3_vorrunde
-        wettkampftag: 3
-        zeit: '2025-10-17 20:00:00'
-      - avg: 1381.0
-        gast_mannschafts_nr: 1
-        gast_name: SG Burgoberbach
-        gast_ringe: 1392
-        heim_id: '582402'
-        heim_mannschafts_nr: 2
-        heim_name: SV Leibelbach-Heuberg
-        heim_ringe: 1391
-        name: SV Leibelbach-Heuberg 2 – SG Burgoberbach 1 (4. Vorrunde)
-        ort: SV Leibelbach-Heuberg
-        platzierung: 3
-        punkte: '2:0'
-        punkte_akkumulativ: '4:4'
-        runde: Vorrunde
-        sieg: 1
-        uuid: lg_2026_1_offene_klasse_4_vorrunde
-        wettkampftag: 4
-        zeit: '2025-10-31 20:00:00'
-      - avg: 1378.6
-        gast_mannschafts_nr: 2
-        gast_name: SG Dorfgütingen
-        gast_ringe: 1354
-        heim_id: '582412'
-        heim_mannschafts_nr: 1
-        heim_name: SG Burgoberbach
-        heim_ringe: 1369
-        name: SG Burgoberbach 1 – SG Dorfgütingen 2 (5. Vorrunde)
-        ort: SG Burgoberbach
-        platzierung: 2
-        punkte: '2:0'
-        punkte_akkumulativ: '6:4'
-        runde: Vorrunde
-        sieg: 1
-        uuid: lg_2026_1_offene_klasse_5_vorrunde
+        uuid: lg_2027_1_offene_klasse_5_vorrunde
         wettkampftag: 5
-        zeit: '2025-11-14 20:00:00'
-      - avg: 1383.67
-        gast_mannschafts_nr: 2
-        gast_name: SV Larrieden
-        gast_ringe: 1396
-        heim_id: '582387'
-        heim_mannschafts_nr: 1
-        heim_name: SG Burgoberbach
-        heim_ringe: 1409
-        name: SG Burgoberbach 1 – SV Larrieden 2 (1. Rückrunde)
-        ort: SG Burgoberbach
-        punkte: '2:0'
-        punkte_akkumulativ: '8:4'
+        zeit: '2026-11-13 20:00:00'
+      - gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        heim_id: '599817'
+        heim_mannschafts_nr: 2
+        heim_name: SV Vorderbreitenthann
+        name: SV Vorderbreitenthann 2 – SG Burgoberbach 1 (1. Rückrunde)
+        ort: SV Vorderbreitenthann
         runde: Rückrunde
-        sieg: 1
-        uuid: lg_2026_1_offene_klasse_1_rückrunde
+        uuid: lg_2027_1_offene_klasse_1_rückrunde
         wettkampftag: 1
-        zeit: '2025-11-28 20:00:00'
-      - avg: 1377.14
-        gast_mannschafts_nr: 1
-        gast_name: SG Burgoberbach
-        gast_ringe: 1338
-        heim_id: '582393'
-        heim_mannschafts_nr: 3
-        heim_name: SV Buch-am-Wald
-        heim_ringe: 1308
-        name: SV Buch-am-Wald 3 – SG Burgoberbach 1 (2. Rückrunde)
-        ort: SV Buch-am-Wald
-        punkte: '2:0'
-        punkte_akkumulativ: '10:4'
+        zeit: '2026-11-27 20:00:00'
+      - gast_mannschafts_nr: 2
+        gast_name: SV Larrieden
+        heim_id: '599825'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        name: SG Burgoberbach 1 – SV Larrieden 2 (2. Rückrunde)
+        ort: SG Burgoberbach
         runde: Rückrunde
-        sieg: 1
-        uuid: lg_2026_1_offene_klasse_2_rückrunde
+        uuid: lg_2027_1_offene_klasse_2_rückrunde
         wettkampftag: 2
-        zeit: '2026-01-16 20:00:00'
-      - avg: 1375.5
-        gast_mannschafts_nr: 2
-        gast_name: SSV Lohr
-        gast_ringe: 1368
-        heim_id: '582401'
-        heim_mannschafts_nr: 1
-        heim_name: SG Burgoberbach
-        heim_ringe: 1364
-        name: SG Burgoberbach 1 – SSV Lohr 2 (3. Rückrunde)
-        ort: SG Burgoberbach
-        punkte: 0:2
-        punkte_akkumulativ: '10:6'
-        runde: Rückrunde
-        sieg: -1
-        uuid: lg_2026_1_offene_klasse_3_rückrunde
-        wettkampftag: 3
-        zeit: '2026-01-30 20:00:00'
-      - avg: 1377.44
-        gast_mannschafts_nr: 2
-        gast_name: SV Leibelbach-Heuberg
-        gast_ringe: 1399
-        heim_id: '582403'
-        heim_mannschafts_nr: 1
-        heim_name: SG Burgoberbach
-        heim_ringe: 1393
-        name: SG Burgoberbach 1 – SV Leibelbach-Heuberg 2 (4. Rückrunde)
-        ort: SG Burgoberbach
-        punkte: 0:2
-        punkte_akkumulativ: '10:8'
-        runde: Rückrunde
-        sieg: -1
-        uuid: lg_2026_1_offene_klasse_4_rückrunde
-        wettkampftag: 4
-        zeit: '2026-02-13 20:00:00'
-      - avg: 1379.8
-        gast_mannschafts_nr: 1
+        zeit: '2027-01-15 20:00:00'
+      - gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
-        gast_ringe: 1401
-        heim_id: '582413'
-        heim_mannschafts_nr: 2
-        heim_name: SG Dorfgütingen
-        heim_ringe: 1387
-        name: SG Dorfgütingen 2 – SG Burgoberbach 1 (5. Rückrunde)
-        ort: SG Dorfgütingen
-        punkte: '2:0'
-        punkte_akkumulativ: '12:8'
+        heim_id: '599827'
+        heim_mannschafts_nr: 1
+        heim_name: SV Aichau-Oberahorn
+        name: SV Aichau-Oberahorn 1 – SG Burgoberbach 1 (3. Rückrunde)
+        ort: SV Aichau-Oberahorn
         runde: Rückrunde
-        sieg: 1
-        uuid: lg_2026_1_offene_klasse_5_rückrunde
+        uuid: lg_2027_1_offene_klasse_3_rückrunde
+        wettkampftag: 3
+        zeit: '2027-01-29 20:00:00'
+      - gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        heim_id: '599837'
+        heim_mannschafts_nr: 2
+        heim_name: KSK Thürnhofen
+        name: KSK Thürnhofen 2 – SG Burgoberbach 1 (4. Rückrunde)
+        ort: KSK Thürnhofen
+        runde: Rückrunde
+        uuid: lg_2027_1_offene_klasse_4_rückrunde
+        wettkampftag: 4
+        zeit: '2027-02-12 20:00:00'
+      - gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        heim_id: '599841'
+        heim_mannschafts_nr: 2
+        heim_name: SV Buch-am-Wald
+        name: SV Buch-am-Wald 2 – SG Burgoberbach 1 (5. Rückrunde)
+        ort: SV Buch-am-Wald
+        runde: Rückrunde
+        uuid: lg_2027_1_offene_klasse_5_rückrunde
         wettkampftag: 5
-        zeit: '2026-02-27 20:00:00'
-      kalender: lg_2026_1_offene_klasse
-      max: 1423.0
-      min: 1338.0
-      platzierung: 2
-      tabelle:
-      - anzahl_geschossen: 10
-        gruppe: B-Klasse
-        gruppen_id: '5864'
-        gruppen_nr: 2
-        klasse: OK
-        klassen_id: '2858'
-        klassen_name: Offene Klasse
-        mannschafts_nr: 2
-        name: SV Leibelbach-Heuberg
-        platzierung: 1
-        punkte_gewonnen: 16
-        punkte_verloren: 4
-        ringe: 13853
-        vereinsnummer: '102027'
-      - anzahl_geschossen: 10
-        gruppe: B-Klasse
-        gruppen_id: '5864'
-        gruppen_nr: 2
-        klasse: OK
-        klassen_id: '2858'
-        klassen_name: Offene Klasse
-        mannschafts_nr: 1
-        name: SG Burgoberbach
-        platzierung: 2
-        punkte_gewonnen: 12
-        punkte_verloren: 8
-        ringe: 13798
-        vereinsnummer: '102013'
-      - anzahl_geschossen: 10
-        gruppe: B-Klasse
-        gruppen_id: '5864'
-        gruppen_nr: 2
-        klasse: OK
-        klassen_id: '2858'
-        klassen_name: Offene Klasse
-        mannschafts_nr: 2
-        name: SSV Lohr
-        platzierung: 3
-        punkte_gewonnen: 12
-        punkte_verloren: 8
-        ringe: 13622
-        vereinsnummer: '102030'
-      - anzahl_geschossen: 10
-        gruppe: B-Klasse
-        gruppen_id: '5864'
-        gruppen_nr: 2
-        klasse: OK
-        klassen_id: '2858'
-        klassen_name: Offene Klasse
-        mannschafts_nr: 2
-        name: SG Dorfgütingen
-        platzierung: 4
-        punkte_gewonnen: 10
-        punkte_verloren: 10
-        ringe: 13695
-        vereinsnummer: '102058'
-      - anzahl_geschossen: 10
-        gruppe: B-Klasse
-        gruppen_id: '5864'
-        gruppen_nr: 2
-        klasse: OK
-        klassen_id: '2858'
-        klassen_name: Offene Klasse
-        mannschafts_nr: 2
-        name: SV Larrieden
-        platzierung: 5
-        punkte_gewonnen: 8
-        punkte_verloren: 12
-        ringe: 13774
-        vereinsnummer: '102063'
-      - anzahl_geschossen: 10
-        gruppe: B-Klasse
-        gruppen_id: '5864'
-        gruppen_nr: 2
-        klasse: OK
-        klassen_id: '2858'
-        klassen_name: Offene Klasse
-        mannschafts_nr: 3
-        name: SV Buch-am-Wald
-        platzierung: 6
-        punkte_gewonnen: 2
-        punkte_verloren: 18
-        ringe: 13444
-        vereinsnummer: '102011'
-    klasse: OK
-    klassen_id: '2858'
+        zeit: '2027-02-26 20:00:00'
+      kalender: lg_2027_1_offene_klasse
+      max: 0.0
+      min: 0.0
+      platzierung: 0
+      tabelle: []
+    klasse: Offene Klasse
+    klassen_id: '2999'
     klassen_name: Offene Klasse
     mannschafts_nr: 1
-    platzierung: 2
+    platzierung: 0
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 9
-      avg: 350.78
+      anzahl_stamm: 0
+      avg: 0.0
       avg_ersatz: 0.0
-      avg_stamm: 350.78
+      avg_stamm: 0.0
       gruppe: B-Klasse
       id: '16769'
       mannschafts_nr: 1
-      max: 362
-      min: 335
+      max: 0
+      min: 0
       nachname: Appel
       vorname: Philipp
     - anzahl_ersatz: 0
-      anzahl_stamm: 10
-      avg: 339.7
+      anzahl_stamm: 0
+      avg: 0.0
       avg_ersatz: 0.0
-      avg_stamm: 339.7
+      avg_stamm: 0.0
       gruppe: B-Klasse
       id: '375125'
       mannschafts_nr: 1
-      max: 359
-      min: 322
+      max: 0
+      min: 0
       nachname: Göppel
       vorname: Tim
     - anzahl_ersatz: 0
-      anzahl_stamm: 10
-      avg: 328.9
+      anzahl_stamm: 0
+      avg: 0.0
       avg_ersatz: 0.0
-      avg_stamm: 328.9
-      gruppe: B-Klasse
-      id: '16750'
-      mannschafts_nr: 1
-      max: 344
-      min: 314
-      nachname: Hammerl
-      vorname: Christian
-    - anzahl_ersatz: 0
-      anzahl_stamm: 6
-      avg: 362.17
-      avg_ersatz: 0.0
-      avg_stamm: 362.17
+      avg_stamm: 0.0
       gruppe: B-Klasse
       id: '314646'
       mannschafts_nr: 1
-      max: 373
-      min: 352
+      max: 0
+      min: 0
       nachname: Huber
       vorname: Jakob
+    - anzahl_ersatz: 0
+      anzahl_stamm: 0
+      avg: 0.0
+      avg_ersatz: 0.0
+      avg_stamm: 0.0
+      gruppe: B-Klasse
+      id: '16759'
+      mannschafts_nr: 1
+      max: 0
+      min: 0
+      nachname: Luff
+      vorname: Bastian
     vereinsnummer: '102013'
   - chartjs:
       data:
         datasets:
-        - data:
-          - 746
-          - 846
-          - 835
-          - 821
-          - 749
-          - 860
-          - 756
-          - 907
+        - data: []
           label: SG Burgoberbach 1
           pointRadius: 6
-        - data:
-          - 811
-          - 873
-          - 942
-          - 1023
-          - 933
-          - 904
-          - 941
-          - 1015
+        - data: []
           label: Gegner
           pointRadius: 6
-        labels:
-        - 1. Vorrunde
-        - 2. Vorrunde
-        - 4. Vorrunde
-        - 5. Vorrunde
-        - 1. Rückrunde
-        - 2. Rückrunde
-        - 4. Rückrunde
-        - 5. Rückrunde
+        labels: []
       max: 1200
-      suggested_min: 430.0
+      suggested_min: 0
     gruppe: J
-    gruppen_id: '5869'
+    gruppen_id: '6154'
     gruppen_nr: 4
     info:
-      avg: 815.0
+      avg: 0.0
       durchgaenge:
-      - avg: 746.0
-        gast_mannschafts_nr: 1
-        gast_name: SG Elbersroth
-        gast_ringe: 811
-        heim_id: '579184'
+      - gast_mannschafts_nr: 5
+        gast_name: SV Weißenkirchberg
+        heim_id: '599516'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
-        heim_ringe: 746
-        name: SG Burgoberbach 1 – SG Elbersroth 1 (1. Vorrunde)
+        name: SG Burgoberbach 1 – SV Weißenkirchberg 5 (1. Vorrunde)
         ort: SG Burgoberbach
-        platzierung: 3
-        punkte: 0:2
-        punkte_akkumulativ: 0:2
         runde: Vorrunde
-        sieg: -1
-        uuid: lg_2026_1_jugendklasse_1_vorrunde
+        uuid: lg_2027_1_jugendklasse_1_vorrunde
         wettkampftag: 1
-        zeit: '2025-09-26 19:00:00'
-      - avg: 796.0
-        gast_mannschafts_nr: 1
+        zeit: '2026-09-25 19:00:00'
+      - gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
-        gast_ringe: 846
-        heim_id: '579190'
+        heim_id: '599524'
         heim_mannschafts_nr: 2
-        heim_name: SG Colmberg
-        heim_ringe: 873
-        name: SG Colmberg 2 – SG Burgoberbach 1 (2. Vorrunde)
-        ort: SG Colmberg
-        platzierung: 5
-        punkte: 0:2
-        punkte_akkumulativ: 0:4
+        heim_name: SV Meinhardswinden
+        name: SV Meinhardswinden 2 – SG Burgoberbach 1 (2. Vorrunde)
+        ort: SV Meinhardswinden
         runde: Vorrunde
-        sieg: -1
-        uuid: lg_2026_1_jugendklasse_2_vorrunde
+        uuid: lg_2027_1_jugendklasse_2_vorrunde
         wettkampftag: 2
-        zeit: '2025-10-10 19:00:00'
-      - avg: 809.0
-        gast_mannschafts_nr: 1
-        gast_name: SV Leibelbach-Heuberg
-        gast_ringe: 942
-        heim_id: '579198'
+        zeit: '2026-10-09 19:00:00'
+      - gast_mannschafts_nr: 1
+        gast_name: SV Larrieden
+        heim_id: '599526'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
-        heim_ringe: 835
-        name: SG Burgoberbach 1 – SV Leibelbach-Heuberg 1 (4. Vorrunde)
+        name: SG Burgoberbach 1 – SV Larrieden 1 (3. Vorrunde)
         ort: SG Burgoberbach
-        platzierung: 5
-        punkte: 0:2
-        punkte_akkumulativ: 0:6
         runde: Vorrunde
-        sieg: -1
-        uuid: lg_2026_1_jugendklasse_4_vorrunde
-        wettkampftag: 4
-        zeit: '2025-11-07 19:00:00'
-      - avg: 812.0
-        gast_mannschafts_nr: 1
-        gast_name: SG Burgoberbach
-        gast_ringe: 821
-        heim_id: '579200'
-        heim_mannschafts_nr: 1
-        heim_name: SG Weihenzell
-        heim_ringe: 1023
-        name: SG Weihenzell 1 – SG Burgoberbach 1 (5. Vorrunde)
-        ort: SG Weihenzell
-        platzierung: 5
-        punkte: 0:2
-        punkte_akkumulativ: 0:8
-        runde: Vorrunde
-        sieg: -1
-        uuid: lg_2026_1_jugendklasse_5_vorrunde
-        wettkampftag: 5
-        zeit: '2025-11-21 19:00:00'
-      - avg: 799.4
-        gast_mannschafts_nr: 1
-        gast_name: SG Burgoberbach
-        gast_ringe: 749
-        heim_id: '579185'
-        heim_mannschafts_nr: 1
-        heim_name: SG Elbersroth
-        heim_ringe: 933
-        name: SG Elbersroth 1 – SG Burgoberbach 1 (1. Rückrunde)
-        ort: SG Elbersroth
-        punkte: 0:2
-        punkte_akkumulativ: 0:10
-        runde: Rückrunde
-        sieg: -1
-        uuid: lg_2026_1_jugendklasse_1_rückrunde
-        wettkampftag: 1
-        zeit: '2025-12-05 19:00:00'
-      - avg: 809.5
-        gast_mannschafts_nr: 2
+        uuid: lg_2027_1_jugendklasse_3_vorrunde
+        wettkampftag: 3
+        zeit: '2026-10-23 19:00:00'
+      - gast_mannschafts_nr: 1
         gast_name: SG Colmberg
-        gast_ringe: 904
-        heim_id: '579191'
+        heim_id: '599536'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
-        heim_ringe: 860
-        name: SG Burgoberbach 1 – SG Colmberg 2 (2. Rückrunde)
+        name: SG Burgoberbach 1 – SG Colmberg 1 (4. Vorrunde)
         ort: SG Burgoberbach
-        punkte: 0:2
-        punkte_akkumulativ: 0:12
-        runde: Rückrunde
-        sieg: -1
-        uuid: lg_2026_1_jugendklasse_2_rückrunde
-        wettkampftag: 2
-        zeit: '2026-01-23 19:00:00'
-      - avg: 801.86
-        gast_mannschafts_nr: 1
+        runde: Vorrunde
+        uuid: lg_2027_1_jugendklasse_4_vorrunde
+        wettkampftag: 4
+        zeit: '2026-11-06 19:00:00'
+      - gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
-        gast_ringe: 756
-        heim_id: '579199'
+        heim_id: '599540'
         heim_mannschafts_nr: 1
         heim_name: SV Leibelbach-Heuberg
-        heim_ringe: 941
-        name: SV Leibelbach-Heuberg 1 – SG Burgoberbach 1 (4. Rückrunde)
+        name: SV Leibelbach-Heuberg 1 – SG Burgoberbach 1 (5. Vorrunde)
         ort: SV Leibelbach-Heuberg
-        punkte: 0:2
-        punkte_akkumulativ: 0:14
+        runde: Vorrunde
+        uuid: lg_2027_1_jugendklasse_5_vorrunde
+        wettkampftag: 5
+        zeit: '2026-11-20 19:00:00'
+      - gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        heim_id: '599517'
+        heim_mannschafts_nr: 5
+        heim_name: SV Weißenkirchberg
+        name: SV Weißenkirchberg 5 – SG Burgoberbach 1 (1. Rückrunde)
+        ort: SV Weißenkirchberg
         runde: Rückrunde
-        sieg: -1
-        uuid: lg_2026_1_jugendklasse_4_rückrunde
-        wettkampftag: 4
-        zeit: '2026-02-20 19:00:00'
-      - avg: 815.0
-        gast_mannschafts_nr: 1
-        gast_name: SG Weihenzell
-        gast_ringe: 1015
-        heim_id: '579201'
+        uuid: lg_2027_1_jugendklasse_1_rückrunde
+        wettkampftag: 1
+        zeit: '2026-12-04 19:00:00'
+      - gast_mannschafts_nr: 2
+        gast_name: SV Meinhardswinden
+        heim_id: '599525'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
-        heim_ringe: 907
-        name: SG Burgoberbach 1 – SG Weihenzell 1 (5. Rückrunde)
+        name: SG Burgoberbach 1 – SV Meinhardswinden 2 (2. Rückrunde)
         ort: SG Burgoberbach
-        punkte: 0:2
-        punkte_akkumulativ: 0:16
         runde: Rückrunde
-        sieg: -1
-        uuid: lg_2026_1_jugendklasse_5_rückrunde
+        uuid: lg_2027_1_jugendklasse_2_rückrunde
+        wettkampftag: 2
+        zeit: '2027-01-22 19:00:00'
+      - gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        heim_id: '599527'
+        heim_mannschafts_nr: 1
+        heim_name: SV Larrieden
+        name: SV Larrieden 1 – SG Burgoberbach 1 (3. Rückrunde)
+        ort: SV Larrieden
+        runde: Rückrunde
+        uuid: lg_2027_1_jugendklasse_3_rückrunde
+        wettkampftag: 3
+        zeit: '2027-02-05 19:00:00'
+      - gast_mannschafts_nr: 1
+        gast_name: SG Burgoberbach
+        heim_id: '599537'
+        heim_mannschafts_nr: 1
+        heim_name: SG Colmberg
+        name: SG Colmberg 1 – SG Burgoberbach 1 (4. Rückrunde)
+        ort: SG Colmberg
+        runde: Rückrunde
+        uuid: lg_2027_1_jugendklasse_4_rückrunde
+        wettkampftag: 4
+        zeit: '2027-02-19 19:00:00'
+      - gast_mannschafts_nr: 1
+        gast_name: SV Leibelbach-Heuberg
+        heim_id: '599541'
+        heim_mannschafts_nr: 1
+        heim_name: SG Burgoberbach
+        name: SG Burgoberbach 1 – SV Leibelbach-Heuberg 1 (5. Rückrunde)
+        ort: SG Burgoberbach
+        runde: Rückrunde
+        uuid: lg_2027_1_jugendklasse_5_rückrunde
         wettkampftag: 5
-        zeit: '2026-03-06 19:00:00'
-      kalender: lg_2026_1_jugendklasse
-      max: 907.0
-      min: 746.0
-      platzierung: 5
-      tabelle:
-      - anzahl_geschossen: 8
-        gruppe: J
-        gruppen_id: '5869'
-        gruppen_nr: 4
-        klasse: Jugendklasse
-        klassen_id: '2861'
-        klassen_name: Jugendklasse
-        mannschafts_nr: 1
-        name: SG Weihenzell
-        platzierung: 1
-        punkte_gewonnen: 16
-        punkte_verloren: 0
-        ringe: 8090
-        vereinsnummer: '102051'
-      - anzahl_geschossen: 8
-        gruppe: J
-        gruppen_id: '5869'
-        gruppen_nr: 4
-        klasse: Jugendklasse
-        klassen_id: '2861'
-        klassen_name: Jugendklasse
-        mannschafts_nr: 1
-        name: SV Leibelbach-Heuberg
-        platzierung: 2
-        punkte_gewonnen: 10
-        punkte_verloren: 6
-        ringe: 7334
-        vereinsnummer: '102027'
-      - anzahl_geschossen: 8
-        gruppe: J
-        gruppen_id: '5869'
-        gruppen_nr: 4
-        klasse: Jugendklasse
-        klassen_id: '2861'
-        klassen_name: Jugendklasse
-        mannschafts_nr: 1
-        name: SG Elbersroth
-        platzierung: 3
-        punkte_gewonnen: 8
-        punkte_verloren: 8
-        ringe: 7258
-        vereinsnummer: '102067'
-      - anzahl_geschossen: 8
-        gruppe: J
-        gruppen_id: '5869'
-        gruppen_nr: 4
-        klasse: Jugendklasse
-        klassen_id: '2861'
-        klassen_name: Jugendklasse
-        mannschafts_nr: 2
-        name: SG Colmberg
-        platzierung: 4
-        punkte_gewonnen: 6
-        punkte_verloren: 10
-        ringe: 6987
-        vereinsnummer: '102014'
-      - anzahl_geschossen: 8
-        gruppe: J
-        gruppen_id: '5869'
-        gruppen_nr: 4
-        klasse: Jugendklasse
-        klassen_id: '2861'
-        klassen_name: Jugendklasse
-        mannschafts_nr: 1
-        name: SG Burgoberbach
-        platzierung: 5
-        punkte_gewonnen: 0
-        punkte_verloren: 16
-        ringe: 6520
-        vereinsnummer: '102013'
-    klasse: Jugendklasse
-    klassen_id: '2861'
+        zeit: '2027-03-05 19:00:00'
+      kalender: lg_2027_1_jugendklasse
+      max: 0.0
+      min: 0.0
+      platzierung: 0
+      tabelle: []
+    klasse: Jug
+    klassen_id: '3002'
     klassen_name: Jugendklasse
     mannschafts_nr: 1
-    platzierung: 5
+    platzierung: 0
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 5
-      avg: 223.4
+      anzahl_stamm: 0
+      avg: 0.0
       avg_ersatz: 0.0
-      avg_stamm: 223.4
+      avg_stamm: 0.0
       gruppe: J
-      id: '404149'
+      id: '398557'
       mannschafts_nr: 1
-      max: 271
-      min: 171
-      nachname: Schulz
-      vorname: Lina
+      max: 0
+      min: 0
+      nachname: Dörr
+      vorname: Alina
     - anzahl_ersatz: 0
-      anzahl_stamm: 7
-      avg: 285.14
+      anzahl_stamm: 0
+      avg: 0.0
       avg_ersatz: 0.0
-      avg_stamm: 285.14
+      avg_stamm: 0.0
       gruppe: J
       id: '404148'
       mannschafts_nr: 1
-      max: 302
-      min: 254
+      max: 0
+      min: 0
       nachname: Siegordner
       vorname: Lea
     - anzahl_ersatz: 0
-      anzahl_stamm: 3
-      avg: 257.33
+      anzahl_stamm: 0
+      avg: 0.0
       avg_ersatz: 0.0
-      avg_stamm: 257.33
+      avg_stamm: 0.0
       gruppe: J
-      id: '404146'
-      mannschafts_nr: 1
-      max: 281
-      min: 215
-      nachname: Zettl
-      vorname: Nora
-    vereinsnummer: '102013'
-  - gruppe: Ersatz
-    schuetzen:
-    - anzahl_ersatz: 4
-      anzahl_stamm: 0
-      avg: 298.0
-      avg_ersatz: 298.0
-      avg_stamm: 0.0
-      gruppe: Ersatz
-      id: '398557'
-      max: 319
-      min: 287
-      nachname: Dörr
-      vorname: Alina
-    - anzahl_ersatz: 2
-      anzahl_stamm: 0
-      avg: 350.5
-      avg_ersatz: 350.5
-      avg_stamm: 0.0
-      gruppe: Ersatz
-      id: '375127'
-      max: 366
-      min: 335
-      nachname: Fetzer
-      vorname: Angelina
-    - anzahl_ersatz: 5
-      anzahl_stamm: 0
-      avg: 356.4
-      avg_ersatz: 356.4
-      avg_stamm: 0.0
-      gruppe: Ersatz
-      id: '16759'
-      max: 369
-      min: 339
-      nachname: Luff
-      vorname: Bastian
-    - anzahl_ersatz: 1
-      anzahl_stamm: 0
-      avg: 325.0
-      avg_ersatz: 325.0
-      avg_stamm: 0.0
-      gruppe: Ersatz
       id: '394394'
-      max: 325
-      min: 325
+      mannschafts_nr: 1
+      max: 0
+      min: 0
       nachname: Stieg
       vorname: Benjamin Jonas
-    - anzahl_ersatz: 1
-      anzahl_stamm: 0
-      avg: 195.0
-      avg_ersatz: 195.0
-      avg_stamm: 0.0
-      gruppe: Ersatz
-      id: '406428'
-      max: 195
-      min: 195
-      nachname: Weiß
-      vorname: Sven
     vereinsnummer: '102013'
-  rwk_id: '2129'
-  sportjahr: 2026
+  rwk_id: '2252'
+  sportjahr: 2027
 gau_nr: '102000'
 vereinsnummer: '102013'

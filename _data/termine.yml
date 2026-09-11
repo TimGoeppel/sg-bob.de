@@ -867,11 +867,6 @@
   uuid: 5dcd0841-e0ec-403c-95ce-dd27dc6ecdf1
   wiederholt: true
   zeit: 03.09.2026 18:30
-- name: Schützenzwerge
-  uuid: 7566e0b8-42b2-4764-89f4-d541d48359f0
-  wiederholt: true
-  zeit: 05.09.2026 10:00
-  zeitbis: '11:30'
 - name: Training
   uuid: d865f22d-3897-4bff-98ec-5e51cc103700
   wiederholt: true
@@ -898,6 +893,9 @@
 - name: Bürgerschießen
   uuid: dadc47df-8823-4722-847a-1df5009b9c5d
   zeit: 08.10.2026 18:30
+- name: Bürgerschießen
+  uuid: 94e3b34b-b1dd-4187-a68f-35eef791e8b5
+  zeit: 09.10.2026 18:30
 - name: Bürgerkönig / Kirchweih
   uuid: 41b07af6-739b-451c-a323-0f88bed2b830
   zeit: 15.10.2026 18:30

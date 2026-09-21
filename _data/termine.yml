@@ -920,6 +920,9 @@
   uuid: fb2444f0-020b-4c11-a5bc-c65ceb02fd57
   wiederholt: true
   zeit: 12.11.2026 18:30
+- name: Karaoke
+  uuid: af0dd322-2092-4a42-ac46-ca70992fbf3f
+  zeit: 14.11.2026 20:00
 - name: Training
   uuid: ba682af1-c873-409b-8280-8883fe0454e2
   wiederholt: true

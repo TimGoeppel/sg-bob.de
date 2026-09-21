@@ -9,35 +9,45 @@ disziplinen:
   - chartjs:
       data:
         datasets:
-        - data: []
+        - data:
+          - 1389
           label: SG Burgoberbach 1
           pointRadius: 6
-        - data: []
+        - data:
+          - 1419
           label: Gegner
           pointRadius: 6
-        labels: []
+        labels:
+        - 1. Vorrunde
       max: 1600
-      suggested_min: 0
+      suggested_min: 1178.0
     gruppe: B-Klasse
     gruppen_id: '6149'
     gruppen_nr: 1
     info:
-      avg: 0.0
+      avg: 1389.0
       durchgaenge:
-      - gast_mannschafts_nr: 2
+      - avg: 1389.0
+        gast_mannschafts_nr: 2
         gast_name: SV Vorderbreitenthann
-        heim_id: '599816'
+        gast_ringe: 1419
+        heim_id: '600452'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
+        heim_ringe: 1389
         name: SG Burgoberbach 1 – SV Vorderbreitenthann 2 (1. Vorrunde)
         ort: SG Burgoberbach
+        platzierung: 4
+        punkte: 0:2
+        punkte_akkumulativ: 0:2
         runde: Vorrunde
+        sieg: -1
         uuid: lg_2027_1_offene_klasse_1_vorrunde
         wettkampftag: 1
         zeit: '2026-09-18 20:00:00'
       - gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
-        heim_id: '599824'
+        heim_id: '600460'
         heim_mannschafts_nr: 2
         heim_name: SV Larrieden
         name: SV Larrieden 2 – SG Burgoberbach 1 (2. Vorrunde)
@@ -48,7 +58,7 @@ disziplinen:
         zeit: '2026-10-02 20:00:00'
       - gast_mannschafts_nr: 1
         gast_name: SV Aichau-Oberahorn
-        heim_id: '599826'
+        heim_id: '600462'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
         name: SG Burgoberbach 1 – SV Aichau-Oberahorn 1 (3. Vorrunde)
@@ -57,12 +67,12 @@ disziplinen:
         uuid: lg_2027_1_offene_klasse_3_vorrunde
         wettkampftag: 3
         zeit: '2026-10-16 20:00:00'
-      - gast_mannschafts_nr: 2
+      - gast_mannschafts_nr: 1
         gast_name: KSK Thürnhofen
-        heim_id: '599836'
+        heim_id: '600472'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
-        name: SG Burgoberbach 1 – KSK Thürnhofen 2 (4. Vorrunde)
+        name: SG Burgoberbach 1 – KSK Thürnhofen 1 (4. Vorrunde)
         ort: SG Burgoberbach
         runde: Vorrunde
         uuid: lg_2027_1_offene_klasse_4_vorrunde
@@ -70,7 +80,7 @@ disziplinen:
         zeit: '2026-10-30 20:00:00'
       - gast_mannschafts_nr: 2
         gast_name: SV Buch-am-Wald
-        heim_id: '599840'
+        heim_id: '600476'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
         name: SG Burgoberbach 1 – SV Buch-am-Wald 2 (5. Vorrunde)
@@ -81,7 +91,7 @@ disziplinen:
         zeit: '2026-11-13 20:00:00'
       - gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
-        heim_id: '599817'
+        heim_id: '600453'
         heim_mannschafts_nr: 2
         heim_name: SV Vorderbreitenthann
         name: SV Vorderbreitenthann 2 – SG Burgoberbach 1 (1. Rückrunde)
@@ -92,7 +102,7 @@ disziplinen:
         zeit: '2026-11-27 20:00:00'
       - gast_mannschafts_nr: 2
         gast_name: SV Larrieden
-        heim_id: '599825'
+        heim_id: '600461'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
         name: SG Burgoberbach 1 – SV Larrieden 2 (2. Rückrunde)
@@ -103,7 +113,7 @@ disziplinen:
         zeit: '2027-01-15 20:00:00'
       - gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
-        heim_id: '599827'
+        heim_id: '600463'
         heim_mannschafts_nr: 1
         heim_name: SV Aichau-Oberahorn
         name: SV Aichau-Oberahorn 1 – SG Burgoberbach 1 (3. Rückrunde)
@@ -114,10 +124,10 @@ disziplinen:
         zeit: '2027-01-29 20:00:00'
       - gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
-        heim_id: '599837'
-        heim_mannschafts_nr: 2
+        heim_id: '600473'
+        heim_mannschafts_nr: 1
         heim_name: KSK Thürnhofen
-        name: KSK Thürnhofen 2 – SG Burgoberbach 1 (4. Rückrunde)
+        name: KSK Thürnhofen 1 – SG Burgoberbach 1 (4. Rückrunde)
         ort: KSK Thürnhofen
         runde: Rückrunde
         uuid: lg_2027_1_offene_klasse_4_rückrunde
@@ -125,7 +135,7 @@ disziplinen:
         zeit: '2027-02-12 20:00:00'
       - gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
-        heim_id: '599841'
+        heim_id: '600477'
         heim_mannschafts_nr: 2
         heim_name: SV Buch-am-Wald
         name: SV Buch-am-Wald 2 – SG Burgoberbach 1 (5. Rückrunde)
@@ -135,50 +145,134 @@ disziplinen:
         wettkampftag: 5
         zeit: '2027-02-26 20:00:00'
       kalender: lg_2027_1_offene_klasse
-      max: 0.0
-      min: 0.0
-      platzierung: 0
-      tabelle: []
-    klasse: Offene Klasse
+      max: 1389.0
+      min: 1389.0
+      platzierung: 4
+      tabelle:
+      - anzahl_geschossen: 1
+        gruppe: B-Klasse
+        gruppen_id: '6149'
+        gruppen_nr: 1
+        klasse: OK
+        klassen_id: '2999'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SV Vorderbreitenthann
+        platzierung: 1
+        punkte_gewonnen: 2
+        punkte_verloren: 0
+        ringe: 1419
+        vereinsnummer: '102049'
+      - anzahl_geschossen: 1
+        gruppe: B-Klasse
+        gruppen_id: '6149'
+        gruppen_nr: 1
+        klasse: OK
+        klassen_id: '2999'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 1
+        name: SV Aichau-Oberahorn
+        platzierung: 2
+        punkte_gewonnen: 2
+        punkte_verloren: 0
+        ringe: 1401
+        vereinsnummer: '102001'
+      - anzahl_geschossen: 1
+        gruppe: B-Klasse
+        gruppen_id: '6149'
+        gruppen_nr: 1
+        klasse: OK
+        klassen_id: '2999'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 1
+        name: KSK Thürnhofen
+        platzierung: 3
+        punkte_gewonnen: 2
+        punkte_verloren: 0
+        ringe: 1380
+        vereinsnummer: '102046'
+      - anzahl_geschossen: 1
+        gruppe: B-Klasse
+        gruppen_id: '6149'
+        gruppen_nr: 1
+        klasse: OK
+        klassen_id: '2999'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 1
+        name: SG Burgoberbach
+        platzierung: 4
+        punkte_gewonnen: 0
+        punkte_verloren: 2
+        ringe: 1389
+        vereinsnummer: '102013'
+      - anzahl_geschossen: 1
+        gruppe: B-Klasse
+        gruppen_id: '6149'
+        gruppen_nr: 1
+        klasse: OK
+        klassen_id: '2999'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SV Buch-am-Wald
+        platzierung: 5
+        punkte_gewonnen: 0
+        punkte_verloren: 2
+        ringe: 1377
+        vereinsnummer: '102011'
+      - anzahl_geschossen: 1
+        gruppe: B-Klasse
+        gruppen_id: '6149'
+        gruppen_nr: 1
+        klasse: OK
+        klassen_id: '2999'
+        klassen_name: Offene Klasse
+        mannschafts_nr: 2
+        name: SV Larrieden
+        platzierung: 6
+        punkte_gewonnen: 0
+        punkte_verloren: 2
+        ringe: 1258
+        vereinsnummer: '102063'
+    klasse: OK
     klassen_id: '2999'
     klassen_name: Offene Klasse
     mannschafts_nr: 1
-    platzierung: 0
+    platzierung: 4
     schuetzen:
     - anzahl_ersatz: 0
-      anzahl_stamm: 0
-      avg: 0.0
+      anzahl_stamm: 1
+      avg: 359.0
       avg_ersatz: 0.0
-      avg_stamm: 0.0
+      avg_stamm: 359.0
       gruppe: B-Klasse
       id: '16769'
       mannschafts_nr: 1
-      max: 0
-      min: 0
+      max: 359
+      min: 359
       nachname: Appel
       vorname: Philipp
     - anzahl_ersatz: 0
-      anzahl_stamm: 0
-      avg: 0.0
+      anzahl_stamm: 1
+      avg: 336.0
       avg_ersatz: 0.0
-      avg_stamm: 0.0
+      avg_stamm: 336.0
       gruppe: B-Klasse
       id: '375125'
       mannschafts_nr: 1
-      max: 0
-      min: 0
+      max: 336
+      min: 336
       nachname: Göppel
       vorname: Tim
     - anzahl_ersatz: 0
-      anzahl_stamm: 0
-      avg: 0.0
+      anzahl_stamm: 1
+      avg: 360.0
       avg_ersatz: 0.0
-      avg_stamm: 0.0
+      avg_stamm: 360.0
       gruppe: B-Klasse
       id: '314646'
       mannschafts_nr: 1
-      max: 0
-      min: 0
+      max: 360
+      min: 360
       nachname: Huber
       vorname: Jakob
     - anzahl_ersatz: 0
@@ -369,6 +463,20 @@ disziplinen:
       min: 0
       nachname: Stieg
       vorname: Benjamin Jonas
+    vereinsnummer: '102013'
+  - gruppe: Ersatz
+    schuetzen:
+    - anzahl_ersatz: 1
+      anzahl_stamm: 0
+      avg: 334.0
+      avg_ersatz: 334.0
+      avg_stamm: 0.0
+      gruppe: Ersatz
+      id: '16750'
+      max: 334
+      min: 334
+      nachname: Hammerl
+      vorname: Christian
     vereinsnummer: '102013'
   rwk_id: '2252'
   sportjahr: 2027

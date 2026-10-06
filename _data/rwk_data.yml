@@ -11,21 +11,24 @@ disziplinen:
         datasets:
         - data:
           - 1389
+          - 1357
           label: SG Burgoberbach 1
           pointRadius: 6
         - data:
           - 1419
+          - 1394
           label: Gegner
           pointRadius: 6
         labels:
         - 1. Vorrunde
+        - 2. Vorrunde
       max: 1600
-      suggested_min: 1178.0
+      suggested_min: 1146.0
     gruppe: B-Klasse
     gruppen_id: '6149'
     gruppen_nr: 1
     info:
-      avg: 1389.0
+      avg: 1373.0
       durchgaenge:
       - avg: 1389.0
         gast_mannschafts_nr: 2
@@ -45,14 +48,21 @@ disziplinen:
         uuid: lg_2027_1_offene_klasse_1_vorrunde
         wettkampftag: 1
         zeit: '2026-09-18 20:00:00'
-      - gast_mannschafts_nr: 1
+      - avg: 1373.0
+        gast_mannschafts_nr: 1
         gast_name: SG Burgoberbach
+        gast_ringe: 1357
         heim_id: '600460'
         heim_mannschafts_nr: 2
         heim_name: SV Larrieden
+        heim_ringe: 1394
         name: SV Larrieden 2 – SG Burgoberbach 1 (2. Vorrunde)
         ort: SV Larrieden
+        platzierung: 6
+        punkte: 0:2
+        punkte_akkumulativ: 0:4
         runde: Vorrunde
+        sieg: -1
         uuid: lg_2027_1_offene_klasse_2_vorrunde
         wettkampftag: 2
         zeit: '2026-10-02 20:00:00'
@@ -146,10 +156,10 @@ disziplinen:
         zeit: '2027-02-26 20:00:00'
       kalender: lg_2027_1_offene_klasse
       max: 1389.0
-      min: 1389.0
-      platzierung: 4
+      min: 1357.0
+      platzierung: 6
       tabelle:
-      - anzahl_geschossen: 1
+      - anzahl_geschossen: 2
         gruppe: B-Klasse
         gruppen_id: '6149'
         gruppen_nr: 1
@@ -159,11 +169,11 @@ disziplinen:
         mannschafts_nr: 2
         name: SV Vorderbreitenthann
         platzierung: 1
-        punkte_gewonnen: 2
+        punkte_gewonnen: 4
         punkte_verloren: 0
-        ringe: 1419
+        ringe: 2835
         vereinsnummer: '102049'
-      - anzahl_geschossen: 1
+      - anzahl_geschossen: 2
         gruppe: B-Klasse
         gruppen_id: '6149'
         gruppen_nr: 1
@@ -173,11 +183,11 @@ disziplinen:
         mannschafts_nr: 1
         name: SV Aichau-Oberahorn
         platzierung: 2
-        punkte_gewonnen: 2
+        punkte_gewonnen: 4
         punkte_verloren: 0
-        ringe: 1401
+        ringe: 2785
         vereinsnummer: '102001'
-      - anzahl_geschossen: 1
+      - anzahl_geschossen: 2
         gruppe: B-Klasse
         gruppen_id: '6149'
         gruppen_nr: 1
@@ -188,24 +198,24 @@ disziplinen:
         name: KSK Thürnhofen
         platzierung: 3
         punkte_gewonnen: 2
-        punkte_verloren: 0
-        ringe: 1380
+        punkte_verloren: 2
+        ringe: 2785
         vereinsnummer: '102046'
-      - anzahl_geschossen: 1
+      - anzahl_geschossen: 2
         gruppe: B-Klasse
         gruppen_id: '6149'
         gruppen_nr: 1
         klasse: OK
         klassen_id: '2999'
         klassen_name: Offene Klasse
-        mannschafts_nr: 1
-        name: SG Burgoberbach
+        mannschafts_nr: 2
+        name: SV Larrieden
         platzierung: 4
-        punkte_gewonnen: 0
+        punkte_gewonnen: 2
         punkte_verloren: 2
-        ringe: 1389
-        vereinsnummer: '102013'
-      - anzahl_geschossen: 1
+        ringe: 2652
+        vereinsnummer: '102063'
+      - anzahl_geschossen: 2
         gruppe: B-Klasse
         gruppen_id: '6149'
         gruppen_nr: 1
@@ -216,28 +226,28 @@ disziplinen:
         name: SV Buch-am-Wald
         platzierung: 5
         punkte_gewonnen: 0
-        punkte_verloren: 2
-        ringe: 1377
+        punkte_verloren: 4
+        ringe: 2759
         vereinsnummer: '102011'
-      - anzahl_geschossen: 1
+      - anzahl_geschossen: 2
         gruppe: B-Klasse
         gruppen_id: '6149'
         gruppen_nr: 1
         klasse: OK
         klassen_id: '2999'
         klassen_name: Offene Klasse
-        mannschafts_nr: 2
-        name: SV Larrieden
+        mannschafts_nr: 1
+        name: SG Burgoberbach
         platzierung: 6
         punkte_gewonnen: 0
-        punkte_verloren: 2
-        ringe: 1258
-        vereinsnummer: '102063'
+        punkte_verloren: 4
+        ringe: 2746
+        vereinsnummer: '102013'
     klasse: OK
     klassen_id: '2999'
     klassen_name: Offene Klasse
     mannschafts_nr: 1
-    platzierung: 4
+    platzierung: 6
     schuetzen:
     - anzahl_ersatz: 0
       anzahl_stamm: 1
@@ -264,56 +274,66 @@ disziplinen:
       nachname: Göppel
       vorname: Tim
     - anzahl_ersatz: 0
-      anzahl_stamm: 1
-      avg: 360.0
+      anzahl_stamm: 2
+      avg: 361.0
       avg_ersatz: 0.0
-      avg_stamm: 360.0
+      avg_stamm: 361.0
       gruppe: B-Klasse
       id: '314646'
       mannschafts_nr: 1
-      max: 360
+      max: 362
       min: 360
       nachname: Huber
       vorname: Jakob
     - anzahl_ersatz: 0
-      anzahl_stamm: 0
-      avg: 0.0
+      anzahl_stamm: 1
+      avg: 346.0
       avg_ersatz: 0.0
-      avg_stamm: 0.0
+      avg_stamm: 346.0
       gruppe: B-Klasse
       id: '16759'
       mannschafts_nr: 1
-      max: 0
-      min: 0
+      max: 346
+      min: 346
       nachname: Luff
       vorname: Bastian
     vereinsnummer: '102013'
   - chartjs:
       data:
         datasets:
-        - data: []
+        - data:
+          - 940
           label: SG Burgoberbach 1
           pointRadius: 6
-        - data: []
+        - data:
+          - 772
           label: Gegner
           pointRadius: 6
-        labels: []
+        labels:
+        - 1. Vorrunde
       max: 1200
-      suggested_min: 0
+      suggested_min: 680.0
     gruppe: J
     gruppen_id: '6154'
     gruppen_nr: 4
     info:
-      avg: 0.0
+      avg: 940.0
       durchgaenge:
-      - gast_mannschafts_nr: 5
+      - avg: 940.0
+        gast_mannschafts_nr: 5
         gast_name: SV Weißenkirchberg
+        gast_ringe: 772
         heim_id: '599516'
         heim_mannschafts_nr: 1
         heim_name: SG Burgoberbach
+        heim_ringe: 940
         name: SG Burgoberbach 1 – SV Weißenkirchberg 5 (1. Vorrunde)
         ort: SG Burgoberbach
+        platzierung: 2
+        punkte: '2:0'
+        punkte_akkumulativ: '2:0'
         runde: Vorrunde
+        sieg: 1
         uuid: lg_2027_1_jugendklasse_1_vorrunde
         wettkampftag: 1
         zeit: '2026-09-25 19:00:00'
@@ -417,15 +437,99 @@ disziplinen:
         wettkampftag: 5
         zeit: '2027-03-05 19:00:00'
       kalender: lg_2027_1_jugendklasse
-      max: 0.0
-      min: 0.0
-      platzierung: 0
-      tabelle: []
+      max: 940.0
+      min: 940.0
+      platzierung: 2
+      tabelle:
+      - anzahl_geschossen: 1
+        gruppe: J
+        gruppen_id: '6154'
+        gruppen_nr: 4
+        klasse: Jug
+        klassen_id: '3002'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SG Colmberg
+        platzierung: 1
+        punkte_gewonnen: 2
+        punkte_verloren: 0
+        ringe: 952
+        vereinsnummer: '102014'
+      - anzahl_geschossen: 1
+        gruppe: J
+        gruppen_id: '6154'
+        gruppen_nr: 4
+        klasse: Jug
+        klassen_id: '3002'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SG Burgoberbach
+        platzierung: 2
+        punkte_gewonnen: 2
+        punkte_verloren: 0
+        ringe: 940
+        vereinsnummer: '102013'
+      - anzahl_geschossen: 1
+        gruppe: J
+        gruppen_id: '6154'
+        gruppen_nr: 4
+        klasse: Jug
+        klassen_id: '3002'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 2
+        name: SV Meinhardswinden
+        platzierung: 3
+        punkte_gewonnen: 2
+        punkte_verloren: 0
+        ringe: 847
+        vereinsnummer: '102031'
+      - anzahl_geschossen: 1
+        gruppe: J
+        gruppen_id: '6154'
+        gruppen_nr: 4
+        klasse: Jug
+        klassen_id: '3002'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SV Leibelbach-Heuberg
+        platzierung: 4
+        punkte_gewonnen: 0
+        punkte_verloren: 2
+        ringe: 810
+        vereinsnummer: '102027'
+      - anzahl_geschossen: 1
+        gruppe: J
+        gruppen_id: '6154'
+        gruppen_nr: 4
+        klasse: Jug
+        klassen_id: '3002'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 5
+        name: SV Weißenkirchberg
+        platzierung: 5
+        punkte_gewonnen: 0
+        punkte_verloren: 2
+        ringe: 772
+        vereinsnummer: '102053'
+      - anzahl_geschossen: 1
+        gruppe: J
+        gruppen_id: '6154'
+        gruppen_nr: 4
+        klasse: Jug
+        klassen_id: '3002'
+        klassen_name: Jugendklasse
+        mannschafts_nr: 1
+        name: SV Larrieden
+        platzierung: 6
+        punkte_gewonnen: 0
+        punkte_verloren: 2
+        ringe: 706
+        vereinsnummer: '102063'
     klasse: Jug
     klassen_id: '3002'
     klassen_name: Jugendklasse
     mannschafts_nr: 1
-    platzierung: 0
+    platzierung: 2
     schuetzen:
     - anzahl_ersatz: 0
       anzahl_stamm: 0
@@ -452,15 +556,15 @@ disziplinen:
       nachname: Siegordner
       vorname: Lea
     - anzahl_ersatz: 0
-      anzahl_stamm: 0
-      avg: 0.0
+      anzahl_stamm: 1
+      avg: 282.0
       avg_ersatz: 0.0
-      avg_stamm: 0.0
+      avg_stamm: 282.0
       gruppe: J
       id: '394394'
       mannschafts_nr: 1
-      max: 0
-      min: 0
+      max: 282
+      min: 282
       nachname: Stieg
       vorname: Benjamin Jonas
     vereinsnummer: '102013'
@@ -468,15 +572,48 @@ disziplinen:
     schuetzen:
     - anzahl_ersatz: 1
       anzahl_stamm: 0
-      avg: 334.0
-      avg_ersatz: 334.0
+      avg: 354.0
+      avg_ersatz: 354.0
+      avg_stamm: 0.0
+      gruppe: Ersatz
+      id: '375127'
+      max: 354
+      min: 354
+      nachname: Fetzer
+      vorname: Angelina
+    - anzahl_ersatz: 2
+      anzahl_stamm: 0
+      avg: 333.0
+      avg_ersatz: 333.0
       avg_stamm: 0.0
       gruppe: Ersatz
       id: '16750'
       max: 334
-      min: 334
+      min: 332
       nachname: Hammerl
       vorname: Christian
+    - anzahl_ersatz: 1
+      anzahl_stamm: 0
+      avg: 317.0
+      avg_ersatz: 317.0
+      avg_stamm: 0.0
+      gruppe: Ersatz
+      id: '314645'
+      max: 317
+      min: 317
+      nachname: Scheicher
+      vorname: Jakob
+    - anzahl_ersatz: 1
+      anzahl_stamm: 0
+      avg: 304.0
+      avg_ersatz: 304.0
+      avg_stamm: 0.0
+      gruppe: Ersatz
+      id: '404146'
+      max: 304
+      min: 304
+      nachname: Zettl
+      vorname: Nora
     vereinsnummer: '102013'
   rwk_id: '2252'
   sportjahr: 2027
